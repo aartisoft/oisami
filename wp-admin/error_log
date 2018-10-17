@@ -1,0 +1,315 @@
+[11-Sep-2018 20:07:34 UTC] wizard_viewed
+[11-Sep-2018 20:38:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[11-Sep-2018 20:40:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[12-Sep-2018 20:39:58 UTC] wizard_hidden
+[12-Sep-2018 20:39:58 UTC] wizard_disabled
+[12-Sep-2018 20:40:57 UTC] mojo_plugin_deactivated
+[12-Sep-2018 15:41:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/edevnetb/public_html/oisamicom/wp-admin/includes/template.php:2053) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/paypal/includes/config.php on line 12
+[12-Sep-2018 15:41:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/edevnetb/public_html/oisamicom/wp-admin/includes/template.php:2053) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/paypal/includes/config.php on line 12
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #2 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[12-Sep-2018 15:43:48 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/unyson/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php on line 127
+[18-Sep-2018 07:09:09 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/perfis.php on line 6
+[18-Sep-2018 07:09:11 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/perfis.php on line 6
+[18-Sep-2018 07:09:12 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/perfis.php on line 6
+[18-Sep-2018 07:46:37 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 07:46:40 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 07:46:41 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 07:47:24 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 07:47:27 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 07:47:27 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_add_management_role() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:55) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 142
+[18-Sep-2018 09:55:36 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 170
+[18-Sep-2018 09:55:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 170
+[18-Sep-2018 09:55:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 170
+[18-Sep-2018 10:05:28 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate(false)
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_ht in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:31 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:31 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:51 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate(false)
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_ht in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:53 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:54 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:05:59 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(88): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(69): miwosqlUninstaller->deleteTables()
+#4 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(15): miwosqlUninstaller->delete()
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(1018): include('/home2/edevnetb...')
+#6 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(831): uninstall_plugin('miwosql/miwosql...')
+#7 /home2/edevnetb/pub in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:08:32 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(88): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(69): miwosqlUninstaller->deleteTables()
+#4 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(15): miwosqlUninstaller->delete()
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(1018): include('/home2/edevnetb...')
+#6 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(831): uninstall_plugin('miwosql/miwosql...')
+#7 /home2/edevnetb/pub in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:12:40 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate(false)
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_ht in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:12:43 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 10:12:43 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/installer/installer.php(14): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php(161): MInstaller::runSqlFile('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#5 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home2/edevnetb/public_html/ in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[18-Sep-2018 13:12:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 197
+[18-Sep-2018 13:12:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 197
+[18-Sep-2018 13:12:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 197
+[18-Sep-2018 13:15:34 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[18-Sep-2018 13:15:46 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[18-Sep-2018 13:16:01 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[18-Sep-2018 13:16:01 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2275
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2307
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2338
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2877
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2077
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2087
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/wp-db.php on line 2087
+[18-Sep-2018 13:16:04 America/Chicago] Erro de banco de dados do WordPress Column count doesn't match value count at row 1 para a consulta INSERT INTO `wp_fjvl_posts` (``) VALUES () feita por get_default_post_to_edit, wp_insert_post
+[18-Sep-2018 13:16:04 America/Chicago] PHP Warning:  Creating default object from empty value in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/post.php on line 642
+[18-Sep-2018 21:31:58 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(88): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(69): miwosqlUninstaller->deleteTables()
+#4 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(15): miwosqlUninstaller->delete()
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(1018): include('/home2/edevnetb...')
+#6 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(831): uninstall_plugin('miwosql/miwosql...')
+#7 /home2/edevnetb/pub in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[20-Sep-2018 08:22:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 263
+[20-Sep-2018 08:22:27 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 263
+[20-Sep-2018 08:22:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 263
+[20-Sep-2018 08:24:10 America/Chicago] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home2/edevnetb/public_html/oisamicom/wp-includes/formatting.php on line 1045
+[20-Sep-2018 08:25:58 America/Chicago] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home2/edevnetb/public_html/oisamicom/wp-includes/formatting.php on line 1045
+[20-Sep-2018 11:25:36 America/Chicago] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home2/edevnetb/public_html/oisamicom/wp-includes/formatting.php on line 1045
+[20-Sep-2018 11:26:12 America/Chicago] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home2/edevnetb/public_html/oisamicom/wp-includes/formatting.php on line 1045
+[20-Sep-2018 11:41:29 America/Chicago] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home2/edevnetb/public_html/oisamicom/wp-includes/formatting.php on line 1045
+[20-Sep-2018 13:27:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 296
+[20-Sep-2018 13:27:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 296
+[20-Sep-2018 13:27:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 296
+[27-Sep-2018 09:48:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[27-Sep-2018 09:48:51 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/object_dvd_1.png): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 09:48:53 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/beach_houses.jpg): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 09:48:55 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/relax_hammock.jpg): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 09:48:57 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/object_pen_1.png): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 09:49:00 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/forest_road_2.jpg): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 09:49:02 America/Chicago] PHP Warning:  getimagesize(/home2/edevnetb/public_html/oisamicom/wp-content/uploads/revslider/objects/object_plant_1.png): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[27-Sep-2018 12:45:12 America/Chicago] PHP Warning:  Creating default object from empty value in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/wp-rocket/inc/classes/admin/settings/class-page.php on line 347
+[27-Sep-2018 12:47:54 America/Chicago] PHP Warning:  Creating default object from empty value in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/wp-rocket/inc/classes/admin/settings/class-page.php on line 347
+[10-Oct-2018 10:30:20 America/Chicago] PHP Warning:  Creating default object from empty value in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/wp-rocket/inc/classes/admin/settings/class-page.php on line 347
+[13-Oct-2018 10:07:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 139
+[13-Oct-2018 10:07:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 139
+[13-Oct-2018 10:07:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 139
+[13-Oct-2018 10:07:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 139
+[14-Oct-2018 15:46:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 416
+[14-Oct-2018 15:46:23 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 416
+[14-Oct-2018 15:46:24 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 416
+[15-Oct-2018 17:41:10 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_escolhe_medicos_do_cliente() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:254) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 278
+[15-Oct-2018 17:41:13 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_escolhe_medicos_do_cliente() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:254) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 278
+[15-Oct-2018 17:41:14 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_escolhe_medicos_do_cliente() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php:254) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 278
+[15-Oct-2018 17:42:09 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:42:09 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:42:09 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:42:09 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:42:09 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:43:25 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:43:25 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:43:25 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:43:25 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:43:25 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:44:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:44:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:44:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:44:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 17:44:31 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:39 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:39 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:39 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:39 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:39 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:01:55 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:02:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:02:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:02:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:02:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:02:19 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:19 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:19 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:19 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:19 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:22 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:22 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:22 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:22 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:02:22 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:37 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:37 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:37 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:37 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:37 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:48 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:48 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:48 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:48 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:48 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:51 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:03:57 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 281
+[15-Oct-2018 18:03:57 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:57 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:57 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:03:57 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 288
+[15-Oct-2018 18:04:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:10 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[15-Oct-2018 18:04:14 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:10:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:10:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:10:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:10:50 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:16 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 06:11:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 16:34:09 America/Chicago] PHP Fatal error:  Uncaught MDatabaseException: Unable to connect to the Database: The MySQL adapter 'mysql' is not available. in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php:166
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(379): MDatabase::getInstance(Array)
+#1 /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/factory.php(161): MFactory::createDbo()
+#2 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(88): MFactory::getDbo()
+#3 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(69): miwosqlUninstaller->deleteTables()
+#4 /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/uninstall.php(15): miwosqlUninstaller->delete()
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(1018): include('/home2/edevnetb...')
+#6 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(831): uninstall_plugin('miwosql/miwosql...')
+#7 /home2/edevnetb/pub in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166

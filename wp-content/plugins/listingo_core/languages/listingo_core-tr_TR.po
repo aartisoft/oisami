@@ -1,0 +1,1674 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listingo Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 11:13+0000\n"
+"PO-Revision-Date: 2018-08-03 11:19+0000\n"
+"Last-Translator: admin <etwordpress01@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: helpers/email_notifications.php:109
+msgid " | All Rights Reserved"
+msgstr " | Tüm Hakları Saklıdır"
+
+#: widgets/class-tweets-widget.php:151
+#, php-format
+msgid "%d seconds ago"
+msgstr "%d saniye önce"
+
+#: hooks/hooks.php:44
+#, php-format
+msgid "[%s] User Deleted"
+msgstr "[%s] Kullanıcı Silindi"
+
+#: helpers/email_notifications.php:1387
+msgid "A question has posted on your profile"
+msgstr "Profilinizde bir soru yayınlandı"
+
+#: widgets/class-tweets-widget.php:163
+#, php-format
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] "Yaklaşık Bir Gün Önce"
+msgstr[1] "%d Gün Önce"
+
+#: widgets/class-tweets-widget.php:154
+#, php-format
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] "Yaklaşık Bir Dakika Önce"
+msgstr[1] "%d Dakika Önce"
+
+#: widgets/class-tweets-widget.php:169
+#, php-format
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] "Yaklaşık Bir Ay Önce"
+msgstr[1] "%d Ay Önce"
+
+#: widgets/class-tweets-widget.php:166
+#, php-format
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] "Yaklaşık Bir Hafta Önce"
+msgstr[1] "%d Hafta Önce"
+
+#: widgets/class-tweets-widget.php:172
+#, php-format
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] "Yaklaşık Bir Yıl Önce"
+msgstr[1] "%d Yıl Önce"
+
+#: widgets/class-tweets-widget.php:157 widgets/class-tweets-widget.php:160
+#, php-format
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] "Yaklaşık Bir Saat Önce"
+msgstr[1] "%d Saat Önce"
+
+#. Base ID
+#: widgets/class-about-us-widget.php:22
+msgid "About us | Listingo"
+msgstr "Hakkımızda | Listingo"
+
+#: helpers/email_notifications.php:722
+msgid "Account Verification"
+msgstr "Hesap Doğrulama"
+
+#: admin/post-types/sp_appointments.php:37
+msgid "Add Appointment"
+msgstr "Randevu Ekle"
+
+#: admin/post-types/sp_category.php:62
+msgid "Add Category"
+msgstr "Kategori Ekle"
+
+#: admin/post-types/sp_claims.php:36
+msgid "Add Claim/Report"
+msgstr "İstek/Rapor Ekle"
+
+#: admin/post-types/sp_jobs.php:47
+msgid "Add Job"
+msgstr "İş İlanı Ekle"
+
+#: admin/post-types/sp_category.php:213
+msgid "Add New Amenity"
+msgstr "Yeni Kolaylık Ekle"
+
+#: admin/post-types/sp_appointments.php:38
+msgid "Add New Appointment"
+msgstr "Yeni Randevu Ekle"
+
+#: admin/post-types/sp_category.php:63
+msgid "Add New Category"
+msgstr "Yeni Kategori Ekle"
+
+#: admin/post-types/sp_category.php:155
+msgid "Add New City"
+msgstr "Yeni Şehir Ekle"
+
+#: admin/post-types/sp_claims.php:37
+msgid "Add New Claim/Report"
+msgstr "Yeni İstek/Rapor Ekle"
+
+#: admin/post-types/sp_category.php:127
+msgid "Add New Country"
+msgstr "Yeni Ülke Ekle"
+
+#: admin/post-types/sp_category.php:242
+msgid "Add New Insurance"
+msgstr "Yeni Sigorta Ekle"
+
+#: admin/post-types/sp_jobs.php:48
+msgid "Add New Job"
+msgstr "Yeni İş İlanı Ekle"
+
+#: admin/post-types/sp_category.php:184
+msgid "Add New Language"
+msgstr "Yeni Dil Ekle"
+
+#: admin/post-types/sp_reviews.php:37
+msgid "Add New Review"
+msgstr "Yeni Yorum Ekle"
+
+#: admin/post-types/sp_category.php:102
+msgid "Add New Sub Category"
+msgstr "Yeni Alt Kategori Ekle"
+
+#: admin/post-types/sp_reviews.php:36
+msgid "Add Review"
+msgstr "Yorum Ekle"
+
+#: widgets/class-ads.php:34
+msgid "Add Script"
+msgstr "Script Ekle"
+
+#: widgets/class-about-us-widget.php:174
+msgid "Address:"
+msgstr "Adres:"
+
+#: widgets/class-ads.php:17
+msgid "Ads Script | Listingo"
+msgstr "Reklam Script | Listingo"
+
+#: admin/post-types/sp_category.php:208
+msgid "All Amenity"
+msgstr "Tüm Kolaylıklar"
+
+#: admin/post-types/sp_category.php:150
+msgid "All City"
+msgstr "Tüm Şehirler"
+
+#: admin/post-types/sp_category.php:122
+msgid "All Country"
+msgstr "Tüm Ülkeler"
+
+#: admin/post-types/sp_category.php:237
+msgid "All Insurance"
+msgstr "Tüm Sigortalar"
+
+#: admin/post-types/sp_category.php:179
+msgid "All Language"
+msgstr "Tüm Diller"
+
+#: admin/settings/settings.php:104
+msgid ""
+"All possible menu items are given below. You can sort them according to your "
+"need."
+msgstr ""
+"Tüm olası menü öğeleri aşağıda verilmiştir. Bunları ihtiyacınıza göre "
+"sıralayabilirsiniz."
+
+#: admin/settings/settings.php:381
+msgid "All Rights Reserved"
+msgstr "Tüm Hakları Saklıdır"
+
+#: admin/post-types/sp_category.php:97
+msgid "All Sub Category"
+msgstr "Tüm Alt Kategoriler"
+
+#: shortcodes/class-authentication.php:190
+msgid "Already have an account? Please login"
+msgstr "Zaten hesabınız var mı? Lütfen giriş yapın"
+
+#: admin/post-types/sp_category.php:215
+msgid "Amenities"
+msgstr "Kolaylıklar"
+
+#: admin/settings/settings.php:263
+msgid "Amenity page slug"
+msgstr "Kolaylıklar sayfası kısa ismi"
+
+#: hooks/hooks.php:314
+msgid ""
+"An email has sent to your email address, please verify your account before "
+"using our services or contact to administrator to verify your account."
+msgstr ""
+"E-posta adresinize bir e-posta gönderildi, lütfen hizmetlerimizi kullanmadan "
+"önce hesabınızı doğrulayın veya hesabınızı doğrulamak için yöneticiye "
+"başvurun."
+
+#: hooks/hooks.php:40
+#, php-format
+msgid "An existing user has deleted your account due to following reason: %s"
+msgstr ""
+"Mevcut bir kullanıcı hesabınızı aşağıdaki nedenlerden dolayı silmiş: %s"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "and accept them"
+msgstr "inceledim ve kabul ediyorum."
+
+#: widgets/class-answers-questions-statics.php:33
+msgid "Answers & Questions Statics"
+msgstr "Answers & Questions Statics"
+
+#. Base ID
+#: widgets/class-answers-questions-statics.php:30
+msgid "Answers & Questions Statics | Listingo"
+msgstr "Cevaplar & Sorular İstatik | Listingo"
+
+#: admin/post-types/sp_appointments.php:36
+msgid "Appointment"
+msgstr "Randevu"
+
+#: helpers/email_notifications.php:238
+msgid "Appointment Authentication Code!"
+msgstr "Randevu Doğrulama Kodu!"
+
+#: admin/post-types/sp_appointments.php:271
+msgid "Appointment Code : "
+msgstr "Randevu Kodu : "
+
+#: helpers/email_notifications.php:563
+msgid "Appointment Confirmation!"
+msgstr "Randevu Onayı!"
+
+#: admin/post-types/sp_appointments.php:192
+msgid "Appointment Date : "
+msgstr "Randevu Tarihi : "
+
+#: admin/post-types/sp_appointments.php:132
+msgid "Appointment Detail"
+msgstr "Randevu Detayları"
+
+#: admin/post-types/sp_appointments.php:203
+msgid "Appointment Fee : "
+msgstr "Randevu Ücreti : "
+
+#: admin/post-types/sp_appointments.php:77
+msgid "Appointment From"
+msgstr "Randevu"
+
+#: admin/post-types/sp_appointments.php:126
+msgid "Appointment Info"
+msgstr "Randevu Bilgisi"
+
+#: admin/settings/settings.php:191
+msgid "Appointment page slug"
+msgstr "Rezervasyon sayfası kısa ismi"
+
+#: admin/post-types/sp_appointments.php:197
+msgid "Appointment Service : "
+msgstr "Randevu Servisi : "
+
+#: admin/post-types/sp_appointments.php:78
+msgid "Appointment To"
+msgstr "Randevu İçin"
+
+#: admin/post-types/sp_appointments.php:225
+msgid "Appointment Type : "
+msgstr "Randevu Tipi : "
+
+#: admin/post-types/sp_appointments.php:34
+#: admin/post-types/sp_appointments.php:35
+msgid "Appointments"
+msgstr "Randevular"
+
+#: helpers/email_notifications.php:1623
+msgid "Article Needs Approval"
+msgstr "Onay Bekleyen Makale"
+
+#: admin/settings/settings.php:167
+msgid "Articles page slug?"
+msgstr ""
+
+#: includes/class-system-activator.php:63
+#: includes/class-system-activator.php:64
+msgid "Authentication"
+msgstr "Doğrulama"
+
+#: admin/post-types/sp_reviews.php:140
+msgid "Average Rating"
+msgstr "Ortalama Puan"
+
+#: admin/post-types/sp_appointments.php:237
+msgid "Booking Status : "
+msgstr "Rezervasyon Durumu : "
+
+#: hooks/hooks.php:1007 shortcodes/class-authentication.php:258
+msgid "Business"
+msgstr "Ticari"
+
+#: admin/post-types/sp_category.php:59 admin/post-types/sp_category.php:60
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: admin/post-types/sp_category.php:61
+msgid "Category"
+msgstr "Kategori"
+
+#: widgets/class-recent-questions.php:111
+msgid "category"
+msgstr "kategori"
+
+#: admin/settings/settings.php:203
+msgid "Category page slug"
+msgstr "Kategori sayfası kısa ismi"
+
+#: admin/partials/functions.php:290
+msgid "Choose File"
+msgstr "Dosya Seç"
+
+#: admin/post-types/sp_category.php:157
+msgid "Cities"
+msgstr "Şehirler"
+
+#: admin/settings/settings.php:239
+msgid "City page slug"
+msgstr "Şehir sayfası kısa ismi"
+
+#: admin/post-types/sp_claims.php:35
+msgid "Claim/Report"
+msgstr "İstek/Rapor"
+
+#: admin/post-types/sp_claims.php:77
+msgid "Claim/Report Detail"
+msgstr "İstek/Rapor Detayı"
+
+#: admin/post-types/sp_claims.php:33 admin/post-types/sp_claims.php:34
+msgid "Claim/Reports"
+msgstr "İstek/Raporlar"
+
+#: helpers/email_notifications.php:632
+msgid "Claimed"
+msgstr "Raporlandı"
+
+#: helpers/email_notifications.php:633
+msgid "Claimed By"
+msgstr "Raporlayan"
+
+#: admin/post-types/sp_appointments.php:214
+#: admin/post-types/sp_appointments.php:220 admin/post-types/sp_claims.php:110
+#: admin/post-types/sp_claims.php:116 admin/post-types/sp_reviews.php:120
+#: admin/post-types/sp_reviews.php:126
+msgid "Click for user details"
+msgstr "Kullanıcı detayları için tıkla"
+
+#: hooks/hooks.php:976 shortcodes/class-authentication.php:179
+msgid "Company / Professional"
+msgstr "Servis / Tamirhane / Profesyonel"
+
+#: shortcodes/class-authentication.php:288
+#: shortcodes/class-authentication.php:334
+msgid "Company Name"
+msgstr "Servis Adı"
+
+#: admin/partials/functions.php:204
+msgid "Company name"
+msgstr "Servis adı"
+
+#: hooks/hooks.php:109
+msgid "Company name is required."
+msgstr "Firma adı gereklidir."
+
+#: widgets/class-about-us-widget.php:190
+msgid "Complaint Email:"
+msgstr "Şikayet E-postası:"
+
+#: helpers/email_notifications.php:1090
+msgid "Contact Form Received"
+msgstr "İletişim Formu Alındı"
+
+#: admin/post-types/sp_appointments.php:79
+msgid "Contact Number"
+msgstr "İletişim Numarası"
+
+#: admin/post-types/sp_appointments.php:208
+msgid "Contact Number : "
+msgstr "İletişim Numarası : "
+
+#: helpers/email_notifications.php:109
+msgid "Copyright"
+msgstr "Telif Hakkı"
+
+#: admin/settings/envato/Envato.php:358
+msgid "Could not retrieve data."
+msgstr "Veri alınamadı."
+
+#: admin/post-types/sp_category.php:129
+msgid "Countries"
+msgstr "Ülkeler"
+
+#: admin/post-types/sp_category.php:319
+msgid "Country"
+msgstr "Ülke"
+
+#: admin/settings/settings.php:227
+msgid "Country page slug"
+msgstr "Ülke sayfası kısa ismi"
+
+#: admin/settings/settings.php:76
+msgid "Dashboard Menu"
+msgstr "Kontrol Paneli Menüsü"
+
+#: admin/settings/settings.php:102
+msgid "Dashboard Menu Settings"
+msgstr "Kontrol Paneli Menü Ayarları"
+
+#: helpers/email_notifications.php:1564
+msgid "Delete Account"
+msgstr "Hesabı Sil"
+
+#: widgets/class-about-us-widget.php:166
+msgid "Description"
+msgstr "Açıklama"
+
+#: admin/settings/settings.php:145
+msgid "Disable"
+msgstr "Hayır"
+
+#: widgets/class-ads.php:15
+msgid "Display Ads Widget"
+msgstr "Reklam Görüntüleme Widget"
+
+#: hooks/hooks.php:42
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-posta: %s"
+
+#: admin/post-types/sp_appointments.php:39 admin/post-types/sp_category.php:64
+#: admin/post-types/sp_claims.php:38 admin/post-types/sp_jobs.php:49
+#: admin/post-types/sp_reviews.php:38
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/post-types/sp_category.php:211
+msgid "Edit Amenity"
+msgstr "Kolaylığı Düzenle"
+
+#: admin/post-types/sp_appointments.php:40
+msgid "Edit Appointment"
+msgstr "Randevuyu Düzenle"
+
+#: admin/post-types/sp_category.php:65
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#: admin/post-types/sp_category.php:153
+msgid "Edit City"
+msgstr "Şehri Düzenle"
+
+#: admin/post-types/sp_claims.php:39
+msgid "Edit Claim/Report"
+msgstr "Ülke/Rapor'u Düzenle"
+
+#: admin/post-types/sp_category.php:125
+msgid "Edit Country"
+msgstr "Ülkeyi Düzenle"
+
+#: admin/post-types/sp_category.php:240
+msgid "Edit Insurance"
+msgstr "Sigortayı Düzenle"
+
+#: admin/post-types/sp_jobs.php:50
+msgid "Edit Job"
+msgstr "İş İlanını Düzenle"
+
+#: admin/post-types/sp_category.php:182
+msgid "Edit Language"
+msgstr "Dili Düzenle"
+
+#: admin/post-types/sp_reviews.php:39
+msgid "Edit Review"
+msgstr "Yorumu Düzenle"
+
+#: admin/post-types/sp_category.php:100
+msgid "Edit Sub Category"
+msgstr "Alt Kategoriyi Düzenle"
+
+#: shortcodes/class-authentication.php:223
+#: shortcodes/class-authentication.php:297
+msgid "Email"
+msgstr "Eposta"
+
+#: hooks/hooks.php:549
+msgid "Email address is not valid."
+msgstr "E-posta adresi geçerli değil."
+
+#: hooks/hooks.php:85 hooks/hooks.php:126
+#: libraries/mailchimp/class-mailchimp.php:108
+msgid "Email address is required."
+msgstr "E-posta adresi gerekli."
+
+#: shortcodes/class-authentication.php:509
+msgid "Email Address*"
+msgstr "E-posta adresiniz*"
+
+#: shortcodes/class-authentication.php:419
+msgid "Email or username"
+msgstr ""
+
+#: helpers/email_notifications.php:204
+msgid "email-header"
+msgstr "eposta-başlık"
+
+#: widgets/class-about-us-widget.php:186
+msgid "Email:"
+msgstr "E-Posta:"
+
+#: admin/settings/settings.php:145
+msgid "Enable"
+msgstr "Evet"
+
+#: admin/settings/settings.php:141
+msgid "Enable jobs?"
+msgstr "İşleri etkinleştir?"
+
+#: libraries/mailchimp/class-mailchimp.php:29
+msgid "Enter Email Here"
+msgstr "E-posta adresiniz Buraya Giriniz"
+
+#: shortcodes/class-authentication.php:462
+msgid "Facebook"
+msgstr "ile Giriş yap/Kayıt ol"
+
+#: widgets/class-about-us-widget.php:194
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: admin/partials/functions.php:207
+msgid "Fax"
+msgstr "Faks"
+
+#: shortcodes/class-authentication.php:212
+#: shortcodes/class-authentication.php:357
+msgid "Female"
+msgstr "Kadın"
+
+#: shortcodes/class-authentication.php:198
+#: shortcodes/class-authentication.php:343
+msgid "First Name"
+msgstr "Adınız"
+
+#: hooks/hooks.php:81
+msgid "First name is required."
+msgstr ""
+
+#: shortcodes/class-authentication.php:504
+msgid "Forgot Password"
+msgstr "Şifremi Unuttum"
+
+#: shortcodes/class-authentication.php:444
+msgid "Forgot your password?"
+msgstr "Şifremi unuttum"
+
+#: shortcodes/class-authentication.php:506
+msgid ""
+"Forgot your password? Enter the email address for your account to reset your "
+"password."
+msgstr ""
+"Parolanızı mı unuttunuz? Şifrenizi sıfırlamak için hesabınızın eposta "
+"adresini girin."
+
+#: shortcodes/class-authentication.php:210
+#: shortcodes/class-authentication.php:355
+msgid "Gender"
+msgstr "Cinsiyet"
+
+#: hooks/hooks.php:83 hooks/hooks.php:117
+msgid "Gender is required."
+msgstr "Cinsiyet gereklidir."
+
+#: admin/settings/settings.php:133
+msgid "General Options"
+msgstr "Genel Seçenekler"
+
+#: admin/settings/settings.php:351
+msgid "Get a quick help"
+msgstr "Hızlı yardım al"
+
+#: hooks/hooks.php:992 hooks/hooks.php:1035
+msgid "Get Started"
+msgstr "Başla"
+
+#: shortcodes/class-authentication.php:454
+msgid "Google"
+msgstr "ile Giriş yap/Kayıt ol"
+
+#: social-connect/class-google.php:29
+msgid "Google Connect"
+msgstr "Google Bağlantı"
+
+#: widgets/class-about-us-widget.php:209
+msgid "Google Plus URL:"
+msgstr "Google Plus URL:"
+
+#: shortcodes/class-authentication.php:116
+msgid "Hello"
+msgstr "Merhaba"
+
+#: admin/settings/settings.php:348
+msgid "How to make login/registration page"
+msgstr "Giriş / kayıt sayfası nasıl yapılır"
+
+#: admin/settings/settings.php:347
+msgid "How to translate theme"
+msgstr "Tema dili nasıl çevrilir"
+
+#: admin/settings/settings.php:349
+msgid "How to Update Theme, When New Update release"
+msgstr "Yeni Güncelleme Geldiğinde, Tema Nasıl Güncellenir"
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/themographics"
+msgstr "https://themeforest.net/user/themographics"
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/themographics/portfolio"
+msgstr "https://themeforest.net/user/themographics/portfolio"
+
+#: shortcodes/class-authentication.php:240
+#: shortcodes/class-authentication.php:314
+msgid "I agree with the terms and conditions and accept them"
+msgstr "Şartlara ve koşullara katılıyorum ve kabul ediyorum"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "I have read the"
+msgstr " "
+
+#: hooks/hooks.php:985
+msgid ""
+"If you click on \"Get Started\" button then you will be registered as "
+"Customer or Service Seeker."
+msgstr ""
+"\"Başla\" düğmesine tıklarsanız, Müşteri veya Servis Arayıcı olarak "
+"kaydedileceksiniz."
+
+#: widgets/class-about-us-widget.php:162
+msgid "Image URL:"
+msgstr "Resim URL'si:"
+
+#: admin/partials/functions.php:280
+msgid "Import Dummy"
+msgstr "İçe aktar"
+
+#: admin/partials/functions.php:273
+msgid "Import Dummy Directory Users"
+msgstr "Kukla Dizin Kullanıcılarını İçe Aktar"
+
+#: admin/partials/functions.php:293
+msgid "Import From File"
+msgstr "Dosyadan İçe Aktar"
+
+#: admin/partials/functions.php:237 admin/partials/functions.php:238
+msgid "Import User"
+msgstr "Kullanıcı İçe Aktar"
+
+#: admin/partials/functions.php:276 admin/partials/functions.php:278
+#: admin/partials/functions.php:286
+msgid "Import Users"
+msgstr "Kullanıcıları İçe Aktar"
+
+#: widgets/class-answers-questions-statics.php:71
+#: widgets/class-recent-questions.php:132
+msgid "Information"
+msgstr "Bilgi"
+
+#: admin/post-types/sp_category.php:244
+msgid "Insurance"
+msgstr "Sigorta"
+
+#: admin/settings/settings.php:275
+msgid "Insurance page slug"
+msgstr "Sigorta sayfası kısa ismi"
+
+#: admin/settings/settings.php:152 admin/settings/settings.php:165
+#: admin/settings/settings.php:177 admin/settings/settings.php:189
+#: admin/settings/settings.php:201 admin/settings/settings.php:213
+#: admin/settings/settings.php:225 admin/settings/settings.php:237
+#: admin/settings/settings.php:249 admin/settings/settings.php:261
+#: admin/settings/settings.php:273
+msgid ""
+"It will be used at post / Taxonomy detail page in URL as slug. Please use "
+"words without spaces."
+msgstr ""
+"“slug” yazı isminin URL versiyonudur. Genellikle tümü küçük harflerden "
+"oluşur, sadece harf, rakam ve tire içerir."
+
+#: admin/settings/settings.php:139
+msgid "It will hide jobs from front-end and back-end."
+msgstr "İş ilanları site ön yüzünde ve yönetim bölümünde gizlenecektir."
+
+#: admin/post-types/sp_jobs.php:46
+msgid "Job"
+msgstr "İş İlanı"
+
+#: helpers/email_notifications.php:1153 helpers/email_notifications.php:1221
+#: helpers/email_notifications.php:1301
+msgid "Job application received"
+msgstr "İş başvurusu  alındı"
+
+#: admin/settings/settings.php:154
+msgid "Job page slug?"
+msgstr "İş sayfası kısa ismi?"
+
+#: admin/post-types/sp_jobs.php:44 admin/post-types/sp_jobs.php:45
+msgid "Jobs"
+msgstr "İş İlanları"
+
+#: admin/settings/settings.php:251
+msgid "Language page slug"
+msgstr "Dil sayfası kısa ismi"
+
+#: admin/post-types/sp_category.php:186
+msgid "Languages"
+msgstr "Diller"
+
+#: shortcodes/class-authentication.php:203
+#: shortcodes/class-authentication.php:348
+msgid "Last Name"
+msgstr "Soy Adınız"
+
+#: hooks/hooks.php:82 hooks/hooks.php:116
+msgid "Last name is required."
+msgstr "Soy adınız gereklidir."
+
+#: widgets/class-about-us-widget.php:196 widgets/class-about-us-widget.php:201
+#: widgets/class-about-us-widget.php:206 widgets/class-about-us-widget.php:211
+#: widgets/class-about-us-widget.php:216
+msgid "Leave it empty to hide."
+msgstr "Göstermemek için boş bırakın."
+
+#: widgets/class-about-us-widget.php:204
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: hooks/hooks.php:20 admin/partials/functions.php:188
+msgid "Listingo"
+msgstr "Listingo"
+
+#: widgets/class-about-us-widget.php:24
+msgid "Listingo about us widget"
+msgstr "Listingo hakkımızda widget'i"
+
+#. Name of the plugin
+msgid "Listingo Core"
+msgstr "Listingo Core"
+
+#: admin/settings/settings.php:87
+msgid ""
+"Listingo is a purpose built Directory WordPress theme. It is designed in a "
+"way that it could be used as a engineers directory, lawyer directory, "
+"handyman directory, business services directory, veterinary directory, "
+"listingo directory, business and service finder directory, business listing "
+"or as a directory for other professionals as it has a lot of features a "
+"directory website may need (and many more!).  "
+msgstr ""
+"Listingo, bir dizi yerleşik WordPress teması. Mühendisler dizini, avukat "
+"rehberi, tamirci rehberi, iş hizmetleri rehberi, veteriner rehberi, listingo "
+"dizini, işletme ve servis bulucu rehberi, işletme listesi veya diğer "
+"profesyoneller için bir dizin olarak kullanılabileceği şekilde "
+"tasarlanmıştır. Bir dizin web sitesinin ihtiyaç duyabileceği birçok özellik "
+"(ve daha fazlası!). "
+
+#: widgets/class-recent-posts-widget.php:33
+msgid "Listingo Recent Posts"
+msgstr "Listingo Son Gönderiler"
+
+#: widgets/class-recent-questions.php:33
+msgid "Listingo Recent Questions"
+msgstr "Listingo Son Sorular"
+
+#: shortcodes/class-authentication.php:88
+#: shortcodes/class-authentication.php:369
+#: shortcodes/class-authentication.php:477
+msgid "Login and registration is disabled by administrator."
+msgstr ""
+
+#: shortcodes/class-authentication.php:442
+msgid "Login Now"
+msgstr "Giriş Yap"
+
+#: widgets/class-about-us-widget.php:59
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/settings/settings.php:83
+msgid "logo"
+msgstr "logo"
+
+#: shortcodes/class-authentication.php:211
+#: shortcodes/class-authentication.php:356
+msgid "Male"
+msgstr "Erkek"
+
+#: hooks/hooks.php:524
+msgid "Message Fail."
+msgstr "Mesaj Başarısız."
+
+#: hooks/hooks.php:523
+msgid "Message Sent."
+msgstr "Mesaj Gönderildi."
+
+#: admin/post-types/sp_appointments.php:243
+msgid "Metting Time : "
+msgstr "Buluşma Zamanı : "
+
+#: admin/settings/settings.php:313
+msgid "Minimum System Requirements"
+msgstr "Minimum Sistem Gereksinimleri"
+
+#: widgets/class-about-us-widget.php:67
+msgid "more..."
+msgstr "devamı..."
+
+#: admin/post-types/sp_category.php:279 admin/post-types/sp_category.php:292
+#: admin/post-types/sp_category.php:305 admin/post-types/sp_category.php:318
+msgid "Name"
+msgstr "İsim"
+
+#: admin/post-types/sp_category.php:214
+msgid "New Amenity Name"
+msgstr "Yeni Kolaylık Adı"
+
+#: helpers/email_notifications.php:1445
+msgid "New answer posted on your question"
+msgstr "Sorunuza yeni cevap gönderildi"
+
+#: admin/post-types/sp_appointments.php:41
+msgid "New Appointment"
+msgstr "Yeni Randevu"
+
+#: admin/post-types/sp_category.php:66
+msgid "New Category"
+msgstr "Yeni Kategori"
+
+#: admin/post-types/sp_category.php:156
+msgid "New City Name"
+msgstr "Yeni Şehir Adı"
+
+#: admin/post-types/sp_claims.php:40
+msgid "New Claim/Report"
+msgstr "Yeni İstek/Rapor"
+
+#: admin/post-types/sp_category.php:128
+msgid "New Country Name"
+msgstr "Yeni Kategori Adı"
+
+#: admin/post-types/sp_category.php:243
+msgid "New Insurance Name"
+msgstr "Yeni Sigorta Adı"
+
+#: admin/post-types/sp_jobs.php:51
+msgid "New Job"
+msgstr "Yeni İş İlanı"
+
+#: helpers/email_notifications.php:1685
+msgid "New Job Posted"
+msgstr "Yeni İş İlanı Gönderildi"
+
+#: admin/post-types/sp_category.php:185
+msgid "New Language Name"
+msgstr "Yeni Dil Adı"
+
+#: admin/post-types/sp_reviews.php:40
+msgid "New Review"
+msgstr "Yeni Yorum"
+
+#: admin/post-types/sp_category.php:103
+msgid "New Sub Category Name"
+msgstr "Yeni Alt Kategori Adı"
+
+#: admin/post-types/sp_appointments.php:172
+#: admin/post-types/sp_appointments.php:173
+#: admin/post-types/sp_appointments.php:174
+#: admin/post-types/sp_appointments.php:175
+#: admin/post-types/sp_appointments.php:176
+#: admin/post-types/sp_appointments.php:177
+#: admin/post-types/sp_appointments.php:178
+#: admin/post-types/sp_appointments.php:179
+#: admin/post-types/sp_appointments.php:180
+#: admin/post-types/sp_appointments.php:181
+#: admin/post-types/sp_appointments.php:182
+#: admin/post-types/sp_appointments.php:183
+#: admin/post-types/sp_appointments.php:264
+#: admin/post-types/sp_appointments.php:266 admin/post-types/sp_claims.php:102
+#: admin/post-types/sp_claims.php:103
+msgid "NILL"
+msgstr "NILL"
+
+#: admin/post-types/sp_appointments.php:45
+msgid "No Appointment found"
+msgstr "Randevu bulunamadı"
+
+#: admin/post-types/sp_appointments.php:46
+msgid "No Appointment found in trash"
+msgstr "Çöp Kutusunda Randevu Bulunamadı"
+
+#: admin/post-types/sp_category.php:70
+msgid "No Category found"
+msgstr "Kategori bulunamadı"
+
+#: admin/post-types/sp_category.php:71
+msgid "No Category found in trash"
+msgstr "Çöp kutusunda kategori bulunamadı"
+
+#: admin/post-types/sp_claims.php:44
+msgid "No Claim/Report found"
+msgstr "İstek/Rapor Bulunamadı"
+
+#: admin/post-types/sp_claims.php:45
+msgid "No Claim/Report found in trash"
+msgstr "Çöp kutusunda İstek/Rapor bulunamadı"
+
+#: admin/post-types/sp_jobs.php:55
+msgid "No Job found"
+msgstr "İş ilanı bulunamadı"
+
+#: admin/post-types/sp_jobs.php:56
+msgid "No Job found in trash"
+msgstr "Çöp Kutusunda İş İlanı Bulunamadı"
+
+#: hooks/hooks.php:74 hooks/hooks.php:95 hooks/hooks.php:1070
+#: hooks/hooks.php:1082
+msgid "No kiddies please!"
+msgstr "Script kiddie yok, lütfen!"
+
+#: hooks/hooks.php:516
+msgid "No kiddies please."
+msgstr "Script kiddie yok, lütfen."
+
+#: libraries/mailchimp/class-mailchimp.php:139
+msgid "No list selected yet! please contact administrator"
+msgstr "Henüz bir liste seçilmedi! lütfen yöneticiyle iletişime geçin"
+
+#: admin/post-types/sp_reviews.php:44
+msgid "No Review found"
+msgstr "Yorum bulunamadı"
+
+#: admin/post-types/sp_reviews.php:45
+msgid "No Review found in trash"
+msgstr "Çöp Kutusunda Yorum Bulunamadı"
+
+#: widgets/class-tweets-widget.php:187 widgets/class-tweets-widget.php:191
+msgid "No Tweets Found"
+msgstr "Tweet Bulunamadı"
+
+#: shortcodes/class-authentication.php:116
+msgid "not"
+msgstr "siz değilseniz"
+
+#: admin/post-types/sp_appointments.php:248
+msgid "Note : "
+msgstr "Not : "
+
+#: widgets/class-recent-posts-widget.php:156
+msgid "Number of Posts to show:"
+msgstr "Gösterilecek Gönderi sayısı:"
+
+#: widgets/class-recent-questions.php:154
+msgid "Number of Questions to show:"
+msgstr "Gösterilecek Soru Sayısı:"
+
+#: widgets/class-tweets-widget.php:224
+msgid "Number of Tweets:"
+msgstr "Tweet Sayısı:"
+
+#: payment/paypal/order.php:96
+msgid "Order"
+msgstr "Sıralama"
+
+#: admin/settings/settings.php:357
+msgid "Our Other Products"
+msgstr "Diğer Ürünlerimiz"
+
+#: admin/post-types/sp_category.php:209
+msgid "Parent Amenity"
+msgstr "Ana Kolaylık"
+
+#: admin/post-types/sp_category.php:210
+msgid "Parent Amenity:"
+msgstr "Ana Kolaylık:"
+
+#: admin/post-types/sp_appointments.php:47
+msgid "Parent Appointment"
+msgstr "Ana Randevu"
+
+#: admin/post-types/sp_category.php:72
+msgid "Parent Categories"
+msgstr "Ana Kategoriler"
+
+#: admin/post-types/sp_category.php:151
+msgid "Parent City"
+msgstr "Ana Şehir"
+
+#: admin/post-types/sp_category.php:152
+msgid "Parent City:"
+msgstr "Ana Şehir:"
+
+#: admin/post-types/sp_claims.php:46
+msgid "Parent Claim/Report"
+msgstr "Ana İstek/Rapor"
+
+#: admin/post-types/sp_category.php:123
+msgid "Parent Country"
+msgstr "Ana Ülke"
+
+#: admin/post-types/sp_category.php:124
+msgid "Parent Country:"
+msgstr "Ana Ülke:"
+
+#: admin/post-types/sp_category.php:238
+msgid "Parent Insurance"
+msgstr "Ana Sigorta"
+
+#: admin/post-types/sp_category.php:239
+msgid "Parent Insurance:"
+msgstr "Ana Sigorta:"
+
+#: admin/post-types/sp_jobs.php:57
+msgid "Parent Job"
+msgstr "Ana İş İlanı"
+
+#: admin/post-types/sp_category.php:180
+msgid "Parent Language"
+msgstr "Ana Dil"
+
+#: admin/post-types/sp_category.php:181
+msgid "Parent Language:"
+msgstr "Ana Dil:"
+
+#: admin/post-types/sp_reviews.php:46
+msgid "Parent Review"
+msgstr "Ana Yorum"
+
+#: admin/post-types/sp_category.php:98
+msgid "Parent Sub Category"
+msgstr "Ana Alt Kategori"
+
+#: admin/post-types/sp_category.php:99
+msgid "Parent Sub Category:"
+msgstr "Ana Alt Kategori:"
+
+#: shortcodes/class-authentication.php:226
+#: shortcodes/class-authentication.php:300
+#: shortcodes/class-authentication.php:422
+msgid "Password"
+msgstr "Şifreniz"
+
+#: hooks/hooks.php:158
+msgid "Password does not match."
+msgstr "Şifreler eşleşmiyor."
+
+#: hooks/hooks.php:86 hooks/hooks.php:127
+msgid "Password is required."
+msgstr "Şifre gereklidir."
+
+#: hooks/hooks.php:409
+msgid "Password should not be empty."
+msgstr "Şifre boş bırakılamaz."
+
+#: payment/paypal/order.php:149
+msgid "PayPal"
+msgstr "PayPal"
+
+#: shortcodes/class-authentication.php:219
+#: shortcodes/class-authentication.php:293
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/partials/functions.php:210
+msgid "Phone Number"
+msgstr "Telefon Numaranız"
+
+#: hooks/hooks.php:84 hooks/hooks.php:125
+msgid "Phone number is required."
+msgstr "Telefon numarası gereklidir."
+
+#: widgets/class-about-us-widget.php:178
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: widgets/class-answers-questions-statics.php:71
+#: widgets/class-recent-questions.php:132
+msgid ""
+"Please activate questions and answers extension. Go to Unyson > Questions "
+"and Answers"
+msgstr ""
+"Lütfen sorular ve cevaplar eklentisini etkinleştirin. Unyson > Sorular ve "
+"Cevaplar seçeneğine gidin"
+
+#: hooks/hooks.php:149
+msgid "Please add a valid email address."
+msgstr "Lütfen geçerli bir e-posta adresi giriniz."
+
+#: hooks/hooks.php:193 hooks/hooks.php:388
+msgid "Please enter reCaptcha!"
+msgstr "Lütfen reCaptcha girin!"
+
+#: hooks/hooks.php:542
+msgid "Please fill all fields."
+msgstr "Lütfen tüm alanları doldurunuz."
+
+#: hooks/hooks.php:87 hooks/hooks.php:128
+msgid "Please re-type your password."
+msgstr "Lütfen şifrenizi tekrar tekrarlayınız."
+
+#: hooks/hooks.php:123 hooks/hooks.php:1094
+msgid "Please select category."
+msgstr "Lütfen kategori seçiniz."
+
+#: hooks/hooks.php:1000
+msgid ""
+"Please select role, either you want to register as \"Business or "
+"Professional\" then select category and sub category under which you want to "
+"register yourself. Don't worry we will ask once and next time you can simply "
+"login with your social account."
+msgstr ""
+"Lütfen rol seçin, \"Ticari veya Profesyonel\" olarak kayıt olmak "
+"istediğinizde, kendinizi kaydetmek istediğiniz kategori ve alt kategoriyi "
+"seçin. Endişelenmeyin, bir kez soracağız ve bir dahaki sefere sadece sosyal "
+"hesabınızla giriş yapabilirsiniz."
+
+#: hooks/hooks.php:168
+msgid "Please select term and conditions"
+msgstr "Lütfen şartlar ve koşulları onaylayınız"
+
+#: hooks/hooks.php:957
+msgid "Please select the options below to complete the signup process."
+msgstr "Lütfen kayıt işlemini tamamlamak için aşağıdaki seçenekleri seçin."
+
+#: hooks/hooks.php:102
+msgid "Please select user type first."
+msgstr ""
+
+#: social-connect/class-facebook.php:151
+msgid "Please wait while you are redirecting to facebook for authorizations."
+msgstr "Yetkilendirme için facebook'a yönlendirirken lütfen bekleyin."
+
+#: social-connect/class-google.php:105
+msgid "Please wait while you are redirecting to google+ for authorizations."
+msgstr "Yetkilendirmeler için google + 'ya yönlendirirken lütfen bekleyin."
+
+#: hooks/hooks.php:1011 shortcodes/class-authentication.php:262
+msgid "professional"
+msgstr "profesyonel"
+
+#: admin/settings/settings.php:179
+msgid "Questions page slug?"
+msgstr ""
+
+#: admin/settings/settings.php:344
+msgid "Quick Links"
+msgstr "Hızlı Linkler"
+
+#: admin/post-types/sp_reviews.php:114
+msgid "Rating:"
+msgstr "Değerlendirme:"
+
+#: widgets/class-about-us-widget.php:170
+msgid "Read More URL:"
+msgstr "Devamını Oku URL'si:"
+
+#: admin/post-types/sp_appointments.php:231
+msgid "Reason For Visit : "
+msgstr "Ziyaret Sebebi : "
+
+#: widgets/class-recent-posts-widget.php:134
+msgid "Recent Posts"
+msgstr "Son Gönderiler"
+
+#. Base ID
+#: widgets/class-recent-posts-widget.php:30
+msgid "Recent Posts | Listingo"
+msgstr "Son Gönderiler | Listingo"
+
+#: widgets/class-recent-questions.php:146
+msgid "Recent Questions Posted"
+msgstr "Son Sorular"
+
+#. Base ID
+#: widgets/class-recent-questions.php:30
+msgid "Recent Questions | Listingo"
+msgstr "Son Sorular | Listingo"
+
+#: helpers/email_notifications.php:166
+msgid "Regards"
+msgstr "Saygılarımızla"
+
+#: hooks/hooks.php:1004 shortcodes/class-authentication.php:255
+msgid "Register As"
+msgstr "Ücretsiz Kayıt Ol"
+
+#: hooks/hooks.php:977 shortcodes/class-authentication.php:180
+msgid "Register As Service Provider"
+msgstr "Servis Sağlayıcısı Olarak Kayıt Ol"
+
+#: hooks/hooks.php:968 shortcodes/class-authentication.php:171
+msgid "Register As Service Seeker"
+msgstr "Servis Arayıcısı Olarak Kayıt Ol"
+
+#: shortcodes/class-authentication.php:246
+#: shortcodes/class-authentication.php:320
+msgid "Register Now"
+msgstr "Kayıt Ol"
+
+#: hooks/hooks.php:967 shortcodes/class-authentication.php:170
+msgid "Regular Single User"
+msgstr "Normal Kullanıcı"
+
+#: shortcodes/class-authentication.php:428
+msgid "Remember Me"
+msgstr "Beni Hatırla"
+
+#: admin/post-types/sp_claims.php:120
+msgid "Report/Claim Detail"
+msgstr "Rapor/İstek Detayı"
+
+#: admin/post-types/sp_claims.php:134
+msgid "Reported Against"
+msgstr "Karşı Raporlandı"
+
+#: admin/post-types/sp_claims.php:133
+msgid "Reported By"
+msgstr "Raporlayan"
+
+#: admin/post-types/sp_claims.php:109
+msgid "Reported By : "
+msgstr "Raporlayan : "
+
+#: admin/post-types/sp_claims.php:115
+msgid "Reported To : "
+msgstr "Şuna Rapor :"
+
+#: shortcodes/class-authentication.php:229
+#: shortcodes/class-authentication.php:303
+msgid "Retype Password"
+msgstr "Şifreyi Tekrarla"
+
+#: admin/post-types/sp_reviews.php:35
+msgid "Review"
+msgstr "Yorum"
+
+#: admin/post-types/sp_reviews.php:119
+msgid "Review By"
+msgstr "Yorumu Yazan"
+
+#: admin/post-types/sp_reviews.php:77
+msgid "Review Info"
+msgstr "Yorum Bilgisi"
+
+#: admin/post-types/sp_reviews.php:125
+msgid "Review To"
+msgstr "Şuna Yorum"
+
+#: admin/post-types/sp_reviews.php:33 admin/post-types/sp_reviews.php:34
+msgid "Reviews"
+msgstr "Yorumlar"
+
+#: widgets/class-about-us-widget.php:214
+msgid "RSS URL:"
+msgstr "RSS URL:"
+
+#: admin/settings/settings.php:282
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: admin/post-types/sp_category.php:207
+msgid "Search Amenity"
+msgstr "Kolaylıklarda Ara"
+
+#: admin/post-types/sp_appointments.php:44
+msgid "Search Appointment"
+msgstr "Randevularda Ara"
+
+#: admin/post-types/sp_category.php:69
+msgid "Search Category"
+msgstr "Kategorilerde Ara"
+
+#: admin/post-types/sp_category.php:149
+msgid "Search City"
+msgstr "Şehirlerde Ara"
+
+#: admin/post-types/sp_claims.php:43
+msgid "Search Claim/Report"
+msgstr "İstek/Rapor Ara"
+
+#: admin/post-types/sp_category.php:121
+msgid "Search Country"
+msgstr "Ülkelerde Ara"
+
+#: admin/post-types/sp_category.php:236
+msgid "Search Insurance"
+msgstr "Sigortalarda Ara"
+
+#: admin/post-types/sp_jobs.php:54
+msgid "Search Job"
+msgstr "İş İlanı Ara"
+
+#: admin/post-types/sp_category.php:178
+msgid "Search Language"
+msgstr "Dillerde Ara"
+
+#: admin/post-types/sp_reviews.php:43
+msgid "Search Review"
+msgstr "Yorumlarda Ara"
+
+#: admin/post-types/sp_category.php:96
+msgid "Search Sub Category"
+msgstr "Alt Kategorilerde Ara"
+
+#: widgets/class-about-us-widget.php:182
+msgid "Second Phone:"
+msgstr ""
+
+#: widgets/class-recent-posts-widget.php:141
+msgid "Select categories"
+msgstr "Kategorileri seçin"
+
+#: hooks/hooks.php:1018 shortcodes/class-authentication.php:269
+msgid "Select Category"
+msgstr "Kategori Seç"
+
+#: hooks/hooks.php:1027 shortcodes/class-authentication.php:278
+msgid "Select Sub Category"
+msgstr "Alt Kategori Seç"
+
+#: admin/settings/settings.php:23 admin/settings/settings.php:71
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: admin/partials/functions.php:384
+msgid "Settings updated"
+msgstr "Ayarlar güncellendi"
+
+#: widgets/class-tweets-widget.php:24
+msgid "Show latest tweets."
+msgstr "Son tweetleri göster."
+
+#: shortcodes/class-authentication.php:116
+msgid "Sign out"
+msgstr "Çıkış Yap"
+
+#: shortcodes/class-authentication.php:462
+msgid "Sign/Signup in with"
+msgstr "Facebook"
+
+#: shortcodes/class-authentication.php:454
+msgid "Signin/Signup with"
+msgstr "Google"
+
+#: libraries/mailchimp/class-mailchimp.php:31
+msgid "Signup"
+msgstr "Kayıt ol"
+
+#: admin/post-types/sp_category.php:280 admin/post-types/sp_category.php:293
+#: admin/post-types/sp_category.php:306 admin/post-types/sp_category.php:320
+msgid "Slug"
+msgstr "URL kısa adı"
+
+#: hooks/hooks.php:186 hooks/hooks.php:381 widgets/class-tweets-widget.php:194
+msgid "Some error occur, please try again later."
+msgstr "Bazı hatalar oluştu, lütfen daha sonra tekrar deneyin."
+
+#: libraries/mailchimp/class-mailchimp.php:118
+#: libraries/mailchimp/class-mailchimp.php:165
+msgid "Some error occur,please try again later."
+msgstr "Bazı hatalar oluştu, lütfen daha sonra tekrar deneyin."
+
+#: widgets/class-tweets-widget.php:62
+msgid "Sorry! No tweets found"
+msgstr "Üzgünüz! Tweet bulunamadı"
+
+#: hooks/hooks.php:491
+msgid "Sorry! you are restricted to perform this action on demo site."
+msgstr "Üzgünüz! Bu eylemi demo sitede yapamazsınız."
+
+#: admin/partials/functions.php:403
+msgid "Sorting updated."
+msgstr "Sıralama güncellendi."
+
+#: widgets/class-answers-questions-statics.php:85
+msgid "Statics"
+msgstr "İstatistik"
+
+#: admin/post-types/sp_category.php:104
+msgid "Sub Categories"
+msgstr "Alt Kategoriler"
+
+#: hooks/hooks.php:124 hooks/hooks.php:1095
+msgid "Sub category is required."
+msgstr "Alt kategori gereklidir."
+
+#: admin/settings/settings.php:215
+msgid "Sub category page slug"
+msgstr "Alt kategori sayfası kısa ismi"
+
+#: shortcodes/class-authentication.php:518
+msgid "Submit"
+msgstr "Gönder"
+
+#: libraries/mailchimp/class-mailchimp.php:160
+msgid "Subscribe Successfully"
+msgstr "Başarıyla Abone Olundu"
+
+#: hooks/hooks.php:433
+msgid "Successfully Logged in."
+msgstr "Giriş Başarılı."
+
+#: admin/partials/functions.php:206
+msgid "Tag Line"
+msgstr "Slogan"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "Terms & Conditions"
+msgstr "Şartlar & Koşulları"
+
+#: admin/settings/settings.php:88
+msgid ""
+"The current template has been designed with a directory for healthcare "
+"establishments in mind. The inner pages are carefully designed to provide "
+"all the essential information any directory business would need."
+msgstr ""
+"Mevcut şablon ilk olarak sağlık kurumları dizini için tasarlanmıştır. İç "
+"sayfalar, herhangi bir dizin şirketinin ihtiyaç duyacağı tüm temel bilgileri "
+"sağlamak için dikkatlice tasarlanmıştır."
+
+#. Author of the plugin
+#: admin/settings/settings.php:381
+msgid "Themographics"
+msgstr "Themographics"
+
+#: admin/post-types/sp_category.php:76
+msgid "This is where you can add new Categories "
+msgstr "Yeni kategoriler ekleyebileceğiniz yer burası "
+
+#: admin/post-types/sp_jobs.php:61
+msgid "This is where you can add new Jobs."
+msgstr "Yeni iş ilanları ekleyebileceğiniz yer burasıdır."
+
+#. Description of the plugin
+msgid ""
+"This plugin is used for creating custom post types and other functionality "
+"for Listingo Theme"
+msgstr ""
+"Bu eklenti, Listingo Teması  için özel gönderi türleri ve diğer işlevleri "
+"oluşturmak için kullanılır"
+
+#: widgets/class-ads.php:30 widgets/class-answers-questions-statics.php:88
+#: widgets/class-recent-posts-widget.php:152
+#: widgets/class-recent-questions.php:150 widgets/class-tweets-widget.php:212
+msgid "Title:"
+msgstr "Başlık :"
+
+#: widgets/class-answers-questions-statics.php:65
+msgid "Total Queries answered"
+msgstr "Cevaplanan Soru Sayısı"
+
+#: widgets/class-answers-questions-statics.php:64
+msgid "Total Questions posted"
+msgstr "Toplam Soru Sayısı"
+
+#: admin/post-types/sp_appointments.php:188
+msgid "Tracking id : "
+msgstr "Takip Numarası : "
+
+#: widgets/class-tweets-widget.php:206
+msgid "Tweets"
+msgstr "Tweetler"
+
+#. Base ID
+#: widgets/class-tweets-widget.php:22
+msgid "Tweets | Listingo"
+msgstr "Tweetler | Listingo"
+
+#: widgets/class-about-us-widget.php:199
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: admin/post-types/sp_category.php:212
+msgid "Update Amenity"
+msgstr "Kolaylığı Güncelle"
+
+#: admin/post-types/sp_category.php:154
+msgid "Update City"
+msgstr "Şehri Güncelle"
+
+#: admin/post-types/sp_category.php:126
+msgid "Update Country"
+msgstr "Ülkeyi Güncelle"
+
+#: admin/post-types/sp_category.php:241
+msgid "Update Insurance"
+msgstr "Sigortayı Güncelle"
+
+#: admin/post-types/sp_category.php:183
+msgid "Update Language"
+msgstr "Dili Güncelle"
+
+#: admin/post-types/sp_category.php:101
+msgid "Update Sub Category"
+msgstr "Alt Kategoriyi Güncelle"
+
+#: hooks/hooks.php:213
+msgid "User already exists. Please try another one."
+msgstr "Kullanıcı zaten var. Lütfen başka bir tane deneyin."
+
+#: hooks/hooks.php:39
+#, php-format
+msgid "User deleted %s:"
+msgstr "Kullanıcı silindi %s:"
+
+#: admin/post-types/sp_reviews.php:138
+msgid "User From"
+msgstr "Kullanıcıdan"
+
+#: admin/post-types/sp_appointments.php:213
+msgid "User From : "
+msgstr "Kullanıcıdan :"
+
+#: admin/partials/functions.php:268 admin/partials/functions.php:336
+msgid "User Imported Successfully"
+msgstr "Kullanıcı Başarıyla İçe Aktarıldı"
+
+#: shortcodes/class-authentication.php:194
+#: shortcodes/class-authentication.php:285
+#: shortcodes/class-authentication.php:331
+#: shortcodes/class-authentication.php:339
+msgid "User Name, eg alex"
+msgstr "Kullanıcı Adı, Örn. alex"
+
+#: admin/post-types/sp_reviews.php:139
+msgid "User To"
+msgstr "Kullanıcı İçin"
+
+#: admin/post-types/sp_appointments.php:219
+msgid "User To : "
+msgstr "Kullanıcı İçin :"
+
+#: hooks/hooks.php:80
+msgid "Username is required."
+msgstr "Kullanıcı adı gereklidir."
+
+#: hooks/hooks.php:406
+msgid "Username/Email should not be empty."
+msgstr "Kullanıcı adı / E-posta boş bırakılmamalıdır."
+
+#: widgets/class-tweets-widget.php:218
+msgid "Username:"
+msgstr "Kullanıcı Adı:"
+
+#: hooks/hooks.php:41
+#, php-format
+msgid "Username: %s"
+msgstr "Kullanıcı Adı: %s"
+
+#: admin/settings/settings.php:331
+msgid "Video Tutorial"
+msgstr "Video Eğitim"
+
+#: shortcodes/class-authentication.php:117
+msgid "View"
+msgstr "Kontrol Panelim"
+
+#: admin/post-types/sp_appointments.php:42
+#: admin/post-types/sp_appointments.php:43
+msgid "View Appointment"
+msgstr "Randevuyu Görüntüle"
+
+#: admin/post-types/sp_category.php:67 admin/post-types/sp_category.php:68
+msgid "View Category"
+msgstr "Kategoriyi Görüntüle"
+
+#: admin/post-types/sp_claims.php:41 admin/post-types/sp_claims.php:42
+msgid "View Claim/Report"
+msgstr "İstek/Rapor'u Görüntüle"
+
+#: admin/settings/settings.php:369
+msgid "View Demo"
+msgstr "Demoyu Göster"
+
+#: admin/post-types/sp_jobs.php:52 admin/post-types/sp_jobs.php:53
+msgid "View Job"
+msgstr "İş İlanını Görüntüle"
+
+#: admin/post-types/sp_reviews.php:41 admin/post-types/sp_reviews.php:42
+msgid "View Review"
+msgstr "Yorumu Görüntüle"
+
+#: admin/settings/settings.php:85
+msgid "Welcome To Listingo"
+msgstr "Hoş Geldiniz"
+
+#: admin/settings/settings.php:66
+msgid "What's New?"
+msgstr "Neler Yeni?"
+
+#: hooks/hooks.php:415
+msgid "Wrong email/username or password."
+msgstr ""
+
+#: hooks/hooks.php:189 hooks/hooks.php:384
+msgid "Wrong reCaptcha. Please verify first."
+msgstr "Yanlış reCaptcha. Lütfen önce doğrulayın."
+
+#: hooks/hooks.php:954
+msgid "You are nearly there !"
+msgstr "Neredeyse oradasın!"
+
+#: shortcodes/class-authentication.php:117
+msgid "You can view your dashboard here"
+msgstr "Kontrol panelinizi buradan görüntüleyebilirsiniz"
+
+#: hooks/hooks.php:291
+msgid "Your account has created. You can now login to use your account."
+msgstr ""
+"Hesabınız oluşturdu. Şimdi hesabınızı kullanmak için giriş yapabilirsiniz."
+
+#: hooks/hooks.php:316
+msgid "Your account has created. Your account verification is in progress. "
+msgstr "Hesabınız oluşturdu. Hesap doğrulama işleminiz devam ediyor. "
+
+#: helpers/email_notifications.php:323
+msgid "Your Appointment Approved!"
+msgstr "Randevunuz Onaylandı!"
+
+#: helpers/email_notifications.php:397
+msgid "Your Appointment Cancelled!"
+msgstr "Randevunuz İptal Edildi!"
+
+#: helpers/email_notifications.php:484
+msgid "Your Appointment Confirmation!"
+msgstr "Randevu Onayı!"
+
+#: hooks/hooks.php:1145
+msgid "Your profile has updated, Start editing your content"
+msgstr "Profiliniz güncellendi, İçeriğinizi düzenlemeye başla"
+
+#: helpers/email_notifications.php:1504
+msgid "Your Request for Withdrawal has been Processed"
+msgstr "Para Çekme Talebiniz İşlendi"
+
+#: admin/partials/functions.php:205
+msgid "Zip Code"
+msgstr "Posta Kodu"

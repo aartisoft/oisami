@@ -1,0 +1,1678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listingo Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 11:13+0000\n"
+"PO-Revision-Date: 2018-08-03 11:19+0000\n"
+"Last-Translator: admin <etwordpress01@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: helpers/email_notifications.php:109
+msgid " | All Rights Reserved"
+msgstr "| Todos los derechos reservados"
+
+#: widgets/class-tweets-widget.php:151
+#, php-format
+msgid "%d seconds ago"
+msgstr "Hace %d segundos"
+
+#: hooks/hooks.php:44
+#, php-format
+msgid "[%s] User Deleted"
+msgstr "[%s] Usuario eliminado"
+
+#: helpers/email_notifications.php:1387
+msgid "A question has posted on your profile"
+msgstr "Una pregunta ha publicado en su perfil"
+
+#: widgets/class-tweets-widget.php:163
+#, php-format
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] "Hace un día"
+msgstr[1] ""
+
+#: widgets/class-tweets-widget.php:154
+#, php-format
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] "Hace alrededor de un minuto"
+msgstr[1] ""
+
+#: widgets/class-tweets-widget.php:169
+#, php-format
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] "Hace más o menos un mes"
+msgstr[1] ""
+
+#: widgets/class-tweets-widget.php:166
+#, php-format
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] "Hace una semana"
+msgstr[1] ""
+
+#: widgets/class-tweets-widget.php:172
+#, php-format
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] "Hace un año"
+msgstr[1] ""
+
+#: widgets/class-tweets-widget.php:157 widgets/class-tweets-widget.php:160
+#, php-format
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] "Hace aproximadamente una hora"
+msgstr[1] ""
+
+#. Base ID
+#: widgets/class-about-us-widget.php:22
+msgid "About us | Listingo"
+msgstr "Sobre nosotros | Listingo"
+
+#: helpers/email_notifications.php:722
+msgid "Account Verification"
+msgstr "Verificación de la cuenta"
+
+#: admin/post-types/sp_appointments.php:37
+msgid "Add Appointment"
+msgstr "Agregar cita"
+
+#: admin/post-types/sp_category.php:62
+msgid "Add Category"
+msgstr "añadir categoría"
+
+#: admin/post-types/sp_claims.php:36
+msgid "Add Claim/Report"
+msgstr "Agregar reclamo / informe"
+
+#: admin/post-types/sp_jobs.php:47
+msgid "Add Job"
+msgstr "Agregar trabajo"
+
+#: admin/post-types/sp_category.php:213
+msgid "Add New Amenity"
+msgstr "Agregar nueva amenidad"
+
+#: admin/post-types/sp_appointments.php:38
+msgid "Add New Appointment"
+msgstr "Agregar nueva cita"
+
+#: admin/post-types/sp_category.php:63
+msgid "Add New Category"
+msgstr "Añadir nueva categoria"
+
+#: admin/post-types/sp_category.php:155
+msgid "Add New City"
+msgstr "Agregar nueva ciudad"
+
+#: admin/post-types/sp_claims.php:37
+msgid "Add New Claim/Report"
+msgstr "Agregar nuevo reclamo / informe"
+
+#: admin/post-types/sp_category.php:127
+msgid "Add New Country"
+msgstr "Agregar nuevo país"
+
+#: admin/post-types/sp_category.php:242
+msgid "Add New Insurance"
+msgstr "Agregar nuevo seguro"
+
+#: admin/post-types/sp_jobs.php:48
+msgid "Add New Job"
+msgstr "Agregar nuevo trabajo"
+
+#: admin/post-types/sp_category.php:184
+msgid "Add New Language"
+msgstr "Agregar nuevo idioma"
+
+#: admin/post-types/sp_reviews.php:37
+msgid "Add New Review"
+msgstr "Agregar nueva reseña"
+
+#: admin/post-types/sp_category.php:102
+msgid "Add New Sub Category"
+msgstr "Agregar nueva subcategoría"
+
+#: admin/post-types/sp_reviews.php:36
+msgid "Add Review"
+msgstr "Agregar una opinión"
+
+#: widgets/class-ads.php:34
+msgid "Add Script"
+msgstr "Agregar secuencia de comandos"
+
+#: widgets/class-about-us-widget.php:174
+msgid "Address:"
+msgstr "Dirección:"
+
+#: widgets/class-ads.php:17
+msgid "Ads Script | Listingo"
+msgstr "Script de anuncios | Listingo"
+
+#: admin/post-types/sp_category.php:208
+msgid "All Amenity"
+msgstr "Toda la amenidad"
+
+#: admin/post-types/sp_category.php:150
+msgid "All City"
+msgstr "Toda la ciudad"
+
+#: admin/post-types/sp_category.php:122
+msgid "All Country"
+msgstr "Todo el país"
+
+#: admin/post-types/sp_category.php:237
+msgid "All Insurance"
+msgstr "Todo seguro"
+
+#: admin/post-types/sp_category.php:179
+msgid "All Language"
+msgstr "Todo el lenguaje"
+
+#: admin/settings/settings.php:104
+msgid ""
+"All possible menu items are given below. You can sort them according to your "
+"need."
+msgstr ""
+
+#: admin/settings/settings.php:381
+msgid "All Rights Reserved"
+msgstr "Todos los derechos reservados"
+
+#: admin/post-types/sp_category.php:97
+msgid "All Sub Category"
+msgstr "Todas las Subcategorías"
+
+#: shortcodes/class-authentication.php:190
+msgid "Already have an account? Please login"
+msgstr "¿Ya tienes una cuenta? Por favor Iniciar sesión"
+
+#: admin/post-types/sp_category.php:215
+msgid "Amenities"
+msgstr "Comodidades"
+
+#: admin/settings/settings.php:263
+msgid "Amenity page slug"
+msgstr "Batería de página de amenidad"
+
+#: hooks/hooks.php:314
+msgid ""
+"An email has sent to your email address, please verify your account before "
+"using our services or contact to administrator to verify your account."
+msgstr ""
+"Se ha enviado un correo electrónico a su dirección de correo electrónico, "
+"verifique su cuenta antes de usar nuestros servicios o comuníquese con el "
+"administrador para verificar su cuenta."
+
+#: hooks/hooks.php:40
+#, php-format
+msgid "An existing user has deleted your account due to following reason: %s"
+msgstr ""
+"Un usuario existente ha eliminado su cuenta debido a la siguiente razón:% s"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "and accept them"
+msgstr "y aceptarlos"
+
+#: widgets/class-answers-questions-statics.php:33
+msgid "Answers & Questions Statics"
+msgstr "Respuestas y preguntas Estática"
+
+#. Base ID
+#: widgets/class-answers-questions-statics.php:30
+msgid "Answers & Questions Statics | Listingo"
+msgstr "Respuestas y preguntas Estática | Listingo"
+
+#: admin/post-types/sp_appointments.php:36
+msgid "Appointment"
+msgstr "Cita"
+
+#: helpers/email_notifications.php:238
+msgid "Appointment Authentication Code!"
+msgstr "Código de autenticación de cita!"
+
+#: admin/post-types/sp_appointments.php:271
+msgid "Appointment Code : "
+msgstr "Código de cita:"
+
+#: helpers/email_notifications.php:563
+msgid "Appointment Confirmation!"
+msgstr "¡Confirmación de la cita!"
+
+#: admin/post-types/sp_appointments.php:192
+msgid "Appointment Date : "
+msgstr "Día de la cita :"
+
+#: admin/post-types/sp_appointments.php:132
+msgid "Appointment Detail"
+msgstr "Detalle de cita"
+
+#: admin/post-types/sp_appointments.php:203
+msgid "Appointment Fee : "
+msgstr "Tarifa de cita:"
+
+#: admin/post-types/sp_appointments.php:77
+msgid "Appointment From"
+msgstr "Nombramiento de"
+
+#: admin/post-types/sp_appointments.php:126
+msgid "Appointment Info"
+msgstr "Información de la cita"
+
+#: admin/settings/settings.php:191
+msgid "Appointment page slug"
+msgstr "Batería de la página de citas"
+
+#: admin/post-types/sp_appointments.php:197
+msgid "Appointment Service : "
+msgstr "Servicio de citas:"
+
+#: admin/post-types/sp_appointments.php:78
+msgid "Appointment To"
+msgstr "Nombramiento a"
+
+#: admin/post-types/sp_appointments.php:225
+msgid "Appointment Type : "
+msgstr "Tipo de cita:"
+
+#: admin/post-types/sp_appointments.php:34
+#: admin/post-types/sp_appointments.php:35
+msgid "Appointments"
+msgstr "Equipo"
+
+#: helpers/email_notifications.php:1623
+msgid "Article Needs Approval"
+msgstr "El artículo necesita aprobación"
+
+#: admin/settings/settings.php:167
+msgid "Articles page slug?"
+msgstr ""
+
+#: includes/class-system-activator.php:63
+#: includes/class-system-activator.php:64
+msgid "Authentication"
+msgstr "Autenticación"
+
+#: admin/post-types/sp_reviews.php:140
+msgid "Average Rating"
+msgstr "Puntuación media"
+
+#: admin/post-types/sp_appointments.php:237
+msgid "Booking Status : "
+msgstr "Estado de la reservación :"
+
+#: hooks/hooks.php:1007 shortcodes/class-authentication.php:258
+msgid "Business"
+msgstr "Negocio"
+
+#: admin/post-types/sp_category.php:59 admin/post-types/sp_category.php:60
+msgid "Categories"
+msgstr "Categorías"
+
+#: admin/post-types/sp_category.php:61
+msgid "Category"
+msgstr "Categoría"
+
+#: widgets/class-recent-questions.php:111
+msgid "category"
+msgstr "categoría"
+
+#: admin/settings/settings.php:203
+msgid "Category page slug"
+msgstr "Babosa de página de categoría"
+
+#: admin/partials/functions.php:290
+msgid "Choose File"
+msgstr "Elija el archivo"
+
+#: admin/post-types/sp_category.php:157
+msgid "Cities"
+msgstr "Ciudades"
+
+#: admin/settings/settings.php:239
+msgid "City page slug"
+msgstr "Página de la ciudad"
+
+#: admin/post-types/sp_claims.php:35
+msgid "Claim/Report"
+msgstr "Reclamo / Informe"
+
+#: admin/post-types/sp_claims.php:77
+msgid "Claim/Report Detail"
+msgstr "Detalle de reclamo / informe"
+
+#: admin/post-types/sp_claims.php:33 admin/post-types/sp_claims.php:34
+msgid "Claim/Reports"
+msgstr "Reclamo / Informes"
+
+#: helpers/email_notifications.php:632
+msgid "Claimed"
+msgstr "Reclamado"
+
+#: helpers/email_notifications.php:633
+msgid "Claimed By"
+msgstr "Reclamado por"
+
+#: admin/post-types/sp_appointments.php:214
+#: admin/post-types/sp_appointments.php:220 admin/post-types/sp_claims.php:110
+#: admin/post-types/sp_claims.php:116 admin/post-types/sp_reviews.php:120
+#: admin/post-types/sp_reviews.php:126
+msgid "Click for user details"
+msgstr "Haga clic para detalles del usuario"
+
+#: hooks/hooks.php:976 shortcodes/class-authentication.php:179
+msgid "Company / Professional"
+msgstr "Empresa / Profesional"
+
+#: shortcodes/class-authentication.php:288
+#: shortcodes/class-authentication.php:334
+msgid "Company Name"
+msgstr "nombre de empresa"
+
+#: admin/partials/functions.php:204
+msgid "Company name"
+msgstr "Nombre de empresa"
+
+#: hooks/hooks.php:109
+msgid "Company name is required."
+msgstr "Nombre de la compañía es requerido."
+
+#: widgets/class-about-us-widget.php:190
+msgid "Complaint Email:"
+msgstr "Correo de reclamo:"
+
+#: helpers/email_notifications.php:1090
+msgid "Contact Form Received"
+msgstr "Formulario de contacto recibido"
+
+#: admin/post-types/sp_appointments.php:79
+msgid "Contact Number"
+msgstr "Número de contacto"
+
+#: admin/post-types/sp_appointments.php:208
+msgid "Contact Number : "
+msgstr "Número de contacto :"
+
+#: helpers/email_notifications.php:109
+msgid "Copyright"
+msgstr ""
+
+#: admin/settings/envato/Envato.php:358
+msgid "Could not retrieve data."
+msgstr "No se pudieron recuperar los datos."
+
+#: admin/post-types/sp_category.php:129
+msgid "Countries"
+msgstr "Países"
+
+#: admin/post-types/sp_category.php:319
+msgid "Country"
+msgstr "País"
+
+#: admin/settings/settings.php:227
+msgid "Country page slug"
+msgstr "Babosa de página de país"
+
+#: admin/settings/settings.php:76
+msgid "Dashboard Menu"
+msgstr ""
+
+#: admin/settings/settings.php:102
+msgid "Dashboard Menu Settings"
+msgstr ""
+
+#: helpers/email_notifications.php:1564
+msgid "Delete Account"
+msgstr "Borrar cuenta"
+
+#: widgets/class-about-us-widget.php:166
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/settings/settings.php:145
+msgid "Disable"
+msgstr "Inhabilitar"
+
+#: widgets/class-ads.php:15
+msgid "Display Ads Widget"
+msgstr "Mostrar widget de anuncios"
+
+#: hooks/hooks.php:42
+#, php-format
+msgid "E-mail: %s"
+msgstr "Correo electrónico: %s"
+
+#: admin/post-types/sp_appointments.php:39 admin/post-types/sp_category.php:64
+#: admin/post-types/sp_claims.php:38 admin/post-types/sp_jobs.php:49
+#: admin/post-types/sp_reviews.php:38
+msgid "Edit"
+msgstr "Editar"
+
+#: admin/post-types/sp_category.php:211
+msgid "Edit Amenity"
+msgstr "Editar Amenidad"
+
+#: admin/post-types/sp_appointments.php:40
+msgid "Edit Appointment"
+msgstr "Editar cita"
+
+#: admin/post-types/sp_category.php:65
+msgid "Edit Category"
+msgstr "Editar categoria"
+
+#: admin/post-types/sp_category.php:153
+msgid "Edit City"
+msgstr "Editar ciudad"
+
+#: admin/post-types/sp_claims.php:39
+msgid "Edit Claim/Report"
+msgstr "Editar reclamo / informe"
+
+#: admin/post-types/sp_category.php:125
+msgid "Edit Country"
+msgstr "Editar país"
+
+#: admin/post-types/sp_category.php:240
+msgid "Edit Insurance"
+msgstr "Editar seguro"
+
+#: admin/post-types/sp_jobs.php:50
+msgid "Edit Job"
+msgstr "Editar trabajo"
+
+#: admin/post-types/sp_category.php:182
+msgid "Edit Language"
+msgstr "Editar idioma"
+
+#: admin/post-types/sp_reviews.php:39
+msgid "Edit Review"
+msgstr "Editar reseña"
+
+#: admin/post-types/sp_category.php:100
+msgid "Edit Sub Category"
+msgstr "Editar subcategoría"
+
+#: shortcodes/class-authentication.php:223
+#: shortcodes/class-authentication.php:297
+msgid "Email"
+msgstr "Email"
+
+#: hooks/hooks.php:549
+msgid "Email address is not valid."
+msgstr "La dirección de correo electrónico es inválida."
+
+#: hooks/hooks.php:85 hooks/hooks.php:126
+#: libraries/mailchimp/class-mailchimp.php:108
+msgid "Email address is required."
+msgstr "Se requiere Dirección de correo electrónico."
+
+#: shortcodes/class-authentication.php:509
+msgid "Email Address*"
+msgstr "Dirección de correo electrónico*"
+
+#: shortcodes/class-authentication.php:419
+msgid "Email or username"
+msgstr ""
+
+#: helpers/email_notifications.php:204
+msgid "email-header"
+msgstr "correo electrónico encabezado"
+
+#: widgets/class-about-us-widget.php:186
+msgid "Email:"
+msgstr "Email:"
+
+#: admin/settings/settings.php:145
+msgid "Enable"
+msgstr "Habilitar"
+
+#: admin/settings/settings.php:141
+msgid "Enable jobs?"
+msgstr "Habilitar trabajos?"
+
+#: libraries/mailchimp/class-mailchimp.php:29
+msgid "Enter Email Here"
+msgstr "Ingrese el correo electrónico aquí"
+
+#: shortcodes/class-authentication.php:462
+msgid "Facebook"
+msgstr "Facebook"
+
+#: widgets/class-about-us-widget.php:194
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: admin/partials/functions.php:207
+msgid "Fax"
+msgstr "Fax"
+
+#: shortcodes/class-authentication.php:212
+#: shortcodes/class-authentication.php:357
+msgid "Female"
+msgstr "Hembra"
+
+#: shortcodes/class-authentication.php:198
+#: shortcodes/class-authentication.php:343
+msgid "First Name"
+msgstr "Nombre de pila"
+
+#: hooks/hooks.php:81
+msgid "First name is required."
+msgstr ""
+
+#: shortcodes/class-authentication.php:504
+msgid "Forgot Password"
+msgstr "Se te olvidó tu contraseña"
+
+#: shortcodes/class-authentication.php:444
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: shortcodes/class-authentication.php:506
+msgid ""
+"Forgot your password? Enter the email address for your account to reset your "
+"password."
+msgstr ""
+"¿Olvidaste tu contraseña? Ingrese la dirección de correo electrónico de su "
+"cuenta para restablecer su contraseña."
+
+#: shortcodes/class-authentication.php:210
+#: shortcodes/class-authentication.php:355
+msgid "Gender"
+msgstr "Género"
+
+#: hooks/hooks.php:83 hooks/hooks.php:117
+msgid "Gender is required."
+msgstr "Género es requerido."
+
+#: admin/settings/settings.php:133
+msgid "General Options"
+msgstr "Opciones generales"
+
+#: admin/settings/settings.php:351
+msgid "Get a quick help"
+msgstr "Obtenga una ayuda rápida"
+
+#: hooks/hooks.php:992 hooks/hooks.php:1035
+msgid "Get Started"
+msgstr "Empezar"
+
+#: shortcodes/class-authentication.php:454
+msgid "Google"
+msgstr "Google"
+
+#: social-connect/class-google.php:29
+msgid "Google Connect"
+msgstr "Google Connect"
+
+#: widgets/class-about-us-widget.php:209
+msgid "Google Plus URL:"
+msgstr "URL de Google Plus:"
+
+#: shortcodes/class-authentication.php:116
+msgid "Hello"
+msgstr "Hola"
+
+#: admin/settings/settings.php:348
+msgid "How to make login/registration page"
+msgstr "Cómo hacer que la página de inicio de sesión / registro"
+
+#: admin/settings/settings.php:347
+msgid "How to translate theme"
+msgstr "Cómo traducir el tema"
+
+#: admin/settings/settings.php:349
+msgid "How to Update Theme, When New Update release"
+msgstr "Cómo actualizar un tema, cuando aparece una nueva actualización"
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/themographics"
+msgstr "https://themeforest.net/user/themographics"
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/themographics/portfolio"
+msgstr "https://themeforest.net/user/themographics/portfolio"
+
+#: shortcodes/class-authentication.php:240
+#: shortcodes/class-authentication.php:314
+msgid "I agree with the terms and conditions and accept them"
+msgstr "Estoy de acuerdo con los términos y condiciones y los acepto"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "I have read the"
+msgstr "He leído el"
+
+#: hooks/hooks.php:985
+msgid ""
+"If you click on \"Get Started\" button then you will be registered as "
+"Customer or Service Seeker."
+msgstr ""
+"Si hace clic en el botón \"Comenzar\", se registrará como Cliente o "
+"Solicitante de servicio."
+
+#: widgets/class-about-us-widget.php:162
+msgid "Image URL:"
+msgstr "URL de la imagen:"
+
+#: admin/partials/functions.php:280
+msgid "Import Dummy"
+msgstr "Importar muñeco"
+
+#: admin/partials/functions.php:273
+msgid "Import Dummy Directory Users"
+msgstr "Importar usuarios de directorio ficticios"
+
+#: admin/partials/functions.php:293
+msgid "Import From File"
+msgstr "Importar desde archivo"
+
+#: admin/partials/functions.php:237 admin/partials/functions.php:238
+msgid "Import User"
+msgstr "Usuario de importación"
+
+#: admin/partials/functions.php:276 admin/partials/functions.php:278
+#: admin/partials/functions.php:286
+msgid "Import Users"
+msgstr "Importar usuarios"
+
+#: widgets/class-answers-questions-statics.php:71
+#: widgets/class-recent-questions.php:132
+msgid "Information"
+msgstr "Información"
+
+#: admin/post-types/sp_category.php:244
+msgid "Insurance"
+msgstr "Seguro"
+
+#: admin/settings/settings.php:275
+msgid "Insurance page slug"
+msgstr "Slug de página de seguros"
+
+#: admin/settings/settings.php:152 admin/settings/settings.php:165
+#: admin/settings/settings.php:177 admin/settings/settings.php:189
+#: admin/settings/settings.php:201 admin/settings/settings.php:213
+#: admin/settings/settings.php:225 admin/settings/settings.php:237
+#: admin/settings/settings.php:249 admin/settings/settings.php:261
+#: admin/settings/settings.php:273
+msgid ""
+"It will be used at post / Taxonomy detail page in URL as slug. Please use "
+"words without spaces."
+msgstr ""
+"Se usará en la página de detalles de publicación / Taxonomía en URL como "
+"slug. Por favor usa palabras sin espacios."
+
+#: admin/settings/settings.php:139
+msgid "It will hide jobs from front-end and back-end."
+msgstr "Ocultará los trabajos desde el front-end y el back-end."
+
+#: admin/post-types/sp_jobs.php:46
+msgid "Job"
+msgstr "Trabajo"
+
+#: helpers/email_notifications.php:1153 helpers/email_notifications.php:1221
+#: helpers/email_notifications.php:1301
+msgid "Job application received"
+msgstr "Solicitud de trabajo recibida"
+
+#: admin/settings/settings.php:154
+msgid "Job page slug?"
+msgstr "¿Tajada de página de trabajo?"
+
+#: admin/post-types/sp_jobs.php:44 admin/post-types/sp_jobs.php:45
+msgid "Jobs"
+msgstr "Trabajos"
+
+#: admin/settings/settings.php:251
+msgid "Language page slug"
+msgstr "Lengüeta de la página de idioma"
+
+#: admin/post-types/sp_category.php:186
+msgid "Languages"
+msgstr "Idiomas"
+
+#: shortcodes/class-authentication.php:203
+#: shortcodes/class-authentication.php:348
+msgid "Last Name"
+msgstr "Apellido"
+
+#: hooks/hooks.php:82 hooks/hooks.php:116
+msgid "Last name is required."
+msgstr "El apellido es obligatorio."
+
+#: widgets/class-about-us-widget.php:196 widgets/class-about-us-widget.php:201
+#: widgets/class-about-us-widget.php:206 widgets/class-about-us-widget.php:211
+#: widgets/class-about-us-widget.php:216
+msgid "Leave it empty to hide."
+msgstr "Déjalo vacío para esconderse."
+
+#: widgets/class-about-us-widget.php:204
+msgid "Linkedin URL:"
+msgstr "URL de Linkedin:"
+
+#: hooks/hooks.php:20 admin/partials/functions.php:188
+msgid "Listingo"
+msgstr "Listingo"
+
+#: widgets/class-about-us-widget.php:24
+msgid "Listingo about us widget"
+msgstr "Listingo sobre nosotros widget"
+
+#. Name of the plugin
+msgid "Listingo Core"
+msgstr "Listingo Core"
+
+#: admin/settings/settings.php:87
+msgid ""
+"Listingo is a purpose built Directory WordPress theme. It is designed in a "
+"way that it could be used as a engineers directory, lawyer directory, "
+"handyman directory, business services directory, veterinary directory, "
+"listingo directory, business and service finder directory, business listing "
+"or as a directory for other professionals as it has a lot of features a "
+"directory website may need (and many more!).  "
+msgstr ""
+"Listingo es un tema de Directorio de WordPress especialmente diseñado. Está "
+"diseñado de forma que se puede usar como directorio de ingenieros, "
+"directorio de abogados, directorio de personal de mantenimiento, directorio "
+"de servicios comerciales, directorio veterinario, directorio de listado, "
+"directorio de buscador de negocios y servicios, listado de empresas o como "
+"directorio para otros profesionales, ya que tiene muchas características que "
+"un sitio web de directorio puede necesitar (¡y muchas más!)."
+
+#: widgets/class-recent-posts-widget.php:33
+msgid "Listingo Recent Posts"
+msgstr "Listingo Publicaciones recientes"
+
+#: widgets/class-recent-questions.php:33
+msgid "Listingo Recent Questions"
+msgstr "Listingo Preguntas recientes"
+
+#: shortcodes/class-authentication.php:88
+#: shortcodes/class-authentication.php:369
+#: shortcodes/class-authentication.php:477
+msgid "Login and registration is disabled by administrator."
+msgstr ""
+
+#: shortcodes/class-authentication.php:442
+msgid "Login Now"
+msgstr "Inicia sesión ahora"
+
+#: widgets/class-about-us-widget.php:59
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/settings/settings.php:83
+msgid "logo"
+msgstr "logo"
+
+#: shortcodes/class-authentication.php:211
+#: shortcodes/class-authentication.php:356
+msgid "Male"
+msgstr "Masculino"
+
+#: hooks/hooks.php:524
+msgid "Message Fail."
+msgstr "Mensaje fallido"
+
+#: hooks/hooks.php:523
+msgid "Message Sent."
+msgstr "Mensaje enviado."
+
+#: admin/post-types/sp_appointments.php:243
+msgid "Metting Time : "
+msgstr "Tiempo de reunión :"
+
+#: admin/settings/settings.php:313
+msgid "Minimum System Requirements"
+msgstr "Requerimientos mínimos del sistema"
+
+#: widgets/class-about-us-widget.php:67
+msgid "more..."
+msgstr "Más..."
+
+#: admin/post-types/sp_category.php:279 admin/post-types/sp_category.php:292
+#: admin/post-types/sp_category.php:305 admin/post-types/sp_category.php:318
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/post-types/sp_category.php:214
+msgid "New Amenity Name"
+msgstr "Nuevo nombre de amenidad"
+
+#: helpers/email_notifications.php:1445
+msgid "New answer posted on your question"
+msgstr "Nueva respuesta publicada en su pregunta"
+
+#: admin/post-types/sp_appointments.php:41
+msgid "New Appointment"
+msgstr "Nueva cita"
+
+#: admin/post-types/sp_category.php:66
+msgid "New Category"
+msgstr "Nueva categoría"
+
+#: admin/post-types/sp_category.php:156
+msgid "New City Name"
+msgstr "Nuevo nombre de la ciudad"
+
+#: admin/post-types/sp_claims.php:40
+msgid "New Claim/Report"
+msgstr "Nuevo reclamo / informe"
+
+#: admin/post-types/sp_category.php:128
+msgid "New Country Name"
+msgstr "Nuevo nombre de país"
+
+#: admin/post-types/sp_category.php:243
+msgid "New Insurance Name"
+msgstr "Nuevo nombre de seguro"
+
+#: admin/post-types/sp_jobs.php:51
+msgid "New Job"
+msgstr "Nuevo trabajo"
+
+#: helpers/email_notifications.php:1685
+msgid "New Job Posted"
+msgstr ""
+
+#: admin/post-types/sp_category.php:185
+msgid "New Language Name"
+msgstr "Nuevo nombre de idioma"
+
+#: admin/post-types/sp_reviews.php:40
+msgid "New Review"
+msgstr "Nueva revisión"
+
+#: admin/post-types/sp_category.php:103
+msgid "New Sub Category Name"
+msgstr "Nuevo nombre de subcategoría"
+
+#: admin/post-types/sp_appointments.php:172
+#: admin/post-types/sp_appointments.php:173
+#: admin/post-types/sp_appointments.php:174
+#: admin/post-types/sp_appointments.php:175
+#: admin/post-types/sp_appointments.php:176
+#: admin/post-types/sp_appointments.php:177
+#: admin/post-types/sp_appointments.php:178
+#: admin/post-types/sp_appointments.php:179
+#: admin/post-types/sp_appointments.php:180
+#: admin/post-types/sp_appointments.php:181
+#: admin/post-types/sp_appointments.php:182
+#: admin/post-types/sp_appointments.php:183
+#: admin/post-types/sp_appointments.php:264
+#: admin/post-types/sp_appointments.php:266 admin/post-types/sp_claims.php:102
+#: admin/post-types/sp_claims.php:103
+msgid "NILL"
+msgstr "NILL"
+
+#: admin/post-types/sp_appointments.php:45
+msgid "No Appointment found"
+msgstr "No se encontró una cita"
+
+#: admin/post-types/sp_appointments.php:46
+msgid "No Appointment found in trash"
+msgstr "No se encontró cita en la basura"
+
+#: admin/post-types/sp_category.php:70
+msgid "No Category found"
+msgstr "No se encontraron categorías"
+
+#: admin/post-types/sp_category.php:71
+msgid "No Category found in trash"
+msgstr "No se encontró ninguna categoría en la papelera"
+
+#: admin/post-types/sp_claims.php:44
+msgid "No Claim/Report found"
+msgstr "Sin reclamo / Informe encontrado"
+
+#: admin/post-types/sp_claims.php:45
+msgid "No Claim/Report found in trash"
+msgstr "Ningún reclamo / informe encontrado en la basura"
+
+#: admin/post-types/sp_jobs.php:55
+msgid "No Job found"
+msgstr "No se encontró trabajo"
+
+#: admin/post-types/sp_jobs.php:56
+msgid "No Job found in trash"
+msgstr "No se ha encontrado trabajo en la papelera"
+
+#: hooks/hooks.php:74 hooks/hooks.php:95 hooks/hooks.php:1070
+#: hooks/hooks.php:1082
+msgid "No kiddies please!"
+msgstr "¡No hay niños, por favor!"
+
+#: hooks/hooks.php:516
+msgid "No kiddies please."
+msgstr "No hay niños, por favor."
+
+#: libraries/mailchimp/class-mailchimp.php:139
+msgid "No list selected yet! please contact administrator"
+msgstr ""
+"¡No hay una lista seleccionada todavía! por favor contacte al administrador"
+
+#: admin/post-types/sp_reviews.php:44
+msgid "No Review found"
+msgstr "No hay comentarios encontrados"
+
+#: admin/post-types/sp_reviews.php:45
+msgid "No Review found in trash"
+msgstr "No se ha encontrado ninguna reseña en la papelera"
+
+#: widgets/class-tweets-widget.php:187 widgets/class-tweets-widget.php:191
+msgid "No Tweets Found"
+msgstr "No se encontraron tweets"
+
+#: shortcodes/class-authentication.php:116
+msgid "not"
+msgstr "no"
+
+#: admin/post-types/sp_appointments.php:248
+msgid "Note : "
+msgstr "Nota :"
+
+#: widgets/class-recent-posts-widget.php:156
+msgid "Number of Posts to show:"
+msgstr "Número de publicaciones para mostrar:"
+
+#: widgets/class-recent-questions.php:154
+msgid "Number of Questions to show:"
+msgstr "Número de preguntas para mostrar:"
+
+#: widgets/class-tweets-widget.php:224
+msgid "Number of Tweets:"
+msgstr "Numero de Tweets:"
+
+#: payment/paypal/order.php:96
+msgid "Order"
+msgstr "Orden"
+
+#: admin/settings/settings.php:357
+msgid "Our Other Products"
+msgstr "Nuestros otros productos"
+
+#: admin/post-types/sp_category.php:209
+msgid "Parent Amenity"
+msgstr "Servicios para padres"
+
+#: admin/post-types/sp_category.php:210
+msgid "Parent Amenity:"
+msgstr "Servicios para padres:"
+
+#: admin/post-types/sp_appointments.php:47
+msgid "Parent Appointment"
+msgstr "Nombramiento de padres"
+
+#: admin/post-types/sp_category.php:72
+msgid "Parent Categories"
+msgstr "Categorías de padres"
+
+#: admin/post-types/sp_category.php:151
+msgid "Parent City"
+msgstr "Parent City"
+
+#: admin/post-types/sp_category.php:152
+msgid "Parent City:"
+msgstr "Ciudad matriz:"
+
+#: admin/post-types/sp_claims.php:46
+msgid "Parent Claim/Report"
+msgstr "Parent Claim / Report"
+
+#: admin/post-types/sp_category.php:123
+msgid "Parent Country"
+msgstr "País padre"
+
+#: admin/post-types/sp_category.php:124
+msgid "Parent Country:"
+msgstr "País padre:"
+
+#: admin/post-types/sp_category.php:238
+msgid "Parent Insurance"
+msgstr "Seguro para padres"
+
+#: admin/post-types/sp_category.php:239
+msgid "Parent Insurance:"
+msgstr "Seguro para padres:"
+
+#: admin/post-types/sp_jobs.php:57
+msgid "Parent Job"
+msgstr "Trabajo principal"
+
+#: admin/post-types/sp_category.php:180
+msgid "Parent Language"
+msgstr "Lenguaje padre"
+
+#: admin/post-types/sp_category.php:181
+msgid "Parent Language:"
+msgstr "Lenguaje de Padres:"
+
+#: admin/post-types/sp_reviews.php:46
+msgid "Parent Review"
+msgstr "Revisión de los padres"
+
+#: admin/post-types/sp_category.php:98
+msgid "Parent Sub Category"
+msgstr "Subcategoría principal"
+
+#: admin/post-types/sp_category.php:99
+msgid "Parent Sub Category:"
+msgstr "Subcategoría principal:"
+
+#: shortcodes/class-authentication.php:226
+#: shortcodes/class-authentication.php:300
+#: shortcodes/class-authentication.php:422
+msgid "Password"
+msgstr "Password"
+
+#: hooks/hooks.php:158
+msgid "Password does not match."
+msgstr "Las contraseñas no coinciden."
+
+#: hooks/hooks.php:86 hooks/hooks.php:127
+msgid "Password is required."
+msgstr "Se requiere contraseña."
+
+#: hooks/hooks.php:409
+msgid "Password should not be empty."
+msgstr "La contraseña no debe estar vacía."
+
+#: payment/paypal/order.php:149
+msgid "PayPal"
+msgstr "PayPal"
+
+#: shortcodes/class-authentication.php:219
+#: shortcodes/class-authentication.php:293
+msgid "Phone"
+msgstr "Teléfono"
+
+#: admin/partials/functions.php:210
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: hooks/hooks.php:84 hooks/hooks.php:125
+msgid "Phone number is required."
+msgstr "Se requiere número de teléfono."
+
+#: widgets/class-about-us-widget.php:178
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: widgets/class-answers-questions-statics.php:71
+#: widgets/class-recent-questions.php:132
+msgid ""
+"Please activate questions and answers extension. Go to Unyson > Questions "
+"and Answers"
+msgstr ""
+"Active la extensión de preguntas y respuestas. Ir a Unyson> Preguntas y "
+"respuestas"
+
+#: hooks/hooks.php:149
+msgid "Please add a valid email address."
+msgstr "Por favor agregue una dirección de correo electrónico válida."
+
+#: hooks/hooks.php:193 hooks/hooks.php:388
+msgid "Please enter reCaptcha!"
+msgstr "Por favor ingrese reCaptcha!"
+
+#: hooks/hooks.php:542
+msgid "Please fill all fields."
+msgstr "Por favor llena todos los espacios."
+
+#: hooks/hooks.php:87 hooks/hooks.php:128
+msgid "Please re-type your password."
+msgstr "Por favor, escriba de nuevo su contraseña."
+
+#: hooks/hooks.php:123 hooks/hooks.php:1094
+msgid "Please select category."
+msgstr "Por favor seleccione categoría."
+
+#: hooks/hooks.php:1000
+msgid ""
+"Please select role, either you want to register as \"Business or "
+"Professional\" then select category and sub category under which you want to "
+"register yourself. Don't worry we will ask once and next time you can simply "
+"login with your social account."
+msgstr ""
+"Seleccione la función, ya sea que desee registrarse como \"Profesional o "
+"empresarial\", luego seleccione la categoría y la subcategoría en la que "
+"desea registrarse. No se preocupe, le preguntaremos una vez y la próxima vez "
+"simplemente puede iniciar sesión con su cuenta social."
+
+#: hooks/hooks.php:168
+msgid "Please select term and conditions"
+msgstr "Por favor selecciona un término y condiciones"
+
+#: hooks/hooks.php:957
+msgid "Please select the options below to complete the signup process."
+msgstr ""
+"Seleccione las opciones a continuación para completar el proceso de registro."
+
+#: hooks/hooks.php:102
+msgid "Please select user type first."
+msgstr ""
+
+#: social-connect/class-facebook.php:151
+msgid "Please wait while you are redirecting to facebook for authorizations."
+msgstr ""
+"Espere mientras está redireccionando a Facebook para obtener autorizaciones."
+
+#: social-connect/class-google.php:105
+msgid "Please wait while you are redirecting to google+ for authorizations."
+msgstr "Espere mientras está redirigiendo a google + para autorizaciones."
+
+#: hooks/hooks.php:1011 shortcodes/class-authentication.php:262
+msgid "professional"
+msgstr "profesional"
+
+#: admin/settings/settings.php:179
+msgid "Questions page slug?"
+msgstr ""
+
+#: admin/settings/settings.php:344
+msgid "Quick Links"
+msgstr "enlaces rápidos"
+
+#: admin/post-types/sp_reviews.php:114
+msgid "Rating:"
+msgstr "Clasificación:"
+
+#: widgets/class-about-us-widget.php:170
+msgid "Read More URL:"
+msgstr "Leer más URL:"
+
+#: admin/post-types/sp_appointments.php:231
+msgid "Reason For Visit : "
+msgstr "Razón de la visita :"
+
+#: widgets/class-recent-posts-widget.php:134
+msgid "Recent Posts"
+msgstr "Mensajes recientes"
+
+#. Base ID
+#: widgets/class-recent-posts-widget.php:30
+msgid "Recent Posts | Listingo"
+msgstr "Publicaciones recientes | Listingo"
+
+#: widgets/class-recent-questions.php:146
+msgid "Recent Questions Posted"
+msgstr "Preguntas recientes publicadas"
+
+#. Base ID
+#: widgets/class-recent-questions.php:30
+msgid "Recent Questions | Listingo"
+msgstr "Preguntas recientes | Listingo"
+
+#: helpers/email_notifications.php:166
+msgid "Regards"
+msgstr "Saludos"
+
+#: hooks/hooks.php:1004 shortcodes/class-authentication.php:255
+msgid "Register As"
+msgstr "Registrarse como"
+
+#: hooks/hooks.php:977 shortcodes/class-authentication.php:180
+msgid "Register As Service Provider"
+msgstr "Registrarse como proveedor de servicios"
+
+#: hooks/hooks.php:968 shortcodes/class-authentication.php:171
+msgid "Register As Service Seeker"
+msgstr "Registrarse como buscador de servicios"
+
+#: shortcodes/class-authentication.php:246
+#: shortcodes/class-authentication.php:320
+msgid "Register Now"
+msgstr "Regístrate ahora"
+
+#: hooks/hooks.php:967 shortcodes/class-authentication.php:170
+msgid "Regular Single User"
+msgstr "Usuario único regular"
+
+#: shortcodes/class-authentication.php:428
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: admin/post-types/sp_claims.php:120
+msgid "Report/Claim Detail"
+msgstr "Informe / detalle de reclamo"
+
+#: admin/post-types/sp_claims.php:134
+msgid "Reported Against"
+msgstr "Reportado en contra"
+
+#: admin/post-types/sp_claims.php:133
+msgid "Reported By"
+msgstr "Reportado por"
+
+#: admin/post-types/sp_claims.php:109
+msgid "Reported By : "
+msgstr "Reportado por :"
+
+#: admin/post-types/sp_claims.php:115
+msgid "Reported To : "
+msgstr "Reportado :"
+
+#: shortcodes/class-authentication.php:229
+#: shortcodes/class-authentication.php:303
+msgid "Retype Password"
+msgstr "Vuelva a escribir la contraseña"
+
+#: admin/post-types/sp_reviews.php:35
+msgid "Review"
+msgstr "revisión"
+
+#: admin/post-types/sp_reviews.php:119
+msgid "Review By"
+msgstr "Revisado por"
+
+#: admin/post-types/sp_reviews.php:77
+msgid "Review Info"
+msgstr "Información de revisión"
+
+#: admin/post-types/sp_reviews.php:125
+msgid "Review To"
+msgstr "Revisar a"
+
+#: admin/post-types/sp_reviews.php:33 admin/post-types/sp_reviews.php:34
+msgid "Reviews"
+msgstr "Comentarios"
+
+#: widgets/class-about-us-widget.php:214
+msgid "RSS URL:"
+msgstr "RSS URL:"
+
+#: admin/settings/settings.php:282
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: admin/post-types/sp_category.php:207
+msgid "Search Amenity"
+msgstr "Servicios de búsqueda"
+
+#: admin/post-types/sp_appointments.php:44
+msgid "Search Appointment"
+msgstr "Buscar cita"
+
+#: admin/post-types/sp_category.php:69
+msgid "Search Category"
+msgstr "Categoría de búsqueda"
+
+#: admin/post-types/sp_category.php:149
+msgid "Search City"
+msgstr "Buscar ciudad"
+
+#: admin/post-types/sp_claims.php:43
+msgid "Search Claim/Report"
+msgstr "Buscar reclamo / informe"
+
+#: admin/post-types/sp_category.php:121
+msgid "Search Country"
+msgstr "Buscar país"
+
+#: admin/post-types/sp_category.php:236
+msgid "Search Insurance"
+msgstr "Seguro de búsqueda"
+
+#: admin/post-types/sp_jobs.php:54
+msgid "Search Job"
+msgstr "Buscar trabajo"
+
+#: admin/post-types/sp_category.php:178
+msgid "Search Language"
+msgstr "Lenguaje de búsqueda"
+
+#: admin/post-types/sp_reviews.php:43
+msgid "Search Review"
+msgstr "Buscar revisión"
+
+#: admin/post-types/sp_category.php:96
+msgid "Search Sub Category"
+msgstr "Buscar Subcategoría"
+
+#: widgets/class-about-us-widget.php:182
+msgid "Second Phone:"
+msgstr ""
+
+#: widgets/class-recent-posts-widget.php:141
+msgid "Select categories"
+msgstr "Seleccionar categorías"
+
+#: hooks/hooks.php:1018 shortcodes/class-authentication.php:269
+msgid "Select Category"
+msgstr "selecciona una categoría"
+
+#: hooks/hooks.php:1027 shortcodes/class-authentication.php:278
+msgid "Select Sub Category"
+msgstr "Seleccione Subcategoría"
+
+#: admin/settings/settings.php:23 admin/settings/settings.php:71
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: admin/partials/functions.php:384
+msgid "Settings updated"
+msgstr "Ajustes actualizan"
+
+#: widgets/class-tweets-widget.php:24
+msgid "Show latest tweets."
+msgstr "Mostrar los últimos tweets."
+
+#: shortcodes/class-authentication.php:116
+msgid "Sign out"
+msgstr "desconectar"
+
+#: shortcodes/class-authentication.php:462
+msgid "Sign/Signup in with"
+msgstr "Registrarse / Registrarse con"
+
+#: shortcodes/class-authentication.php:454
+msgid "Signin/Signup with"
+msgstr "Registrarse / Registrarse con"
+
+#: libraries/mailchimp/class-mailchimp.php:31
+msgid "Signup"
+msgstr "Regístrate"
+
+#: admin/post-types/sp_category.php:280 admin/post-types/sp_category.php:293
+#: admin/post-types/sp_category.php:306 admin/post-types/sp_category.php:320
+msgid "Slug"
+msgstr "Babosa"
+
+#: hooks/hooks.php:186 hooks/hooks.php:381 widgets/class-tweets-widget.php:194
+msgid "Some error occur, please try again later."
+msgstr "Se produce un error. Inténtalo de nuevo más tarde."
+
+#: libraries/mailchimp/class-mailchimp.php:118
+#: libraries/mailchimp/class-mailchimp.php:165
+msgid "Some error occur,please try again later."
+msgstr "Se produce un error. Inténtalo de nuevo más tarde."
+
+#: widgets/class-tweets-widget.php:62
+msgid "Sorry! No tweets found"
+msgstr "¡Lo siento! No se encontraron tweets"
+
+#: hooks/hooks.php:491
+msgid "Sorry! you are restricted to perform this action on demo site."
+msgstr ""
+"¡Lo siento! Usted está restringido para realizar esta acción en el sitio de "
+"demostración."
+
+#: admin/partials/functions.php:403
+msgid "Sorting updated."
+msgstr ""
+
+#: widgets/class-answers-questions-statics.php:85
+msgid "Statics"
+msgstr "Estática"
+
+#: admin/post-types/sp_category.php:104
+msgid "Sub Categories"
+msgstr "Subcategorías"
+
+#: hooks/hooks.php:124 hooks/hooks.php:1095
+msgid "Sub category is required."
+msgstr "Sub categoría es requerida."
+
+#: admin/settings/settings.php:215
+msgid "Sub category page slug"
+msgstr "Subclase de página de subcategoría"
+
+#: shortcodes/class-authentication.php:518
+msgid "Submit"
+msgstr "Enviar"
+
+#: libraries/mailchimp/class-mailchimp.php:160
+msgid "Subscribe Successfully"
+msgstr "Suscribirse con éxito"
+
+#: hooks/hooks.php:433
+msgid "Successfully Logged in."
+msgstr "Ingresó exitosamente"
+
+#: admin/partials/functions.php:206
+msgid "Tag Line"
+msgstr "Tag Line"
+
+#: shortcodes/class-authentication.php:238
+#: shortcodes/class-authentication.php:312
+msgid "Terms & Conditions"
+msgstr "Términos y condiciones"
+
+#: admin/settings/settings.php:88
+msgid ""
+"The current template has been designed with a directory for healthcare "
+"establishments in mind. The inner pages are carefully designed to provide "
+"all the essential information any directory business would need."
+msgstr ""
+"La plantilla actual ha sido diseñada con un directorio para establecimientos "
+"de atención médica en mente. Las páginas internas están cuidadosamente "
+"diseñadas para proporcionar toda la información esencial que cualquier "
+"negocio de directorio necesitaría."
+
+#. Author of the plugin
+#: admin/settings/settings.php:381
+msgid "Themographics"
+msgstr "Themographics"
+
+#: admin/post-types/sp_category.php:76
+msgid "This is where you can add new Categories "
+msgstr "Aquí es donde puedes agregar nuevas categorías"
+
+#: admin/post-types/sp_jobs.php:61
+msgid "This is where you can add new Jobs."
+msgstr "Aquí es donde puedes agregar nuevos trabajos."
+
+#. Description of the plugin
+msgid ""
+"This plugin is used for creating custom post types and other functionality "
+"for Listingo Theme"
+msgstr ""
+"Este complemento se usa para crear tipos de publicaciones personalizadas y "
+"otras funcionalidades para el tema de Listingo"
+
+#: widgets/class-ads.php:30 widgets/class-answers-questions-statics.php:88
+#: widgets/class-recent-posts-widget.php:152
+#: widgets/class-recent-questions.php:150 widgets/class-tweets-widget.php:212
+msgid "Title:"
+msgstr "Título:"
+
+#: widgets/class-answers-questions-statics.php:65
+msgid "Total Queries answered"
+msgstr "Consultas totales respondidas"
+
+#: widgets/class-answers-questions-statics.php:64
+msgid "Total Questions posted"
+msgstr "Total de preguntas publicadas"
+
+#: admin/post-types/sp_appointments.php:188
+msgid "Tracking id : "
+msgstr "ID de rastreo :"
+
+#: widgets/class-tweets-widget.php:206
+msgid "Tweets"
+msgstr "Tweets"
+
+#. Base ID
+#: widgets/class-tweets-widget.php:22
+msgid "Tweets | Listingo"
+msgstr "Tweets | Listingo"
+
+#: widgets/class-about-us-widget.php:199
+msgid "Twitter URL:"
+msgstr "URL de Twitter:"
+
+#: admin/post-types/sp_category.php:212
+msgid "Update Amenity"
+msgstr "Actualización Amenity"
+
+#: admin/post-types/sp_category.php:154
+msgid "Update City"
+msgstr "Actualizar ciudad"
+
+#: admin/post-types/sp_category.php:126
+msgid "Update Country"
+msgstr "Actualizar país"
+
+#: admin/post-types/sp_category.php:241
+msgid "Update Insurance"
+msgstr "Actualizar seguro"
+
+#: admin/post-types/sp_category.php:183
+msgid "Update Language"
+msgstr "Actualizar idioma"
+
+#: admin/post-types/sp_category.php:101
+msgid "Update Sub Category"
+msgstr "Actualizar Subcategoría"
+
+#: hooks/hooks.php:213
+msgid "User already exists. Please try another one."
+msgstr "El usuario ya existe. Por favor prueba con otro."
+
+#: hooks/hooks.php:39
+#, php-format
+msgid "User deleted %s:"
+msgstr "Usuario eliminado %s:"
+
+#: admin/post-types/sp_reviews.php:138
+msgid "User From"
+msgstr "Usuario de"
+
+#: admin/post-types/sp_appointments.php:213
+msgid "User From : "
+msgstr "Usuario de:"
+
+#: admin/partials/functions.php:268 admin/partials/functions.php:336
+msgid "User Imported Successfully"
+msgstr "Usuario importado con éxito"
+
+#: shortcodes/class-authentication.php:194
+#: shortcodes/class-authentication.php:285
+#: shortcodes/class-authentication.php:331
+#: shortcodes/class-authentication.php:339
+msgid "User Name, eg alex"
+msgstr "Nombre de usuario, por ejemplo, alex"
+
+#: admin/post-types/sp_reviews.php:139
+msgid "User To"
+msgstr "Usuario a"
+
+#: admin/post-types/sp_appointments.php:219
+msgid "User To : "
+msgstr "Usuario para:"
+
+#: hooks/hooks.php:80
+msgid "Username is required."
+msgstr "Se requiere nombre de usuario."
+
+#: hooks/hooks.php:406
+msgid "Username/Email should not be empty."
+msgstr "El nombre de usuario / correo electrónico no debe estar vacío."
+
+#: widgets/class-tweets-widget.php:218
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: hooks/hooks.php:41
+#, php-format
+msgid "Username: %s"
+msgstr "Nombre de usuario: %s"
+
+#: admin/settings/settings.php:331
+msgid "Video Tutorial"
+msgstr "Video Tutorial"
+
+#: shortcodes/class-authentication.php:117
+msgid "View"
+msgstr "Ver"
+
+#: admin/post-types/sp_appointments.php:42
+#: admin/post-types/sp_appointments.php:43
+msgid "View Appointment"
+msgstr "Ver cita"
+
+#: admin/post-types/sp_category.php:67 admin/post-types/sp_category.php:68
+msgid "View Category"
+msgstr "Ver categoría"
+
+#: admin/post-types/sp_claims.php:41 admin/post-types/sp_claims.php:42
+msgid "View Claim/Report"
+msgstr "Ver reclamo / informe"
+
+#: admin/settings/settings.php:369
+msgid "View Demo"
+msgstr "Ver demostración"
+
+#: admin/post-types/sp_jobs.php:52 admin/post-types/sp_jobs.php:53
+msgid "View Job"
+msgstr "Ver trabajo"
+
+#: admin/post-types/sp_reviews.php:41 admin/post-types/sp_reviews.php:42
+msgid "View Review"
+msgstr "Ver reseña"
+
+#: admin/settings/settings.php:85
+msgid "Welcome To Listingo"
+msgstr "Bienvenido a Listingo"
+
+#: admin/settings/settings.php:66
+msgid "What's New?"
+msgstr "¿Qué hay de nuevo?"
+
+#: hooks/hooks.php:415
+msgid "Wrong email/username or password."
+msgstr ""
+
+#: hooks/hooks.php:189 hooks/hooks.php:384
+msgid "Wrong reCaptcha. Please verify first."
+msgstr "ReCaptcha incorrecto. Por favor verifica primero."
+
+#: hooks/hooks.php:954
+msgid "You are nearly there !"
+msgstr "¡Estás casi allí!"
+
+#: shortcodes/class-authentication.php:117
+msgid "You can view your dashboard here"
+msgstr "Puedes ver tu panel aquí"
+
+#: hooks/hooks.php:291
+msgid "Your account has created. You can now login to use your account."
+msgstr "Tu cuenta ha creado. Ahora puede iniciar sesión para usar su cuenta."
+
+#: hooks/hooks.php:316
+msgid "Your account has created. Your account verification is in progress. "
+msgstr "Tu cuenta ha creado. La verificación de su cuenta está en progreso."
+
+#: helpers/email_notifications.php:323
+msgid "Your Appointment Approved!"
+msgstr "¡Su cita fue aprobada!"
+
+#: helpers/email_notifications.php:397
+msgid "Your Appointment Cancelled!"
+msgstr "¡Su cita cancelada!"
+
+#: helpers/email_notifications.php:484
+msgid "Your Appointment Confirmation!"
+msgstr "¡Su confirmación de cita!"
+
+#: hooks/hooks.php:1145
+msgid "Your profile has updated, Start editing your content"
+msgstr "Tu perfil se ha actualizado, comienza a editar tu contenido"
+
+#: helpers/email_notifications.php:1504
+msgid "Your Request for Withdrawal has been Processed"
+msgstr "Su solicitud de retiro ha sido procesada"
+
+#: admin/partials/functions.php:205
+msgid "Zip Code"
+msgstr "Código postal"
