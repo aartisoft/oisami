@@ -32,7 +32,7 @@ $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
 if (apply_filters('listingo_do_check_user_type', $user_identity) === true) { ?>
-	<li class="<?php echo ( $reference === 'services' ? 'tg-active' : ''); ?>">
+	<li class="servicos <?php echo ( $reference === 'services' ? 'tg-active' : ''); ?>">
 		<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'services', $user_identity); ?>">
 			<i class="lnr lnr-briefcase"></i>
 			<span><?php esc_html_e('Manage Services', 'listingo'); ?></span>

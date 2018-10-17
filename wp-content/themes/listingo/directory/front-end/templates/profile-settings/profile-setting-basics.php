@@ -43,6 +43,7 @@ if (isset($_GET['identity']) && !empty($_GET['identity'])) {
 						</div>
 					</div>
 				<?php }?>
+
 				<?php if( apply_filters('listingo_dev_manage_fields','true','last_name') === 'true' ){?>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 						<div class="form-group">
@@ -50,6 +51,7 @@ if (isset($_GET['identity']) && !empty($_GET['identity'])) {
 						</div>
 					</div>
 				<?php }?>
+
 				<?php if( apply_filters('listingo_dev_manage_fields','true','gender') === 'true' ){?>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 						<div class="form-group">
@@ -70,6 +72,7 @@ if (isset($_GET['identity']) && !empty($_GET['identity'])) {
 					<?php do_action('listingo_get_tooltip','element','tagline');?>
 				</div>
 			</div>
+
 			<?php if( apply_filters('listingo_dev_manage_fields','true','phone') === 'true' ){?>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 					<div class="form-group">
@@ -78,22 +81,26 @@ if (isset($_GET['identity']) && !empty($_GET['identity'])) {
 					</div>
 				</div>
 			<?php }?>
+
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 				<div class="form-group">
 					<input type="text" class="form-control" name="basics[zip]" value="<?php echo get_user_meta($user_identity, 'zip', true); ?>" placeholder="<?php esc_html_e('Zip/Postal Code', 'listingo'); ?>">
 					<?php do_action('listingo_get_tooltip','element','zip');?>
 				</div>
 			</div>
+
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 				<div class="form-group">
 					<input type="text" class="form-control" name="basics[fax]" value="<?php echo get_user_meta($user_identity, 'fax', true); ?>" placeholder="<?php esc_html_e('Fax', 'listingo'); ?>">
 				</div>
 			</div>
+
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 				<div class="form-group">
 					<input type="text" class="form-control" name="basics[user_url]" value="<?php echo esc_url( $current_user->user_url ); ?>" placeholder="<?php esc_html_e('URL', 'listingo'); ?>">
 				</div>
 			</div>
+			
 			<?php do_action('listingo_dev_add_extra_basics_fields',$user_identity);?>
 			<?php if( apply_filters('listingo_dev_manage_fields','true','description') === 'true' ){?>
 				<div class="col-xs-12 col-sm-12 col-md-12 pull-left">

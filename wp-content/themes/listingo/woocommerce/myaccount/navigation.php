@@ -50,7 +50,7 @@ $statuses	= listingo_get_status_list();
 	<aside id="tg-sidebar" class="tg-sidebar">
 		<div class="tg-widgetprofile">
 			<figure class="tg-profilebannerimg sp-profile-banner-img">
-				<img src="http://localhost/wp-content/uploads/2018/06/banner-cdb-270x120.jpg" alt="Profile Banner">
+				<img src="http://localhost/wp-content/uploads/2018/09/slider-03-270x120.jpg" alt="Profile Banner">
 				<a target="_blank" class="sp-view-profile" href="/author/<?php echo $current_user->user_login; ?>/"><span class="lnr lnr-eye"></span></a>
 			</figure>
 
@@ -95,7 +95,7 @@ $statuses	= listingo_get_status_list();
 					<li class="">
 						<a href="/dashboard/?ref=dashboard&amp;identity=<?php echo $current_user->ID; ?>">
 							<i class="lnr lnr-layers"></i>
-							<span>Bem Vindo</span>
+							<span>Meu Time</span>
 						</a>
 					</li>
 
@@ -113,7 +113,7 @@ $statuses	= listingo_get_status_list();
 						</a>
 					</li>
 
-					<li class="tg-hasdropdown">
+					<!--li class="tg-hasdropdown">
 						<a id="tg-btntoggle" class="tg-btntoggle" href="javascript:">
 							<i class="lnr lnr-apartment"></i>
 							<span><?php esc_html_e('Rede Credenciada', 'listingo'); ?></span>
@@ -132,7 +132,7 @@ $statuses	= listingo_get_status_list();
 								</a>
 							</li>
 						</ul>
-					</li>
+					</li-->
 
 					<li class="">
 						<a href="/dashboard/?ref=security_settings&amp;identity=<?php echo $current_user->ID; ?>">

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Listingo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 11:17+0000\n"
-"PO-Revision-Date: 2018-10-15 16:32+0000\n"
+"PO-Revision-Date: 2018-10-17 19:40+0000\n"
 "Last-Translator: Leonardo Falotico <leonardo.falotico@edev.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -1741,7 +1741,7 @@ msgstr ""
 
 #: includes/constants.php:211 includes/scripts.php:410
 msgid "Are you sure, you want to process this order?"
-msgstr ""
+msgstr "Tem certeza de que deseja comprar este voucher?"
 
 #: includes/constants.php:235 includes/scripts.php:433
 msgid "Are you sure, you want to reject this appintment."
@@ -2274,7 +2274,7 @@ msgstr ""
 #: directory/front-end/templates/dashboard-package.php:188
 #: framework-customizations/extensions/shortcodes/shortcodes/sp_packages/views/view.php:197
 msgid "Buy/Renew Now"
-msgstr ""
+msgstr "Comprar"
 
 #: directory/front-end/templates/dashboard-jobs.php:135
 #: framework-customizations/extensions/articles/views/listing.php:122
@@ -5492,7 +5492,7 @@ msgstr ""
 #: directory/back-end/hooks.php:473
 #: directory/front-end/dashboard-menu-templates/profile-menu-insights.php:38
 msgid "Insights"
-msgstr "Bem Vindos"
+msgstr "Meu Time"
 
 #: directory/front-end/hooks.php:3726
 msgid "Instagram Link"
@@ -6331,7 +6331,7 @@ msgstr ""
 #: directory/back-end/hooks.php:497
 #: directory/front-end/dashboard-menu-templates/profile-menu-appointments.php:42
 msgid "Manage Appointments"
-msgstr ""
+msgstr "Gerenciar Agenda"
 
 #: directory/back-end/hooks.php:494
 #: directory/front-end/dashboard-menu-templates/profile-menu-articles.php:41
@@ -8183,7 +8183,7 @@ msgstr ""
 
 #: includes/constants.php:210 includes/scripts.php:409
 msgid "Process order?"
-msgstr ""
+msgstr "Comprar Pedido?"
 
 #: includes/scripts.php:443
 msgid "Process this transaction"
@@ -8606,7 +8606,7 @@ msgstr "Resultados Encontrados"
 
 #: directory/front-end/woo-hooks.php:595
 msgid "Return to dashboard"
-msgstr ""
+msgstr "Retornar ao Painel"
 
 #: theme-config/tgmp/class-tgm-plugin-activation.php:397
 #: theme-config/tgmp/init.php:131
@@ -8615,7 +8615,7 @@ msgstr ""
 
 #: theme-config/tgmp/class-tgm-plugin-activation.php:398
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Retorne para o Painel"
 
 #: directory/front-end/bookings/functions.php:400
 #: directory/front-end/templates/dashboard-security-settings.php:44
@@ -11334,7 +11334,7 @@ msgstr ""
 #: directory/front-end/class-dashboard-menu.php:273
 #: framework-customizations/extensions/shortcodes/shortcodes/sp_featured_provider_banner/views/view.php:118
 msgid "View Profile"
-msgstr ""
+msgstr "Ver Perfil"
 
 #: framework-customizations/extensions/questionsanswers/class-fw-extension-questionsanswers.php:190
 #: framework-customizations/extensions/questionsanswers/class-fw-extension-questionsanswers.php:191

@@ -32,10 +32,17 @@ $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
 if( isset( $insight_page ) && $insight_page === 'enable' ){?>
-	<li class="<?php echo ( $reference === 'dashboard' ? 'tg-active' : ''); ?>">
+	<li class="meu-time <?php echo ( $reference === 'dashboard' ? 'tg-active' : ''); ?>">
 		<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'dashboard', $user_identity); ?>">
 			<i class="lnr lnr-layers"></i>
 			<span><?php esc_html_e('Insights', 'listingo'); ?></span>
+		</a>
+	</li>
+
+        <li class="agendar">
+		<a href="http://www.oisami.com/consultas/82288915048/">
+			<i class="lnr lnr-calendar-full"></i>
+			<span>Agendar Consulta</span>
 		</a>
 	</li>
 <?php }

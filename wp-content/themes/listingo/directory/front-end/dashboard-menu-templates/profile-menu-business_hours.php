@@ -36,7 +36,7 @@ if (apply_filters('listingo_is_setting_enabled', $user_identity, 'subscription_b
 	&& 	apply_filters('listingo_do_check_user_type', $user_identity) === true
 ) {
 	?>
-	<li class="<?php echo ( $reference === 'hours' ? 'tg-active' : ''); ?>">
+	<li class="horario-trabalho <?php echo ( $reference === 'hours' ? 'tg-active' : ''); ?>">
 		<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'hours', $user_identity); ?>">
 			<i class="lnr lnr-clock"></i>
 			<span><?php esc_html_e('Business Hours', 'listingo'); ?></span>

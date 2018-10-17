@@ -23,16 +23,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 ?>
 
-<?php do_action( 'woocommerce_product_meta_start' ); ?>
-<?php echo wc_get_product_category_list( $product->get_id(), ', ', '<p>' . _n( 'Category:', 'Categories:', count( $product->get_category_ids() ), 'woocommerce' ) . ' ', '</p>' ); ?>
-<?php do_action( 'woocommerce_product_meta_end' ); ?>
-
-<?php 
-	echo '<div class="dados-product"><span>' . get_the_term_list( $post->ID, 'laboratorio', '<p><strong>Laboratorio:</strong> ', ', ', '</p>') . '';
-	//echo '' . get_the_term_list( $post->ID, 'unidade', '<p><strong>Unidade:</strong> ', ', ', '</p>') . '</span>';
-	echo '' . get_the_term_list( $post->ID, 'codigo-tuss', '<p><strong>Código TUSS:</strong> ', ', ', '</p>') . '</span></div>';
-?>
-
 <?php if ( $price_html = $product->get_price_html() ) : ?>
-	<span class="price"><strong>Preço:</strong><?php echo $price_html; ?></span>
+	<span class="price"><?php echo $price_html; ?></span>
 <?php endif; ?>

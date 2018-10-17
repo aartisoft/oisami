@@ -125,6 +125,7 @@ $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_lati
 									</div>
 								</div>
                             <?php }?>
+                            
                             <?php if( apply_filters('listingo_dev_manage_fields','true','last_name') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 									<div class="form-group">
@@ -132,6 +133,7 @@ $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_lati
 									</div>
 								</div>
                             <?php }?>
+
                             <?php if( apply_filters('listingo_dev_manage_fields','true','gender') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 									<div class="form-group">
@@ -145,6 +147,7 @@ $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_lati
 									</div>
 								</div>
                             <?php }?>
+
                             <?php if( apply_filters('listingo_dev_manage_fields','true','phone') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 									<div class="form-group">
@@ -152,11 +155,13 @@ $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_lati
 									</div>
 								</div>
                             <?php }?>
+
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="basics[fax]" value="<?php echo get_user_meta($user_identity, 'fax', true); ?>" placeholder="<?php esc_html_e('Fax', 'listingo'); ?>">
                                 </div>
                             </div>
+
                             <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
                                 <div class="form-group">
                                     <textarea class="form-control basic-short-desc" name="basics[description]" placeholder="<?php esc_attr_e('Short description', 'listingo'); ?>"><?php echo get_user_meta($user_identity, 'description', true); ?></textarea>

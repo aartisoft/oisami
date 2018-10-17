@@ -9,7 +9,9 @@
  * @since 1.0
  */
 get_header();
+
 global $current_user,$woocommerce;
+
 $company_profile = fw_get_db_settings_option('company_profile');
 $com_title = fw_get_db_settings_option('com_title');
 $com_description = fw_get_db_settings_option('com_description');
@@ -20,15 +22,58 @@ $blogname = wp_specialchars_decode(get_option('blogname'), ENT_QUOTES);
 $package_id	= listingo_get_subscription_meta('subscription_id',$current_user->ID);
 $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__('No package purchased or package expired.','listingo');
 ?>
+
 <div id="tg-content" class="tg-content">
 	<div class="tg-dashboard">
 		<?php if (is_active_sidebar('user-dashboard-top')) {?>
+
 		<div class="tg-banneradd">
 			<figure>
 				<?php dynamic_sidebar('user-dashboard-top'); ?>
 			</figure>
 		</div>
+
 		<?php }?>
+
+		<div class="meus-medicos">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-left: 0px;">
+				<div class="tg-serviceprovider">
+					<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
+						<a href="#">
+							<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg" alt="Listingo">
+						</a>
+	        </figure>
+
+	        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 15px 0px;">
+	        	<div class="tg-title">
+	        		<h3><a href="#">Doutor</a></h3>
+	        	</div>
+	        	<a class="tg-btn" href="#">Agendar Consulta</a>
+	        </div>
+	      </div>
+	    </div>
+
+
+	    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-right: 0px;">
+				<div class="tg-serviceprovider">
+					<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
+						<a href="#">
+							<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg" alt="Listingo">
+						</a>
+	        </figure>
+
+	        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 42px 0px;">
+	        	<div class="tg-title">
+	        		<h3><a href="#">Enfermeira</a></h3>
+	        	</div>
+	        	<!--a class="tg-btn" href="#">Agendar Consulta</a-->
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+
+
 		<div class="tg-alertmessages tg-ceomessage">
 			<?php if( isset( $company_profile ) && $company_profile === 'enable') {?>
 			<?php if( !empty( $com_title ) && !empty( $com_description )) {?>
@@ -42,6 +87,7 @@ $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__
 								<img src="<?php echo esc_url($com_person_image['url']);?>" alt="<?php echo esc_attr( $blogname );?>">
 							</figure>
 						<?php }?>
+
 						<?php if( !empty( $com_person_desg )) {?>
 							<div class="tg-ceoinfo">
 								<span><?php esc_html_e('Regards','listingo');?>,</span>
@@ -49,11 +95,13 @@ $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__
 							</div>
 						<?php }?>
 					</div>
+
 					<?php if( !empty( $com_logo['url'] )) {?>
 						<strong class="tg-logo"><img src="<?php echo esc_url($com_logo['url']);?>" alt="<?php echo esc_attr( $blogname );?>"></strong>
 					<?php }?>
 				</div>
 			</div>
+
 			<?php }}?>
 			<div class="tg-dashboardnotifications">
 				<?php if ( apply_filters('listingo_get_theme_settings', 'jobs') == 'yes') {?>
@@ -67,7 +115,8 @@ $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__
 						</div>
 					</div>
 				<?php }?>
-				<div class="tg-dashboardnotificationholder">
+
+				<!--div class="tg-dashboardnotificationholder">
 					<div class="tg-dashboardnotofication tg-currentpackege">
 						<i class="lnr lnr-eye"></i>
 						<div class="tg-dashboardinfo">
@@ -75,9 +124,10 @@ $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__
 							<span><?php echo esc_attr($package_title);?></span>
 						</div>
 					</div>
-				</div>
+				</div-->
 			</div>
 		</div>
 	</div>
 </div>
+
 <?php get_footer(); ?>
