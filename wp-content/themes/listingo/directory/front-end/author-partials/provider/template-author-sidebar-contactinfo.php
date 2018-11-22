@@ -27,41 +27,29 @@ $profile_status	= get_user_meta($author_profile->ID,'profile_status',true);
 				<address><?php echo esc_attr($author_profile->address); ?></address>
 			</li>
 		<?php } ?>
-
 		<?php do_action('listingo_get_user_meta','phone',$author_profile);?>
-		<?php do_action('listingo_get_user_meta','email',$author_profile);?>
-
-		<!--
+        <?php do_action('listingo_get_user_meta','email',$author_profile);?>
 		<?php if (!empty($author_profile->fax)) { ?>
 			<li>
 				<i class="lnr lnr-printer"></i>
 				<span><?php echo esc_attr($author_profile->fax); ?></span>
 			</li>
 		<?php } ?>
-		-->
-
 		<?php if( !empty( $profile_status ) && $profile_status != 'sphide'){ ?>
 			<li>
 				<i class="lnr lnr-clock"></i>
 				<span><?php listingo_get_profile_status('','echo',$author_profile->ID);?></span>
 			</li>
 		<?php } ?>
-
 		<?php do_action('listingo_dev_print_extra_basics_fields',$author_profile);?>
-
-		<!--
 		<?php if (!empty($author_profile->user_url)) { ?>
 			<li>
 				<i class="lnr lnr-screen"></i>
 				<span><a href="<?php echo esc_url($author_profile->user_url); ?>" target="_blank"><?php echo esc_attr($author_profile->user_url); ?></a></span>
 			</li>
 		<?php } ?>
-		-->
-
 	</ul>
-
 	<?php get_template_part('directory/front-end/author-partials/provider/template-author-sidebar', 'social-media'); ?>
-	
 	<?php if (!empty($author_profile->address)) { ?>
 		<a class="tg-btn tg-btn-lg" href="//maps.google.com/maps?saddr=&amp;daddr=<?php echo esc_attr($author_profile->address); ?>" target="_blank"><?php esc_html_e('Get Directions', 'listingo'); ?></a>
 	<?php } ?>

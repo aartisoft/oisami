@@ -44,97 +44,101 @@ $profile_latitude = !empty($profile_latitude) ? $profile_latitude : $dir_longitu
 $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_latitude;
 ?>
 <div id="tg-content" class="tg-content">
-    <div class="tg-dashboard tg-dashboardprofilesetting">
-        <form class="tg-themeform sp-dashboard-profile-form">
-            <fieldset>
-                <div class="tg-dashboardbox tg-uploadphotos">
-                    <div class="tg-dashboardtitle">
-                        <h2><?php esc_html_e('Upload Photos', 'listingo'); ?></h2>
-                    </div>
-                    <div class="tg-uploadbox">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-left">
-                                <div class="tg-upload">
-                                    <div class="tg-uploadhead">
-                                        <span>
-                                            <h3><?php esc_html_e('Upload Profile Photo/Logo', 'listingo'); ?></h3>
-                                            <i class="fa fa-exclamation-circle"></i>
-                                        </span>
-                                        <i class="lnr lnr-upload"></i>
-                                    </div>
-                                    <div class="tg-box">
-                                        <label class="tg-fileuploadlabel" for="tg-profilephoto">
-                                            <a href="javascript:;" id="upload-profile-photo" class="tg-fileinput sp-upload-container">
-                                                <i class="lnr lnr-cloud-upload"></i>
-                                                <span><?php esc_html_e('Or Drag Your Files Here To Upload', 'listingo'); ?></span>
+  <div class="tg-dashboard tg-dashboardprofilesetting">
+    <form class="tg-themeform sp-dashboard-profile-form">
+      <fieldset>
+        <div class="tg-dashboardbox tg-uploadphotos">
+          <div class="tg-dashboardtitle">
+            <h2><?php esc_html_e('Upload Photos', 'listingo'); ?></h2>
+          </div>
 
-                                            </a> 
-                                            <div id="plupload-profile-container"></div>
-                                        </label>
-                                        <div class="tg-gallery">
-                                            <div class="tg-galleryimages sp-profile-photo" data-image_type="<?php echo isset($profile_avatars['image_type']) ? esc_attr($profile_avatars['image_type']) : esc_attr('profile_photo'); ?>">
-                                                <?php
-                                                if (!empty($profile_avatars['image_data'])) {
-                                                    $default = !empty($profile_avatars['default_image']) ? $profile_avatars['default_image'] : '';
-                                                    foreach ($profile_avatars['image_data'] as $key => $value) {
-                                                        $active = '';
-                                                        if ($value['image_id'] == $default) {
-                                                            $active = 'active';
-                                                        }
+          <div class="tg-uploadbox">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-left">
+                <div class="tg-upload">
+                  <div class="tg-uploadhead">
+                    <span>
+                      <h3><?php esc_html_e('Upload Profile Photo/Logo', 'listingo'); ?></h3>
+                      <i class="fa fa-exclamation-circle"></i>
+                    </span>
+                    <i class="lnr lnr-upload"></i>
+                  </div>
 
-                                                        $image_meta = '';
-                                                        if (!empty($value['image_id'])) {
-                                                            $image_meta = listingo_get_image_metadata($value['image_id']);
-                                                        }
-                                                        $image_alt = !empty($image_meta['alt']) ? $image_meta['alt'] : '';
-                                                        $image_title = !empty($image_meta['title']) ? $image_meta['title'] : '';
-                                                        ?>
-                                                        <div class="tg-galleryimg tg-galleryimg-item item-<?php echo intval($value['image_id']); ?> <?php echo esc_attr($active); ?>" data-id="<?php echo intval($value['image_id']); ?>">
-                                                            <figure>
-                                                                <?php if (!empty($value['thumb'])) { ?>
-                                                                    <img src="<?php echo esc_url($value['thumb']); ?>" alt="<?php echo!empty($image_alt) ? esc_attr($image_alt) : esc_attr($image_title); ?>">
-                                                                    <figcaption>
-                                                                        <i class="fa fa-check active-profile-photo"></i>
-                                                                        <i class="fa fa-close del-profile-photo"></i>
-                                                                    </figcaption>
-                                                                <?php } ?>
-                                                            </figure>
-                                                        </div>
-                                                        <?php
-                                                    }
-                                                }
-                                                ?>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                  <div class="tg-box">
+                    <label class="tg-fileuploadlabel" for="tg-profilephoto">
+                      <a href="javascript:;" id="upload-profile-photo" class="tg-fileinput sp-upload-container">
+                        <i class="lnr lnr-cloud-upload"></i>
+                        <span><?php esc_html_e('Or Drag Your Files Here To Upload', 'listingo'); ?></span>
+                      </a> 
+                      <div id="plupload-profile-container"></div>
+                    </label>
+
+                    <div class="tg-gallery">
+                      <div class="tg-galleryimages sp-profile-photo" data-image_type="<?php echo isset($profile_avatars['image_type']) ? esc_attr($profile_avatars['image_type']) : esc_attr('profile_photo'); ?>">
+                        <?php
+                        if (!empty($profile_avatars['image_data'])) {
+                          $default = !empty($profile_avatars['default_image']) ? $profile_avatars['default_image'] : '';
+                          foreach ($profile_avatars['image_data'] as $key => $value) {
+                            $active = '';
+                            if ($value['image_id'] == $default) {
+                              $active = 'active';
+                            }
+
+                            $image_meta = '';
+                            if (!empty($value['image_id'])) {
+                              $image_meta = listingo_get_image_metadata($value['image_id']);
+                            }
+
+                            $image_alt = !empty($image_meta['alt']) ? $image_meta['alt'] : '';
+                            $image_title = !empty($image_meta['title']) ? $image_meta['title'] : '';
+                        ?>
+
+                        <div class="tg-galleryimg tg-galleryimg-item item-<?php echo intval($value['image_id']); ?> <?php echo esc_attr($active); ?>" data-id="<?php echo intval($value['image_id']); ?>">
+                          <figure>
+                            <?php if (!empty($value['thumb'])) { ?>
+                              <img src="<?php echo esc_url($value['thumb']); ?>" alt="<?php echo!empty($image_alt) ? esc_attr($image_alt) : esc_attr($image_title); ?>">
+                              <figcaption>
+                                <i class="fa fa-check active-profile-photo"></i>
+                                <i class="fa fa-close del-profile-photo"></i>
+                              </figcaption>
+                            <?php } ?>
+                          </figure>
                         </div>
+
+                        <?php }}?>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <div class="tg-dashboardbox tg-basicinformation">
-                    <div class="tg-dashboardtitle">
-                        <h2><?php esc_html_e('Basic Infomartion', 'listingo'); ?></h2>
-                    </div>
-                    <div class="tg-basicinformationbox">
-                        <div class="row">
-                            <?php if( apply_filters('listingo_dev_manage_fields','true','first_name') === 'true' ){?>
-								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tg-dashboardbox tg-basicinformation">
+          <div class="tg-dashboardtitle">
+            <h2><?php esc_html_e('Basic Infomartion', 'listingo'); ?></h2>
+          </div>
+
+          <div class="tg-basicinformationbox">
+            <div class="row">
+              <?php if( apply_filters('listingo_dev_manage_fields','true','first_name') === 'true' ){?>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 									<div class="form-group">
 										<input type="text" class="form-control" name="basics[first_name]" value="<?php echo get_user_meta($user_identity, 'first_name', true); ?>" placeholder="<?php esc_html_e('First Name', 'listingo'); ?>">
 									</div>
 								</div>
-                            <?php }?>
-                            
-                            <?php if( apply_filters('listingo_dev_manage_fields','true','last_name') === 'true' ){?>
+              <?php }?>
+
+              <?php if( apply_filters('listingo_dev_manage_fields','true','last_name') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 									<div class="form-group">
 										<input type="text" class="form-control" name="basics[last_name]" value="<?php echo get_user_meta($user_identity, 'last_name', true); ?>" placeholder="<?php esc_html_e('Last Name', 'listingo'); ?>">
 									</div>
 								</div>
-                            <?php }?>
+              <?php }?>
 
-                            <?php if( apply_filters('listingo_dev_manage_fields','true','gender') === 'true' ){?>
+              <?php if( apply_filters('listingo_dev_manage_fields','true','gender') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 									<div class="form-group">
 										<span class="tg-select">
@@ -146,30 +150,30 @@ $profile_longitude = !empty($profile_longitude) ? $profile_longitude : $dir_lati
 										</span>
 									</div>
 								</div>
-                            <?php }?>
+              <?php }?>
 
-                            <?php if( apply_filters('listingo_dev_manage_fields','true','phone') === 'true' ){?>
+              <?php if( apply_filters('listingo_dev_manage_fields','true','phone') === 'true' ){?>
 								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 									<div class="form-group">
 										<input type="text" class="form-control" name="basics[phone]" value="<?php echo get_user_meta($user_identity, 'phone', true); ?>" placeholder="<?php esc_html_e('Phone', 'listingo'); ?>">
 									</div>
 								</div>
-                            <?php }?>
+              <?php }?>
 
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="basics[fax]" value="<?php echo get_user_meta($user_identity, 'fax', true); ?>" placeholder="<?php esc_html_e('Fax', 'listingo'); ?>">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
-                                <div class="form-group">
-                                    <textarea class="form-control basic-short-desc" name="basics[description]" placeholder="<?php esc_attr_e('Short description', 'listingo'); ?>"><?php echo get_user_meta($user_identity, 'description', true); ?></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <!--div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="basics[fax]" value="<?php echo get_user_meta($user_identity, 'fax', true); ?>" placeholder="<?php esc_html_e('Fax', 'listingo'); ?>">
                 </div>
+              </div-->
+
+              <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
+                <div class="form-group">
+                  <textarea class="form-control basic-short-desc" name="basics[description]" placeholder="<?php esc_attr_e('Short description', 'listingo'); ?>"><?php echo get_user_meta($user_identity, 'description', true); ?></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
                 <!---------------------------------------------------
                 * Profile Location

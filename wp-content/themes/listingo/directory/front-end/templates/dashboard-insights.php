@@ -35,42 +35,41 @@ $package_title	= !empty( $package_id ) ? get_the_title($package_id) : esc_html__
 
 		<?php }?>
 
-		<div class="meus-medicos">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-left: 0px;">
-				<div class="tg-serviceprovider">
-					<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
-						<a href="#">
-							<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg" alt="Listingo">
-						</a>
-	        </figure>
 
-	        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 15px 0px;">
-	        	<div class="tg-title">
-	        		<h3><a href="#">Doutor</a></h3>
-	        	</div>
-	        	<a class="tg-btn" href="#">Agendar Consulta</a>
-	        </div>
-	      </div>
-	    </div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-left: 0px;">
+			<div class="tg-serviceprovider">
+				<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
+					<a href="#">
+						<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg" alt="Listingo">
+					</a>
+        </figure>
+
+        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 15px 0px;">
+        	<div class="tg-title">
+        		<h3><a href="#">Doutor</a></h3>
+        	</div>
+        	<a class="tg-btn" href="#">Agendar Consulta</a>
+        </div>
+      </div>
+    </div>
 
 
-	    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-right: 0px;">
-				<div class="tg-serviceprovider">
-					<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
-						<a href="#">
-							<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg" alt="Listingo">
-						</a>
-	        </figure>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding-right: 0px;">
+			<div class="tg-serviceprovider">
+				<figure class="tg-featuredimg" style="width: 30%; float: left; margin-bottom: 0px;">
+					<a href="#">
+						<img class="searched-avatar" src="http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg" alt="Listingo">
+					</a>
+        </figure>
 
-	        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 42px 0px;">
-	        	<div class="tg-title">
-	        		<h3><a href="#">Enfermeira</a></h3>
-	        	</div>
-	        	<!--a class="tg-btn" href="#">Agendar Consulta</a-->
-	        </div>
-	      </div>
-	    </div>
-	  </div>
+        <div class="tg-companycontent" style="width: 65%; float: left; margin-bottom: 0px; margin-left: 5%; padding: 42px 0px;">
+        	<div class="tg-title">
+        		<h3><a href="#">Enfermeira</a></h3>
+        	</div>
+        	<!--a class="tg-btn" href="#">Agendar Consulta</a-->
+        </div>
+      </div>
+    </div>
 
 
 

@@ -32,6 +32,7 @@ $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
 if( apply_filters('listingo_is_favorite_allowed',$user_identity) === true ){?>
+
 	<?php if (apply_filters('listingo_is_setting_enabled', $user_identity, 'subscription_favorites') === true) { ?>
 		<li class="favoritos <?php echo ( $reference === 'favourite' ? 'tg-active' : ''); ?>">
 			<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'favourite', $user_identity); ?>">
@@ -40,22 +41,6 @@ if( apply_filters('listingo_is_favorite_allowed',$user_identity) === true ){?>
 				<?php do_action('listingo_get_tooltip','menu','menu_favorites');?>
 			</a>
 		</li>
-
-    <li class="pedidos">
-			<a href="/pacotes">
-				<i class="lnr lnr-plus-circle"></i>
-				<span>Vouchers Adicionais</span>
-				<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
-			</a>
-		</li>
-
-    <li class="voucher">
-			<a href="/minha-conta/orders/">
-				<i class="lnr lnr-tag"></i>
-				<span>Saldo de Vouchers</span>
-				<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
-			</a>
-		</li>
-
 	<?php } ?>
+	
 <?php }

@@ -3955,8 +3955,7 @@ if (!function_exists('listingo_get_user_meta')) {
 					if (!empty($userphone)) {?>
 						<li>
 							<i class="lnr lnr-phone-handset"></i>
-							<!-- <span><a href="tel:<?php echo esc_attr($userphone); ?>"><?php echo esc_attr($userphone); ?></a></span> -->
-              <span><a href="https://wa.me/+55<?php echo esc_attr($userphone); ?>" target="_blank"><?php echo esc_attr($userphone); ?></a></span>
+							<span><a href="tel:<?php echo esc_attr($userphone); ?>"><?php echo esc_attr($userphone); ?></a></span>
 						</li>
 					<?php }
 				}

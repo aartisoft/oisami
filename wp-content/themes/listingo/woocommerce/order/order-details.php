@@ -42,7 +42,7 @@ if ( $show_downloads ) {
 
 		<thead>
 			<tr>
-				<th class="woocommerce-table__product-name product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
+				<th class="woocommerce-table__product-name product-name" style="text-align: left;" width="70%"><?php _e( 'Product', 'woocommerce' ); ?></th>
 				<th class="woocommerce-table__product-table product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
 			</tr>
 		</thead>
@@ -73,7 +73,7 @@ if ( $show_downloads ) {
 				foreach ( $order->get_order_item_totals() as $key => $total ) {
 					?>
 					<tr>
-						<th scope="row"><?php echo $total['label']; ?></th>
+						<th scope="row" style="text-align: left;"><?php echo $total['label']; ?></th>
 						<td><?php echo $total['value']; ?></td>
 					</tr>
 					<?php
@@ -81,7 +81,7 @@ if ( $show_downloads ) {
 			?>
 			<?php if ( $order->get_customer_note() ) : ?>
 				<tr>
-					<th><?php _e( 'Note:', 'woocommerce' ); ?></th>
+					<th style="text-align: left;"><?php _e( 'Note:', 'woocommerce' ); ?></th>
 					<td><?php echo wptexturize( $order->get_customer_note() ); ?></td>
 				</tr>
 			<?php endif; ?>

@@ -8,8 +8,6 @@
  */
 
 
-
-
 /*==============================================
     Para customizar
 ===============================================*/
@@ -442,9 +440,10 @@ add_shortcode( 'troca-senha', 'vm50_troca_senha' );
 function vm50_troca_senha() {
     $saida = '';
     $saida .= '<div id="password-reset-form" class="widecolumn">';
-    $saida .= '<h3>NOVA SENHA</h3>';
+    $saida .= '<div class="tg-bordertitle">';
+    $saida .= '<h3>Nova Senha</h3>';
+    $saida .= '</div>';
     $saida .= '<form name="resetpassform" id="resetpassform" action="#" method="post" autocomplete="off">';
-    $saida .= '<p id="vm50_msg_troca_senha"></p>';
     $saida .= '<p>';
     $saida .= '<label for="pass1">Nova Senha</label>';
     $saida .= '<input type="password" name="pass1" id="pass1" class="input" size="20" value="" autocomplete="off" />';
@@ -457,6 +456,7 @@ function vm50_troca_senha() {
     $saida .= '<p class="resetpass-submit">';
     $saida .= '<input type="button" name="vm50_trocar_senha" id="vm50_trocar_senha" onclick="vm50_trocarsenha();" value="Trocar a senha" />';
     $saida .= '</p>';
+    $saida .= '<p id="vm50_msg_troca_senha"></p>';
     $saida .= '</form>';
     $saida .= '</div>';
     return $saida;
@@ -477,7 +477,7 @@ function vm50_trocar_a_senha() {
         $usuario = wp_get_current_user();
         update_user_meta( $usuario->ID, 'vm50_primeiro_login', '1' );
         wp_set_password( $senha, $usuario->ID );
-        $saida = 'Senha trocada com sucesso. Clique <a href="'.site_url('/'.VM50_SAMI_PAGINA_LOGIN.'/').'">aqui</a> para fazer seu login novamente.';
+        $saida = '<span>Senha trocada com sucesso. Clique <a href="'.site_url('/'.VM50_SAMI_PAGINA_LOGIN.'/').'">aqui</a> para fazer seu login novamente.</span>';
     }
     echo $saida;
     die();
@@ -505,66 +505,84 @@ function vm50_confirma_dados() {
     $estado      = get_user_meta( $userid, 'billing_state', true);
     $saida = '';
     $saida .= '<div id="vm50-confirma-dados" class="widecolumn">';
-    $saida .= '<h3>MEUS DADOS</h3>';
+    $saida .= '<div class="tg-bordertitle">';
+    $saida .= '<h3>Meus Dados</h3>';
+    $saida .= '</div>';
+    $saida .= '<fieldset>';
+
     $saida .= '<form name="confirmadados" id="confirmadados" action="#" method="post" autocomplete="off">';
     $saida .= '<input type="hidden" name="vm50_userid" id="vm50_userid" value="'.$userid.'" />';
-    $saida .= '<p id="vm50_msg_confirma_dados"></p>';
-    $saida .= '<p>';
-    $saida .= '<table>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Nome</td>';
-    $saida .= '<td><input type="text" name="vm50_nome" id="vm50_nome" placeholder="Nome" value="'.$dados_usr->first_name.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Sobrenome</td>';
-    $saida .= '<td><input type="text" name="vm50_sobrenome" id="vm50_sobrenome" placeholder="Sobrenome" value="'.$dados_usr->last_name.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Email</td>';
-    $saida .= '<td><input type="text" name="vm50_email" id="vm50_email" placeholder="Email" value="'.$dados_usr->user_email.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">CPF</td>';
-    $saida .= '<td><input type="text" name="vm50_cpf" id="vm50_cpf" placeholder="CPF" value="'.$cpf.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Telefone</td>';
-    $saida .= '<td><input type="text" name="vm50_telefone" id="vm50_telefone" placeholder="Telefone" value="'.$telefone.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Endereço</td>';
-    $saida .= '<td><input type="text" name="vm50_endereco" id="vm50_endereco" placeholder="Endereço" value="'.$endereco.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Número</td>';
-    $saida .= '<td><input type="text" name="vm50_numero" id="vm50_numero" placeholder="Número" value="'.$numero.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Complemento</td>';
-    $saida .= '<td><input type="text" name="vm50_complemento" id="vm50_complemento" placeholder="Complemento" value="'.$complemento.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Bairro</td>';
-    $saida .= '<td><input type="text" name="vm50_bairro" id="vm50_bairro" placeholder="Bairro" value="'.$bairro.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Cidade</td>';
-    $saida .= '<td><input type="text" name="vm50_cidade" id="vm50_cidade" placeholder="Cidade" value="'.$cidade.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">CEP</td>';
-    $saida .= '<td><input type="text" name="vm50_cep" id="vm50_cep" placeholder="CEP" value="'.$cep.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '<tr>';
-    $saida .= '<td class="vm50_confirma_dados_titulo">Estado</td>';
-    $saida .= '<td><input type="text" name="vm50_estado" id="vm50_estado" placeholder="Estado" value="'.$estado.'" /></td>';
-    $saida .= '</tr>';
-    $saida .= '</table>';
+
+    $saida .= '<p id="alert">Seu Nome, E-mail ou CPF estão errados? Envie um E-mail para <a href="mailto:cadastro@oisami.com">cadastro@oisami.com</a> para corrigirmos</p>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Nome <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_nome" id="vm50_nome" placeholder="Nome" value="'.$dados_usr->first_name.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Sobrenome <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_sobrenome" id="vm50_sobrenome" placeholder="Sobrenome" value="'.$dados_usr->last_name.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Email <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_email" id="vm50_email" placeholder="Email" value="'.$dados_usr->user_email.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">CPF <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_cpf" id="vm50_cpf" placeholder="CPF" value="'.$cpf.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Telefone <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_telefone" id="vm50_telefone" placeholder="Telefone" value="'.$telefone.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">CEP <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_cep" id="vm50_cep" placeholder="CEP" value="'.$cep.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Endereço <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_endereco" id="vm50_endereco" placeholder="Endereço" value="'.$endereco.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Número <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_numero" id="vm50_numero" placeholder="Número" value="'.$numero.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Complemento <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_complemento" id="vm50_complemento" placeholder="Complemento" value="'.$complemento.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Bairro <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_bairro" id="vm50_bairro" placeholder="Bairro" value="'.$bairro.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Cidade <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_cidade" id="vm50_cidade" placeholder="Cidade" value="'.$cidade.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Estado <span>*</span></label>';
+    $saida .= '<input type="text" name="vm50_estado" id="vm50_estado" placeholder="Estado" value="'.$estado.'" />';
+    $saida .= '</div>';
+
     $saida .= '<p class="vm50-confirma-dados-submit">';
     $saida .= '<input type="button" name="vm50_confirmar_dados" id="vm50_confirmar_dados" onclick="vm50_confirmardados();" value="Confirmar dados" />';
     $saida .= '</p>';
+
+    $saida .= '<p id="vm50_msg_confirma_dados"></p>';
+
     $saida .= '</form>';
+    $saida .= '</fieldset>';
     $saida .= '</div>';
     return $saida;
 }
@@ -759,7 +777,7 @@ function vm50_entendimento() {
     $usuario = wp_get_current_user();
     update_user_meta( $usuario->ID, 'vm50_sobre_sami', '1' );
     $cliente = get_user_meta( $usuario->ID, VM50_SAMI_META_CLIENTE, true );
-    $medico_familia = site_url('/find/');
+    $medico_familia = site_url('/dashboard/');
     $medico_familia .= '?keyword=&geo=&geo_distance=50&lat=&long=&category=consulta&sortby=&orderby=&showposts=&sub_categories[]=medico-de-familia&zip=&country=&city=&gender=&lang=&view=&cliente_atendido='.$cliente;
     $saida = '<a href="'.$medico_familia.'"><input type="button" value="Continuar" /></a>';
     echo $saida;

@@ -39,10 +39,26 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 		</a>
 	</li>
 
-        <li class="agendar">
+  <li class="agendar">
 		<a href="http://www.oisami.com/consultas/82288915048/">
 			<i class="lnr lnr-calendar-full"></i>
 			<span>Agendar Consulta</span>
+		</a>
+	</li>
+
+	<li class="pedidos">
+		<a href="/pacotes">
+			<i class="lnr lnr-plus-circle"></i>
+			<span>Vouchers Adicionais</span>
+			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
+		</a>
+	</li>
+
+	<li class="voucher">
+		<a href="/minha-conta/orders/">
+			<i class="lnr lnr-tag"></i>
+			<span>Saldo de Vouchers</span>
+			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 		</a>
 	</li>
 <?php }

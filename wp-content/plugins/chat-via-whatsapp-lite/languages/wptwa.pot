@@ -1,0 +1,148 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Chat Slide-In\n"
+"POT-Creation-Date: 2017-11-17 09:51+0700\n"
+"PO-Revision-Date: 2017-06-26 08:15+0700\n"
+"Last-Translator: \n"
+"Language-Team: Satu Dua <satuduaco@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: controller/settings.php:66
+msgid "Settings saved"
+msgstr ""
+
+#: includes/WPTWA_Activation.php:25
+msgid "Chat with us on WhatsApp"
+msgstr ""
+
+#: includes/WPTWA_Activation.php:28
+msgid "Hi there! Click one of our representatives below and we will get back to you as soon as possible."
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:25
+msgid "WhatsApp Click"
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:76
+msgid "Settings"
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:77
+msgid "Upgrade"
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:86
+msgid "Thank you for using this plugin. Support the developer by"
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:86
+msgid "buying the premium version"
+msgstr ""
+
+#: includes/WPTWA_Utils.php:42
+msgid "Something is wrong: The view is not set yet. Please contact the developer."
+msgstr ""
+
+#: includes/WPTWA_Utils.php:45
+msgid "Something is wrong: The view not found. Please contact the developer."
+msgstr ""
+
+#: view/settings.php:28
+msgid "WhatsApp Number or Group Chat URL"
+msgstr ""
+
+#: view/settings.php:31
+#, php-format
+msgid "This field is required. Either a WhatsApp number or a Group Chat URL. If it is a WhatsApp number, it should be in international format. Refer to %s for a detailed explanation."
+msgstr ""
+
+#: view/settings.php:35
+msgid "Name"
+msgstr ""
+
+#: view/settings.php:38
+msgid "Name is also required. If left blank, this account will not be saved."
+msgstr ""
+
+#: view/settings.php:42
+msgid "Title"
+msgstr ""
+
+#: view/settings.php:45
+msgid "Title will be displayed above Name."
+msgstr ""
+
+#: view/settings.php:47
+msgid "Remove this account"
+msgstr ""
+
+#: view/settings.php:49
+msgid "Move up"
+msgstr ""
+
+#: view/settings.php:50
+msgid "Move down"
+msgstr ""
+
+#: view/settings.php:65
+msgid "WhatsApp Click to Chat Settings"
+msgstr ""
+
+#: view/settings.php:71
+msgid "Display Settings"
+msgstr ""
+
+#: view/settings.php:76
+msgid "Toggle Text"
+msgstr ""
+
+#: view/settings.php:82
+msgid "Description"
+msgstr ""
+
+#: view/settings.php:88
+msgid "Box Position"
+msgstr ""
+
+#: view/settings.php:90
+msgid "Bottom Left"
+msgstr ""
+
+#: view/settings.php:91
+msgid "Bottom Right"
+msgstr ""
+
+#: view/settings.php:95
+msgid "Display based on screen width"
+msgstr ""
+
+#: view/settings.php:97
+msgid "Hide on large screen (wider than 782px)"
+msgstr ""
+
+#: view/settings.php:98
+msgid "Hide on small screen (narrower than 783px)"
+msgstr ""
+
+#: view/settings.php:104
+msgid "WhatsApp Accounts"
+msgstr ""
+
+#: view/settings.php:130
+msgid "Add Account"
+msgstr ""
+
+#: view/settings.php:139
+msgid "Save Changes"
+msgstr ""

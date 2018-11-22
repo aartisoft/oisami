@@ -50,7 +50,7 @@ $statuses	= listingo_get_status_list();
 	<aside id="tg-sidebar" class="tg-sidebar">
 		<div class="tg-widgetprofile">
 			<figure class="tg-profilebannerimg sp-profile-banner-img">
-				<img src="http://localhost/wp-content/uploads/2018/09/slider-03-270x120.jpg" alt="Profile Banner">
+				<img src="http://localhost/wp-content/uploads/2018/06/banner-cdb-270x120.jpg" alt="Profile Banner">
 				<a target="_blank" class="sp-view-profile" href="/author/<?php echo $current_user->user_login; ?>/"><span class="lnr lnr-eye"></span></a>
 			</figure>
 
@@ -95,49 +95,44 @@ $statuses	= listingo_get_status_list();
 					<li class="">
 						<a href="/dashboard/?ref=dashboard&amp;identity=<?php echo $current_user->ID; ?>">
 							<i class="lnr lnr-layers"></i>
-							<span>Meu Time</span>
+							<span><?php esc_html_e('Insights', 'listingo'); ?></span>
+						</a>
+					</li>
+
+					<li class="agendar">
+						<a href="http://www.oisami.com/consultas/82288915048/">
+							<i class="lnr lnr-calendar-full"></i>
+							<span>Agendar Consulta</span>
+						</a>
+					</li>
+
+					<li class="pedidos">
+						<a href="/pacotes">
+							<i class="lnr lnr-plus-circle"></i>
+							<span>Vouchers Adicionais</span>
+							<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
+						</a>
+					</li>
+
+					<li class="voucher">
+						<a href="/minha-conta/orders/">
+							<i class="lnr lnr-tag"></i>
+							<span>Saldo de Vouchers</span>
+							<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 						</a>
 					</li>
 
 					<li class="">
 						<a href="/dashboard/?ref=settings&amp;identity=<?php echo $current_user->ID; ?>">
 							<i class="lnr lnr-cog"></i>
-							<span>Configurações de Perfil</span>
+							<span><?php esc_html_e('Profile Settings', 'listingo'); ?></span>
 						</a>
 					</li>
-
-					<li class="">
-						<a href="/dashboard/?ref=favourite&amp;identity=<?php echo $current_user->ID; ?>">
-							<i class="lnr lnr-heart"></i>
-							<span>Lista de Favoritos</span>
-						</a>
-					</li>
-
-					<!--li class="tg-hasdropdown">
-						<a id="tg-btntoggle" class="tg-btntoggle" href="javascript:">
-							<i class="lnr lnr-apartment"></i>
-							<span><?php esc_html_e('Rede Credenciada', 'listingo'); ?></span>
-							<?php do_action('listingo_get_tooltip','menu','menu_appointments');?>
-						</a>
-						<ul class="tg-emailmenu">
-							<li class="">
-								<a href="/minha-conta/pedidos">
-									<span>Pedidos</span>
-								</a>
-							</li>
-
-							<li class="">
-								<a href="/minha-conta/vouchers">
-									<span>Vouchers</span>
-								</a>
-							</li>
-						</ul>
-					</li-->
 
 					<li class="">
 						<a href="/dashboard/?ref=security_settings&amp;identity=<?php echo $current_user->ID; ?>">
 							<i class="lnr lnr-construction"></i>
-							<span>Configurações de Segurança</span>
+							<span><?php esc_html_e('Security Settings', 'listingo'); ?></span>
 						</a>
 					</li>
 
