@@ -31,6 +31,27 @@ if (function_exists('fw_get_db_settings_option')) {
 $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
+$m_foto = 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg';
+$e_foto = 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg';
+$m_nome = $e_nome = $m_url = '';
+$medico_id = get_user_meta( $current_user->ID, VM50_SAMI_META_MEDICO_FAMILIA, true );
+
+if ( $medico_id !='' ) {
+    $dados_usr = get_userdata( $medico_id );
+    $m_foto    = get_avatar_url( $medico_id, array( 'default' => 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg') );
+    $m_nome    = $dados_usr->first_name . ' ' . $dados_usr->last_name;
+    $m_url     = site_url('/consultas/') . $dados_usr->user_nicename;
+    $enferm_id = get_user_meta( $medico_id, VM50_SAMI_META_ENFERMEIRO, true );
+
+    if ( $enferm_id !='' ) {
+        $dados_usr = get_userdata( $enferm_id );
+        $e_foto    = get_avatar_url( $enferm_id, array( 'default' => 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg') );
+        $e_nome    = $dados_usr->first_name . ' ' . $dados_usr->last_name;
+        $e_url     = site_url('/consultas/') . $dados_usr->user_nicename;
+        $enferm_id = get_user_meta( $medico_id, VM50_SAMI_META_ENFERMEIRO, true );
+    }
+}
+
 if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 	<li class="meu-time <?php echo ( $reference === 'dashboard' ? 'tg-active' : ''); ?>">
 		<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'dashboard', $user_identity); ?>">
@@ -40,9 +61,30 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 	</li>
 
   <li class="agendar">
-		<a href="http://www.oisami.com/consultas/82288915048/">
+		<a href="<?php echo $m_url; ?>">
 			<i class="lnr lnr-calendar-full"></i>
 			<span>Agendar Consulta</span>
+		</a>
+	</li>
+
+	<li class="clientes">
+		<a href="/dashboard/importacao/">
+			<i class="lnr lnr-upload"></i>
+			<span>Importar</span>
+		</a>
+	</li>
+
+	<li class="clientes">
+		<a href="/dashboard/medicos-do-cliente/">
+			<i class="lnr lnr-layers"></i>
+			<span>Administrar Cliente</span>
+		</a>
+	</li>
+
+	<li class="pacientes">
+		<a href="/dashboard/lista-usuarios/">
+			<i class="lnr lnr-magnifier"></i>
+			<span>Pesquisar Pacientes</span>
 		</a>
 	</li>
 

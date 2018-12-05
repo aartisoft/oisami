@@ -51,6 +51,7 @@ function vm50_sami_enqueue() {
     $translation_array = array('samiAjaxUrl' => admin_url('admin-ajax.php'));
     wp_localize_script('vm50_sami_javascript', 'referenciaSami', $translation_array);
     wp_enqueue_script('vm50_sami_javascript');
+    wp_enqueue_script( 'vm50_sami_format', plugins_url('js/jquery.mask.min.js', __FILE__), 'jquery', $ver, true );
 }
 
 
@@ -488,12 +489,47 @@ function vm50_trocar_a_senha() {
 
 
 /*==============================================
+    Lista estados
+===============================================*/
+function vm50_lista_estados( $estado ) {
+    $estados = array("AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MS", "MT", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO");
+    $saida = '';
+    for ($es=0; $es<count($estados); $es++) {
+        $saida .= '<option value="'.$estados[$es].'"';
+        if ( $estado == $estados[$es] ) $saida .= ' selected';
+        $saida .= '>'.$estados[$es].'</option>';
+    }
+    return $saida;
+}
+
+
+
+
+/*==============================================
+    Lista genero
+===============================================*/
+function vm50_lista_genero( $genero ) {
+    $generos = array("M", "F");
+    $saida = '';
+    for ($es=0; $es<count($generos); $es++) {
+        $saida .= '<option value="'.$generos[$es].'"';
+        if ( $genero == $generos[$es] ) $saida .= ' selected';
+        $saida .= '>'.$generos[$es].'</option>';
+    }
+    return $saida;
+}
+
+
+
+
+/*==============================================
     Formulario de confirmar dados
 ===============================================*/
 add_shortcode( 'confirma-dados', 'vm50_confirma_dados' );
 function vm50_confirma_dados() {
     $userid      = get_current_user_id();
     $dados_usr   = get_userdata( $userid );
+    $genero      = get_user_meta( $userid, 'vm50_genero', true);
     $cpf         = get_user_meta( $userid, 'billing_cpf', true);
     $telefone    = get_user_meta( $userid, 'billing_phone', true);
     $endereco    = get_user_meta( $userid, 'billing_address_1', true);
@@ -523,6 +559,13 @@ function vm50_confirma_dados() {
     $saida .= '<div class="form-group">';
     $saida .= '<label class="vm50_confirma_dados_titulo">Sobrenome <span>*</span></label>';
     $saida .= '<input type="text" name="vm50_sobrenome" id="vm50_sobrenome" placeholder="Sobrenome" value="'.$dados_usr->last_name.'" />';
+    $saida .= '</div>';
+
+    $saida .= '<div class="form-group">';
+    $saida .= '<label class="vm50_confirma_dados_titulo">Gênero <span>*</span></label>';
+    $saida .= '<select name="vm50_genero" id="vm50_genero">';
+    $saida .= vm50_lista_genero( $genero );
+    $saida .= '</select>';
     $saida .= '</div>';
 
     $saida .= '<div class="form-group">';
@@ -572,7 +615,10 @@ function vm50_confirma_dados() {
 
     $saida .= '<div class="form-group">';
     $saida .= '<label class="vm50_confirma_dados_titulo">Estado <span>*</span></label>';
-    $saida .= '<input type="text" name="vm50_estado" id="vm50_estado" placeholder="Estado" value="'.$estado.'" />';
+    $saida .= '<select name="vm50_estado" id="vm50_estado" />';
+    $saida .= '<option value="">Selecione</option>';
+    $saida .= vm50_lista_estados( $estado );
+    $saida .= '</select>';
     $saida .= '</div>';
 
     $saida .= '<p class="vm50-confirma-dados-submit">';
@@ -610,6 +656,7 @@ function vm50_confirmar_dados() {
     $cidade      = ( isset($_POST['cidade']) )      ? $_POST['cidade']      : '';
     $cep         = ( isset($_POST['cep']) )         ? $_POST['cep']         : '';
     $estado      = ( isset($_POST['estado']) )      ? $_POST['estado']      : '';
+    $genero      = ( isset($_POST['genero']) )      ? $_POST['genero']      : '';
     $usr_data    = array();
     if ( $user_id != '' ) {
         $usr_data['ID'] = $user_id;
@@ -664,10 +711,14 @@ function vm50_confirmar_dados() {
             update_user_meta( $user_id, 'billing_state', $estado );
             update_user_meta( $user_id, 'shipping_state', $estado );
         }
+        if ( $genero != '' ) {
+            update_user_meta( $user_id, 'vm50_genero', $genero );
+        }
         $user_id = wp_update_user( $usr_data );
         update_user_meta( $user_id, 'vm50_revisado', '1' );
         $saida = '<a href="'.site_url('/'.VM50_SAMI_PAGINA_ACEITE.'/').'"><input type="button" value="Continuar" /></a>';
         $saida = 'Clique <a href="'.site_url('/'.VM50_SAMI_PAGINA_ACEITE.'/').'">aqui</a> para continuar.';
+        $saida = site_url('/'.VM50_SAMI_PAGINA_ACEITE.'/');
     }
     echo $saida;
     die();
@@ -700,6 +751,7 @@ function vm50_aceitar() {
     update_user_meta( $usuario->ID, 'vm50_aceite', '1' );
     $saida = '<a href="'.site_url('/'.VM50_SAMI_PAGINA_PESQUISA.'/').'"><input type="button" value="Continuar" /></a> ';
     $saida = 'Clique <a href="'.site_url('/'.VM50_SAMI_PAGINA_PESQUISA.'/').'">aqui</a> para continuar.';
+    $saida = site_url('/'.VM50_SAMI_PAGINA_PESQUISA.'/');
     echo $saida;
     die();
     return;
@@ -731,6 +783,7 @@ function vm50_pesquisar() {
     update_user_meta( $usuario->ID, 'vm50_pesquisa', '1' );
     $saida = '<a href="'.site_url('/'.VM50_SAMI_PAGINA_SOBRESAMI.'/').'"><input type="button" value="Continuar" /></a>';
     $saida = 'Clique <a href="'.site_url('/'.VM50_SAMI_PAGINA_SOBRESAMI.'/').'">aqui</a> para continuar.';
+    $saida = site_url('/'.VM50_SAMI_PAGINA_SOBRESAMI.'/');
     echo $saida;
     die();
     return;
@@ -780,6 +833,7 @@ function vm50_entendimento() {
     $medico_familia = site_url('/dashboard/');
     $medico_familia .= '?keyword=&geo=&geo_distance=50&lat=&long=&category=consulta&sortby=&orderby=&showposts=&sub_categories[]=medico-de-familia&zip=&country=&city=&gender=&lang=&view=&cliente_atendido='.$cliente;
     $saida = '<a href="'.$medico_familia.'"><input type="button" value="Continuar" /></a>';
+    $saida = $medico_familia;
     echo $saida;
     die();
     return;
