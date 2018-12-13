@@ -360,13 +360,16 @@ function vm50_sami_importa( ) {
 function vm50_sami_importa_muda_tipo( tipo ) {
     if ( tipo == 'C' ) {
         jQuery('#vm50_sami_importa_cliente_area').hide();
-        jQuery('#vm50_sami_importa_medico_area').hide();
+        jQuery('#vm50_sami_importa_medico_area').show();
+        jQuery('#vm50_escolhe_medico_checkbox').show();
     } else if ( tipo == 'M' ) {
         jQuery('#vm50_sami_importa_cliente_area').hide();
         jQuery('#vm50_sami_importa_medico_area').hide();
+        jQuery('#vm50_escolhe_medico_checkbox').hide();
     } else if ( tipo == 'U' ) {
         jQuery('#vm50_sami_importa_cliente_area').show();
         jQuery('#vm50_sami_importa_medico_area').show();
+        jQuery('#vm50_escolhe_medico_checkbox').hide();
     }
     return;
 }

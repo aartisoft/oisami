@@ -3,7 +3,7 @@
 Plugin Name: WP Custom Login Page Logo
 Plugin URI: http://wp.larsactionhero.com/development/plugins/wp-custom-login-page-logo/
 Description: Customize the admin logo on /wp-admin login page.
-Version: 1.4.8.3
+Version: 1.4.8.4
 Author: Lars Ortlepp
 Author URI: http://larsactionhero.com
 License: GPL2
@@ -94,8 +94,8 @@ function wpclpl_plugin_links( $links ){
 	$wpclpl_docs_url = 'http://wp.larsactionhero.com/development/plugins/wp-custom-login-page-logo/';
 
 	$wpclpl_plugin_links = array(
-		'<a href="'.$wpclpl_settings_url.'">' . __( 'Settings', 'wpclpl' ) . '</a>',
-	    /*'<a href="'.$wpclpl_docs_url.'" target="_blank">' . __( 'Documentation', 'wpclpl' ) . '</a>'*/
+		'<a href="'.$wpclpl_settings_url.'">' . _e( 'Settings', 'wpclpl' ) . '</a>',
+	    /*'<a href="'.$wpclpl_docs_url.'" target="_blank">' . _e( 'Documentation', 'wpclpl' ) . '</a>'*/
 	);
         
 	return array_merge( $wpclpl_plugin_links, $links );    
@@ -296,7 +296,7 @@ function wpclpl_settings_add_text(){
 	$wpclpl_additional_text = ( !empty( $wpclpl_plugin_options['wpclpl_additional_text']) ) ? $wpclpl_plugin_options['wpclpl_additional_text'] : '';
 	
 	?>
-	<input name="wpclpl_additional_text" type="text" class="wpclpl-additional-text" placeholder="<?php _e('This text will appear below the custom logo','wpclpl'); ?>." value="<?php echo  $wpclpl_plugin_options['wpclpl_additional_text']; ?>" />
+	<input name="wpclpl_additional_text" type="text" class="wpclpl-additional-text" placeholder="<?php esc_attr_e('This text will appear below the custom logo','wpclpl'); ?>." value="<?php echo  $wpclpl_plugin_options['wpclpl_additional_text']; ?>" />
 	<br />
 	<span class="wpclpl-description"><?php _e('Add some optional user information. This text will appear below the custom logo.','wpclpl'); ?></span>
 	<?php
@@ -381,7 +381,7 @@ function wpclpl_settings_custom_css($return = false){
 		<?php _e('There\'s nothing to see at the beginning because the login page logo is styled by default.','wpclpl') ?>
 		<br /><?php _e('You also may load an example css to start and customize it.','wpclpl'); ?></strong>
 		
-		<p><input class="wpclpl-logo-example-css-btn button" type="button" value="<?php _e('Load example CSS','wpclpl'); ?>" /> </p>
+		<p><input class="wpclpl-logo-example-css-btn button" type="button" value="<?php esc_attr_e('Load example CSS','wpclpl'); ?>" /> </p>
 
 		<p class="wpclpl-notice">
 			<strong><?php _e('Note:  There\'s no need to insert an','wpclpl'); ?> </strong><code><?php _e('background-image','wpclpl'); ?></code> <strong><?php _e('value here, it will be added by default to the final output.','wpclpl'); ?></strong>
@@ -426,7 +426,7 @@ function wpclpl_admin_options_page(){ ?>
 				<p><?php _e('This will remove the custom image.<br />(File will be kept in the library).','wpclpl'); ?>
 				<br />
 				<?php _e('Are you sure you want to continue?','wpclpl'); ?></p>
-				<p><input type="button" class="wpclpl-reset-cancel button-secondary" value="<?php _e('No, keep settings', 'wpclpl'); ?>" /> <input type="button" class="wpclpl-reset-confirmed button-primary" value="<?php _e('Reset all settings', 'wpclpl'); ?>" /></p>
+				<p><input type="button" class="wpclpl-reset-cancel button-secondary" value="<?php esc_attr_e('No, keep settings', 'wpclpl'); ?>" /> <input type="button" class="wpclpl-reset-confirmed button-primary" value="<?php esc_attr_e('Reset all settings', 'wpclpl'); ?>" /></p>
 			</div>			
 		</div>
 			
@@ -438,7 +438,7 @@ function wpclpl_admin_options_page(){ ?>
 				<p><?php _e('This will reset all your settings, including the custom image, additonal text and any entered styles.', 'wpclpl'); ?>
 				<br />
 				<?php _e('Are you sure you want to continue?','wpclpl'); ?></p>
-				<p><input type="button" class="wpclpl-reset-cancel button-secondary" value="<?php _e('No, keep settings', 'wpclpl'); ?>" /> <input type="button" class="wpclpl-reset-confirmed button-primary" value="<?php _e('Reset all settings', 'wpclpl'); ?>" /></p>
+				<p><input type="button" class="wpclpl-reset-cancel button-secondary" value="<?php esc_attr_e('No, keep settings', 'wpclpl'); ?>" /> <input type="button" class="wpclpl-reset-confirmed button-primary" value="<?php esc_attr_e('Reset all settings', 'wpclpl'); ?>" /></p>
 			</div>			
 		</div>	
 			
@@ -559,7 +559,6 @@ function wpclpl_footer_js(){
 	// js doesn't like line breaks in strings...
 	$wpclpl_additional_text = str_ireplace(array("\r","\n",'\r','\n'),'', $wpclpl_plugin_options['wpclpl_additional_text']);
 
-	/* remove php missing index notice in 1.2.9 */	
 	$wpclpl_loggedout = (isset($_GET['loggedout']) && $_GET['loggedout']!="true") ? htmlentities(strip_tags($_GET['loggedout'])) : '';
 ?>
 
@@ -569,7 +568,7 @@ function wpclpl_footer_js(){
 	    });
    
 <?php 
-	if($_GET['loggedout'] != "true"){ 
+	if($wpclpl_loggedout != "true"){ 
 ?>
 	
     jQuery(function($){

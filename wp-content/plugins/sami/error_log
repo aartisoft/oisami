@@ -1,0 +1,140 @@
+[06-Dec-2018 13:32:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:32:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:33:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:34:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:34:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:34:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:35:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:37:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:38:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:38:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:38:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:38:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:39:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:39:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13
+[06-Dec-2018 13:40:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 13

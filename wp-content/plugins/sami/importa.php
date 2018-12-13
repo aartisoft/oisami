@@ -10,7 +10,7 @@
 /*==============================================
     Redirecionamento inicial
 ===============================================*/
-add_shortcode( 'importacao', 'vm50_sami_monta_impportacao' );
+add_shortcode('importacao', 'vm50_sami_monta_impportacao');
 function vm50_sami_monta_impportacao() {
     if( isset( $_POST['importar'] ) ) {
         vm50_sami_importar();
