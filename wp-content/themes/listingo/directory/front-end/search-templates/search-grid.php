@@ -145,7 +145,7 @@ $direction	= listingo_get_location_lat_long();
 
 												$infoBox = '';
 												$infoBox .= '<div class="tg-infoBox">';
-												$infoBox .= '<div class="tg-serviceprovider';
+												$infoBox .= '<div class="tg-serviceprovider">';
 												$infoBox .= '<figure class="tg-featuredimg"><img src="' . esc_url($avatar) . '" alt="' . $username . '"></figure>';
 												$infoBox .= '<div class="tg-companycontent">';
 												$infoBox .= listingo_result_tags($user->ID, 'return');

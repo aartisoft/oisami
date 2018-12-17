@@ -2193,7 +2193,7 @@ if (!function_exists('listingo_get_search_category')) {
 
                         $categories['categories'] = $json;
 
-                        echo '<option class="' . $dir->post_title . '" data-icon="fa fa-download" ' . $selected . ' data-id="' . $dir->ID . '" data-title="' . $dir->post_title . '"  value="' . $dir->post_name . '">' . $dir->post_title . '</option>';
+                        echo '<option data-icon="fa fa-download" ' . $selected . ' data-id="' . $dir->ID . '" data-title="' . $dir->post_title . '"  value="' . $dir->post_name . '">' . $dir->post_title . '</option>';
                     }
                 }
                 ?>
