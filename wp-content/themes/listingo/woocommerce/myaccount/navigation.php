@@ -54,6 +54,41 @@ $statuses	= listingo_get_status_list();
 				<a target="_blank" class="sp-view-profile" href="/author/<?php echo $current_user->user_login; ?>/"><span class="lnr lnr-eye"></span></a>
 			</figure>
 
+			<!--
+			<?php
+				/**
+         * @Generate Profile Banner Image Link
+         * @Returns HTML
+         */
+        public static function listingo_get_banner() {
+            global $current_user, $wp_roles, $userdata, $post;
+
+            $user_identity = $current_user->ID;
+
+            $user_identity = $user_identity;
+            if (isset($_GET['identity']) && !empty($_GET['identity'])) {
+                $user_identity = $_GET['identity'];
+            }
+
+            $avatar = apply_filters(
+                    'listingo_get_media_filter', listingo_get_user_banner(array('width' => 270, 'height' => 120), $user_identity), array('width' => 270, 'height' => 120)//size width,height
+            );
+            ?>
+            <figure class="tg-profilebannerimg sp-profile-banner-img">
+                <img src="<?php echo esc_url($avatar); ?>" alt="<?php esc_html_e('Profile Banner', 'listingo'); ?>">
+				<?php if (( apply_filters('listingo_get_user_type', $user_identity) === 'business' 
+					 || apply_filters('listingo_get_user_type', $user_identity) === 'professional' 
+					 || apply_filters('listingo_get_user_type', $user_identity) === 'customer' 
+					) && function_exists('fw_get_db_settings_option')
+				) {?>
+               	 	<a target="_blank" class="sp-view-profile" href="<?php echo esc_url(get_author_posts_url($user_identity));?>"><span class="lnr lnr-eye"></span></a>
+                <?php }?>
+            </figure>
+            <?php
+        }
+      }?>
+    	-->
+
 			<div class="tg-widgetcontent">
 				<figure class="sp-user-profile-img">
 					<img src="<?php echo esc_url($avatar); ?>" alt="<?php esc_html_e('Profile Avatar', 'listingo'); ?>">
