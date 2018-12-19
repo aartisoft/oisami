@@ -27,6 +27,7 @@ $current_user = wp_get_current_user();
 global $current_user, $wp_roles, $userdata, $post;
 
 $user_identity = $current_user->ID;
+$url_identity = $user_identity;
 $profile_status = get_user_meta($user_identity, 'profile_status', true);
 $profile_status	=  !empty($profile_status) ? $profile_status : 'sphide';
 
@@ -43,87 +44,31 @@ $avatar = apply_filters(
 
 $statuses	= listingo_get_status_list();
 
+if (isset($_GET['identity']) && !empty($_GET['identity'])) {
+    $url_identity = $_GET['identity'];
+}
+
+$provider_category = listingo_get_provider_category($user_identity);
+$bk_settings	= listingo_get_booking_settings();
+
+$insight_page = '';
+if (function_exists('fw_get_db_settings_option')) {
+	$insight_page = fw_get_db_settings_option('insight_page', $default_value = null);
+}
+
+get_header();
+
+do_action('listingo_is_user_active',$url_identity);
+do_action('listingo_is_user_verified',$url_identity);
+
 ?>
 
 
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3 pull-left">
 	<aside id="tg-sidebar" class="tg-sidebar">
-		<div class="tg-widgetprofile">
-			<figure class="tg-profilebannerimg sp-profile-banner-img">
-				<img src="http://localhost/wp-content/uploads/2018/06/banner-cdb-270x120.jpg" alt="Profile Banner">
-				<a target="_blank" class="sp-view-profile" href="/author/<?php echo $current_user->user_login; ?>/"><span class="lnr lnr-eye"></span></a>
-			</figure>
+		<?php Listingo_Profile_Menu::listingo_profile_menu_left(); ?>
 
-			<!--
-			<?php
-				/**
-         * @Generate Profile Banner Image Link
-         * @Returns HTML
-         */
-        public static function listingo_get_banner() {
-            global $current_user, $wp_roles, $userdata, $post;
-
-            $user_identity = $current_user->ID;
-
-            $user_identity = $user_identity;
-            if (isset($_GET['identity']) && !empty($_GET['identity'])) {
-                $user_identity = $_GET['identity'];
-            }
-
-            $avatar = apply_filters(
-                    'listingo_get_media_filter', listingo_get_user_banner(array('width' => 270, 'height' => 120), $user_identity), array('width' => 270, 'height' => 120)//size width,height
-            );
-            ?>
-            <figure class="tg-profilebannerimg sp-profile-banner-img">
-                <img src="<?php echo esc_url($avatar); ?>" alt="<?php esc_html_e('Profile Banner', 'listingo'); ?>">
-				<?php if (( apply_filters('listingo_get_user_type', $user_identity) === 'business' 
-					 || apply_filters('listingo_get_user_type', $user_identity) === 'professional' 
-					 || apply_filters('listingo_get_user_type', $user_identity) === 'customer' 
-					) && function_exists('fw_get_db_settings_option')
-				) {?>
-               	 	<a target="_blank" class="sp-view-profile" href="<?php echo esc_url(get_author_posts_url($user_identity));?>"><span class="lnr lnr-eye"></span></a>
-                <?php }?>
-            </figure>
-            <?php
-        }
-      }?>
-    	-->
-
-			<div class="tg-widgetcontent">
-				<figure class="sp-user-profile-img">
-					<img src="<?php echo esc_url($avatar); ?>" alt="<?php esc_html_e('Profile Avatar', 'listingo'); ?>">
-					<a class="tg-btnedite sp-profile-edit" href="/dashboard/?ref=settings&amp;identity=<?php echo $current_user->ID; ?>">
-						<i class="lnr lnr-pencil"></i>
-					</a>
-
-					<div class="tg-themedropdown tg-userdropdown spprofile-statuswrap sphide"> 
-						<a href="javascript:;" class="spactive-status">
-							<span class="sphide"></span>
-					  </a>
-					  <div class="tg-dropdownmenu tg-statusmenu" aria-labelledby="tg-usermenu">
-					  	<nav class="tg-dashboardnav">
-					  		<ul class="dashboard-status">
-					  			<li class="status-current current-offline " data-key="offline"><a href="javascript:;">Offline</a></li>
-					  			<li class="status-current current-online " data-key="online"><a href="javascript:;">Online</a></li>
-					  			<li class="status-current current-busy " data-key="busy"><a href="javascript:;">Busy</a></li>
-					  			<li class="status-current current-away " data-key="away"><a href="javascript:;">Away</a></li>
-					  			<li class="status-current current-sphide status-selected" data-key="sphide"><a href="javascript:;">Hide status</a></li>
-					  		</ul>
-					  	</nav>
-					  </div>
-					</div>
-				</figure>
-
-				<div class="tg-admininfo">
-					<h3><?php echo $current_user->username; ?></h3>
-				</div>
-
-				<a target="_blank" class="sp-view-profile-btn tg-btn" href="/author/<?php echo $current_user->user_login; ?>/">Ver Perfil</a>
-				<a target="_blank" class="sp-view-profile-btn sp-switchaccount" href="/dashboard/?ref=switch_account&amp;identity=<?php echo $current_user->ID; ?>">Mudar de Conta</a>
-			</div>
-		</div>
-
-		<div class="tg-widgetdashboard">
+		<!--div class="tg-widgetdashboard">
 
 			<nav id="tg-dashboardnav" class="tg-dashboardnav">
 				<ul class="dashboard-menu-left">
@@ -145,7 +90,6 @@ $statuses	= listingo_get_status_list();
 						<a href="/pacotes">
 							<i class="lnr lnr-plus-circle"></i>
 							<span>Vouchers Adicionais</span>
-							<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 						</a>
 					</li>
 
@@ -153,7 +97,6 @@ $statuses	= listingo_get_status_list();
 						<a href="/minha-conta/orders/">
 							<i class="lnr lnr-tag"></i>
 							<span>Saldo de Vouchers</span>
-							<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 						</a>
 					</li>
 
@@ -178,17 +121,15 @@ $statuses	= listingo_get_status_list();
 						</a>
 					</li>
 
-					<!--
 					<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
 						<li class="<?php echo wc_get_account_menu_item_classes( $endpoint ); ?>">
 							<a href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>"><?php echo esc_html( $label ); ?></a>
 						</li>
 					<?php endforeach; ?>
-					-->
 				</ul>
 			</nav>
 
-		</div>
+		</div-->
 	</aside>
 </div>
 

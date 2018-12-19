@@ -6,6 +6,7 @@
  * @since Listingo 1.0
  * @desc Template used for front end dashboard.
  */
+
 /* Define Global Variables */
 global $current_user, $wp_roles, $userdata, $post;
 
@@ -34,10 +35,11 @@ do_action('listingo_is_user_verified',$url_identity);
 	<div class="row">
 		<div id = "tg-twocolumns" class = "tg-twocolumns">
 			<?php 
-			if (is_user_logged_in()) {
-				if( apply_filters('listingo_is_social_user', $user_identity) === 'yes' ){
-					do_action('listingo_complete_registration_form');
-				} else{
+				if (is_user_logged_in()) {
+					if( apply_filters('listingo_is_social_user', $user_identity) === 'yes' ){
+						do_action('listingo_complete_registration_form');
+					} 
+					else{
 				?>
 				<div class = "col-xs-12 col-sm-5 col-md-4 col-lg-3 pull-left">
 					<aside id = "tg-sidebar" class = "tg-sidebar">

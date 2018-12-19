@@ -986,20 +986,20 @@ function vm50_sami_tela_importacao( $erro='' ) {
     $saida .= $erro;
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha">';
-    $saida .= '<h3 for="tipo_importacao" style="margin-top:5px;">Tipo de Importação: </h3>';
-    $saida .= '<div style="width:100%; float:left; margin: 2px 0px;"><input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_C" value="C" onchange="vm50_sami_importa_muda_tipo(\'C\');"> Clientes</div>';
-    $saida .= '<div style="width:100%; float:left; margin: 2px 0px;"><input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_M" value="M" onchange="vm50_sami_importa_muda_tipo(\'M\');"> Médicos e auxiliares</div>';
-    $saida .= '<div style="width:100%; float:left; margin: 2px 0px;"><input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_U" value="U" onchange="vm50_sami_importa_muda_tipo(\'U\');"> Usuários</div>';
+    $saida .= '<label for="tipo_importacao">Tipo de Importação: </lable><br />';
+    $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_C" value="C" onchange="vm50_sami_importa_muda_tipo(\'C\');"> Clientes<br />';
+    $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_M" value="M" onchange="vm50_sami_importa_muda_tipo(\'M\');"> Médicos e auxiliares<br />';
+    $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_U" value="U" onchange="vm50_sami_importa_muda_tipo(\'U\');"> Usuários';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" id="vm50_sami_importa_cliente_area" style="display:none;">';
-    $saida .= '<h5 for="cliente">Cliente: </h5>';
+    $saida .= '<label for="cliente">Cliente: </lable>';
     $saida .= '<select name="vm50_sami_importa_cliente" id="vm50_sami_importa_cliente" onchange="vm50_sami_importa_muda_cliente();">';
     $saida .= $clientes;
     $saida .= '</select>';
-    $saida .= '<h5 for="cliente" style="margin-top:10px;">Nome do cupom: </h5><input type="text" name="vm50_sami_importa_cupom" id="vm50_sami_importa_cupom">';
+    $saida .= 'Nome do cupom: <input type="text" name="vm50_sami_importa_cupom" id="vm50_sami_importa_cupom">';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" id="vm50_sami_importa_medico_area" style="display:none;">';
-    $saida .= '<h5 for="medico">Médico: </h5>';
+    $saida .= '<label for="medico">Médico: </lable>';
     if ( $medicos ) {
         $medicos = vm50_sami_lista_medicos();
 //        $saida .='passei';
@@ -1007,7 +1007,7 @@ function vm50_sami_tela_importacao( $erro='' ) {
     $saida .= $medicos;
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" >';
-    $saida .= '<h3 for="arquivo">Arquivo de importação (csv): </h3>';
+    $saida .= '<label for="arquivo">Arquivo de importação (csv): </lable>';
     $saida .= '<input type="file" name="vm50_sami_importa_arquivo" id="vm50_sami_importa_arquivo" />';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" >';
@@ -1096,9 +1096,9 @@ function vm50_sami_lista_medicos( $cliente = '', $formato = 'select' ) {
         if ( !empty($medicos) ) {
             $saida = '';
             foreach ( $medicos as $medico ) {
-                $saida .= '<div style="width:100%; float:left; margin: 2px 0px;"><input type="checkbox" name="vm50_sami_importa_medico[]" id="vm50_sami_importa_medico_'.$medico->ID.'" value="'.$medico->ID.'" style="margin-right:10px;"/>';
+                $saida .= '<input type="checkbox" name="vm50_sami_importa_medico[]" id="vm50_sami_importa_medico_'.$medico->ID.'" value="'.$medico->ID.'"/>';
                 $saida .= $medico->display_name;
-                $saida .= '</p></div>';
+                $saida .= '</p>';
             }
         }
     }

@@ -68,28 +68,28 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 	</li>
 
 	<li class="clientes">
-		<a href="/dashboard/importacao/">
+		<a href="<?php echo get_site_url(); ?>/dashboard/importacao/">
 			<i class="lnr lnr-upload"></i>
 			<span>Importar</span>
 		</a>
 	</li>
 
 	<li class="clientes">
-		<a href="/dashboard/medicos-do-cliente/">
+		<a href="<?php echo get_site_url(); ?>/dashboard/medicos-do-cliente/">
 			<i class="lnr lnr-layers"></i>
 			<span>Administrar Cliente</span>
 		</a>
 	</li>
 
 	<li class="pacientes">
-		<a href="/dashboard/lista-usuarios/">
+		<a href="<?php echo get_site_url(); ?>/dashboard/lista-usuarios/">
 			<i class="lnr lnr-magnifier"></i>
 			<span>Pesquisar Pacientes</span>
 		</a>
 	</li>
 
 	<li class="pedidos">
-		<a href="/pacotes">
+		<a href="<?php echo get_site_url(); ?>/dashboard/pacotes">
 			<i class="lnr lnr-plus-circle"></i>
 			<span>Vouchers Adicionais</span>
 			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
@@ -97,7 +97,7 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 	</li>
 
 	<li class="voucher">
-		<a href="/minha-conta/orders/">
+		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/pedidos/">
 			<i class="lnr lnr-tag"></i>
 			<span>Saldo de Vouchers</span>
 			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->

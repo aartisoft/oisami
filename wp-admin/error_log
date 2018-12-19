@@ -313,3 +313,442 @@ Stack trace:
 #5 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(1018): include('/home2/edevnetb...')
 #6 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(831): uninstall_plugin('miwosql/miwosql...')
 #7 /home2/edevnetb/pub in /home2/edevnetb/public_html/oisamicom/wp-content/miwi/framework/database/database.php on line 166
+[16-Oct-2018 20:30:47 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:30:47 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:30:47 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:30:47 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:32:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:32:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:32:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[16-Oct-2018 20:32:34 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 230
+[19-Oct-2018 07:03:09 America/Chicago] PHP Warning:  rename(/home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/miwi,/home2/edevnetb/public_html/oisamicom/wp-content/miwi): No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 139
+[19-Oct-2018 07:03:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mimport() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php:159
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate(false)
+#1 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home2/edevnetb/public_html/oisamicom/wp-admin/includes/plugin.php(586): do_action('activate_miwosq...', false)
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/plugins.php(43): activate_plugin('miwosql/miwosql...', 'http://www.edev...', false)
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 159
+[19-Oct-2018 07:03:13 America/Chicago] PHP Warning:  rename(/home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/miwi,/home2/edevnetb/public_html/oisamicom/wp-content/miwi): No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 139
+[19-Oct-2018 07:03:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mimport() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php:159
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#1 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home2/edevnetb/public_html/oisamicom/wp-admin/plugins.php(180): do_action('activate_miwosq...')
+#4 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 159
+[19-Oct-2018 07:03:14 America/Chicago] PHP Warning:  rename(/home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/miwi,/home2/edevnetb/public_html/oisamicom/wp-content/miwi): No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 139
+[19-Oct-2018 07:03:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mimport() in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php:159
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(286): MWordpress->activate('')
+#1 /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home2/edevnetb/public_html/oisamicom/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home2/edevnetb/public_html/oisamicom/wp-admin/plugins.php(180): do_action('activate_miwosq...')
+#4 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/miwosql/wordpress.php on line 159
+[19-Oct-2018 14:33:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:33:39 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:33:39 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:33:39 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:33:39 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:33:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:33:59 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:33:59 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:33:59 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:33:59 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:33:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:34:19 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:34:19 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:34:19 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:34:19 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:34:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:34:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:34:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:34:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:34:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:34:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:34:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:35:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:35:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:35:28 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:35:28 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:35:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:35:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:35:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:35:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:35:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:35:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:37:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:37:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:37:28 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:37:28 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:37:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:37:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:37:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:37:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:37:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:37:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:38:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:38:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:38:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:38:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:38:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:39:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:39:28 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:39:28 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:39:28 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:39:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:39:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:39:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:39:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:39:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:39:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:40:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:40:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:40:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:40:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:40:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:41:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:41:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:41:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:41:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:41:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:42:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:42:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:42:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:42:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:42:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:43:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:43:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:43:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:43:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:43:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:44:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:44:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:44:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:44:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:44:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:44:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:44:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:44:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:46:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:46:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:46:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:46:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:46:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:48:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin.php(31): require_once('/home2/edevnetb...')
+#5 /home2/edevnetb/public_html/oisamicom/wp-admin/themes.php(10): require_once('/home2/edevnetb...')
+#6 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:48:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:48:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:48:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:48:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:48:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:50:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:50:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:50:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:50:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:50:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:52:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 286
+[19-Oct-2018 14:52:58 America/Chicago] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home2/edevnetb/public_html/oisamicom/wp-includes/class-wp-hook.php on line 288
+[19-Oct-2018 14:52:58 America/Chicago] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 772
+[19-Oct-2018 14:52:58 America/Chicago] PHP Warning:  join(): Invalid arguments passed in /home2/edevnetb/public_html/oisamicom/wp-includes/post-template.php on line 557
+[19-Oct-2018 14:52:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function fw_get_db_settings_option() in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php:14
+Stack trace:
+#0 /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php(223): require_once()
+#1 /home2/edevnetb/public_html/oisamicom/wp-settings.php(426): include('/home2/edevnetb...')
+#2 /home2/edevnetb/public_html/oisamicom/wp-config.php(80): require_once('/home2/edevnetb...')
+#3 /home2/edevnetb/public_html/oisamicom/wp-load.php(37): require_once('/home2/edevnetb...')
+#4 /home2/edevnetb/public_html/oisamicom/wp-admin/admin-ajax.php(22): require_once('/home2/edevnetb...')
+#5 {main}
+  thrown in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php on line 14
+[19-Oct-2018 14:53:39 America/Chicago] PHP Warning:  require_once(/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[19-Oct-2018 14:53:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[19-Oct-2018 14:53:42 America/Chicago] PHP Warning:  require_once(/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[19-Oct-2018 14:53:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[19-Oct-2018 14:53:44 America/Chicago] PHP Warning:  require_once(/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[19-Oct-2018 14:53:44 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/directory/back-end/dashboard.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/themes/listingo/functions.php on line 223
+[21-Oct-2018 08:33:40 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:40 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:40 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:43 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:43 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:43 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:44 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:44 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:33:44 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:56 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:56 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:56 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:59 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:59 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:34:59 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:35:00 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:35:00 America/Chicago] PHP Warning:  require(sami/sami.php/importa.php): failed to open stream: No such file or directory in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 08:35:00 America/Chicago] PHP Fatal error:  require(): Failed opening required 'sami/sami.php/importa.php' (include_path='/home2/edevnetb/public_html/oisamicom/wp-content/plugins/listingo_core/libraries/google:.:/opt/php70/lib/php') in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 40
+[21-Oct-2018 18:18:59 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 268
+[21-Oct-2018 18:19:03 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 268
+[21-Oct-2018 18:19:04 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 268
+[24-Oct-2018 13:16:30 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_sami_atualiza_dados_basicos_medico() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:500) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 768
+[24-Oct-2018 13:16:34 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_sami_atualiza_dados_basicos_medico() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:500) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 768
+[24-Oct-2018 13:16:35 America/Chicago] PHP Fatal error:  Cannot redeclare vm50_sami_atualiza_dados_basicos_medico() (previously declared in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php:500) in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/importa.php on line 768
+[23-Nov-2018 11:28:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:28:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:28:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:28:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:28:30 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:34:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:34:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:34:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:34:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[23-Nov-2018 11:34:20 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[04-Dec-2018 07:41:23 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[04-Dec-2018 07:41:23 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[04-Dec-2018 07:41:23 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[04-Dec-2018 07:41:23 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[04-Dec-2018 07:41:23 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 229
+[06-Dec-2018 13:32:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:33:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:34:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:34:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:34:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:35:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:37:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:38:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:38:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:38:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:39:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:39:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[06-Dec-2018 13:40:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at http://www.edev.net.br/oisamicom/wp-content/plugins/sami/importa.php:1) in /home2/edevnetb/public_html/oisamicom/wp-admin/includes/misc.php on line 1126
+[11-Dec-2018 06:53:34 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami_20181123.php on line 345
+[11-Dec-2018 06:53:38 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami_20181123.php on line 345
+[11-Dec-2018 06:53:39 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami_20181123.php on line 345
+[11-Dec-2018 08:45:35 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
+[11-Dec-2018 08:45:39 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
+[11-Dec-2018 08:45:40 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
+[11-Dec-2018 08:50:55 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
+[11-Dec-2018 08:50:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
+[11-Dec-2018 08:51:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home2/edevnetb/public_html/oisamicom/wp-content/plugins/sami/sami.php on line 1005
