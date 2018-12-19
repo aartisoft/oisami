@@ -31,21 +31,21 @@ if (function_exists('fw_get_db_settings_option')) {
 $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
-$m_foto = 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg';
-$e_foto = 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg';
+$m_foto = '<?php echo get_site_url(); ?>/wp-content/uploads/2018/10/doctor.jpg';
+$e_foto = '<?php echo get_site_url(); ?>/wp-content/uploads/2018/10/nurse.jpg';
 $m_nome = $e_nome = $m_url = '';
 $medico_id = get_user_meta( $current_user->ID, VM50_SAMI_META_MEDICO_FAMILIA, true );
 
 if ( $medico_id !='' ) {
     $dados_usr = get_userdata( $medico_id );
-    $m_foto    = get_avatar_url( $medico_id, array( 'default' => 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/doctor.jpg') );
+    $m_foto    = get_avatar_url( $medico_id, array( 'default' => '<?php echo get_site_url(); ?>/wp-content/uploads/2018/10/doctor.jpg') );
     $m_nome    = $dados_usr->first_name . ' ' . $dados_usr->last_name;
     $m_url     = site_url('/consultas/') . $dados_usr->user_nicename;
     $enferm_id = get_user_meta( $medico_id, VM50_SAMI_META_ENFERMEIRO, true );
 
     if ( $enferm_id !='' ) {
         $dados_usr = get_userdata( $enferm_id );
-        $e_foto    = get_avatar_url( $enferm_id, array( 'default' => 'http://www.edev.net.br/oisamicom/wp-content/uploads/2018/10/nurse.jpg') );
+        $e_foto    = get_avatar_url( $enferm_id, array( 'default' => '<?php echo get_site_url(); ?>/wp-content/uploads/2018/10/nurse.jpg') );
         $e_nome    = $dados_usr->first_name . ' ' . $dados_usr->last_name;
         $e_url     = site_url('/consultas/') . $dados_usr->user_nicename;
         $enferm_id = get_user_meta( $medico_id, VM50_SAMI_META_ENFERMEIRO, true );
@@ -97,9 +97,17 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 	</li>
 
 	<li class="voucher">
-		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/pedidos/">
+		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/wc-smart-coupons">
 			<i class="lnr lnr-tag"></i>
 			<span>Saldo de Vouchers</span>
+			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
+		</a>
+	</li>
+
+	<li class="voucher">
+		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/pedidos/">
+			<i class="lnr lnr-tag"></i>
+			<span>Meus Agendamentos</span>
 			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 		</a>
 	</li>

@@ -122,7 +122,11 @@ function vm50_sami_monta_impportacao() {
 add_action( 'show_user_profile', 'vm50_user_profile_medico_familia' );
 add_action( 'edit_user_profile', 'vm50_user_profile_medico_familia' );
 function vm50_user_profile_medico_familia( $usuario ) {
-    global $clientes;
+//    global $clientes;
+    global $wpdb;
+    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+    $tabela01 = $wpdb->prefix.'vm50_sami_clientes';
+    $clientes = $wpdb->get_results( "SELECT ID, razao FROM ".$tabela01." ORDER BY razao" );
     $pac_cliente    = get_user_meta( $usuario->ID, VM50_SAMI_META_CLIENTE, true );
     $pac_medico     = get_user_meta( $usuario->ID, VM50_SAMI_META_MEDICO_FAMILIA, true );
     $med_enfermeiro = get_user_meta( $usuario->ID, VM50_SAMI_META_ENFERMEIRO, true );
@@ -159,11 +163,13 @@ function vm50_user_profile_medico_familia( $usuario ) {
     $saida .= '<th><label for="medico_de_familia_clientes">Clientes atendidos por este Médico</label></th>';
     $saida .= '<td>';
     for ($cl=0; $cl<count($clientes); $cl++) {
-        $saida .= '<input type="checkbox" name="medico_de_familia_clientes_atendidos[]" id="medico_de_familia_clientes_atendidos_'.$cl.'" value="'.$cl.'" ';
-        if ( ( is_array($cli_atendido) ) && ( in_array($cl, $cli_atendido) ) ) {
+        $cli_id   = $clientes[$cl]->ID;
+        $cli_nome = $clientes[$cl]->razao;
+        $saida .= '<input type="checkbox" name="medico_de_familia_clientes_atendidos[]" id="medico_de_familia_clientes_atendidos_'.$cli_id.'" value="'.$cli_id.'" ';
+        if ( ( is_array($cli_atendido) ) && ( in_array($cli_id, $cli_atendido) ) ) {
             $saida .= ' checked';
         }
-        $saida .= '/>'.$clientes[$cl].'<br />';
+        $saida .= '/>'.$cli_nome.'<br />';
     }
     $saida .= '</td>';
     $saida .= '</tr>';
@@ -193,13 +199,19 @@ function vm50_save_user_profile_medico_familia( $user_id ) {
 ===============================================*/
 add_shortcode( 'admin-clientes', 'vm50_pagina_admin_cliente' );
 function vm50_pagina_admin_cliente( ) {
-    global $clientes;
+//    global $clientes;
+    global $wpdb;
+    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+    $tabela01 = $wpdb->prefix.'vm50_sami_clientes';
+    $clientes = $wpdb->get_results( "SELECT ID, razao FROM ".$tabela01." ORDER BY razao" );
     $saida  = '';
     $saida .= '<p>Escolha um cliente para administrar:</p>';
     $saida .= '<select name="vm50_admin_escolhe_cliente" id="vm50_admin_escolhe_cliente" onchange="vm50_admin_escolhe_cliente();" >';
     $saida .= '<option value=""></option>';
     for ($cl=0; $cl<count($clientes); $cl++) {
-        $saida .= '<option value="'.$cl.'">'.$clientes[$cl].'</option>';
+        $cli_id   = $clientes[$cl]->ID;
+        $cli_nome = $clientes[$cl]->razao;
+        $saida .= '<option value="'.$cli_id.'">'.$cli_nome.'</option>';
     }
     $saida .= '</select>';
     $saida .= '<div id="vm50_admin_cliente"></div>';
@@ -986,20 +998,21 @@ function vm50_sami_tela_importacao( $erro='' ) {
     $saida .= $erro;
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha">';
-    $saida .= '<label for="tipo_importacao">Tipo de Importação: </lable><br />';
+    $saida .= '<h3 for="tipo_importacao" style="margin-top: 5px;">Tipo de Importação: </h3>';
     $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_C" value="C" onchange="vm50_sami_importa_muda_tipo(\'C\');"> Clientes<br />';
     $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_M" value="M" onchange="vm50_sami_importa_muda_tipo(\'M\');"> Médicos e auxiliares<br />';
     $saida .= '<input type="radio" name="vm50_sami_importa_tipo" id="vm50_sami_importa_tipo_U" value="U" onchange="vm50_sami_importa_muda_tipo(\'U\');"> Usuários';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" id="vm50_sami_importa_cliente_area" style="display:none;">';
-    $saida .= '<label for="cliente">Cliente: </lable>';
+    $saida .= '<h5 for="cliente">Cliente: </h5>';
     $saida .= '<select name="vm50_sami_importa_cliente" id="vm50_sami_importa_cliente" onchange="vm50_sami_importa_muda_cliente();">';
     $saida .= $clientes;
     $saida .= '</select>';
-    $saida .= 'Nome do cupom: <input type="text" name="vm50_sami_importa_cupom" id="vm50_sami_importa_cupom">';
+    $saida .= '<h5 for="cupom" style="margin-top: 5px;">Nome do cupom:</h5>';
+    $saida .= '<input type="text" name="vm50_sami_importa_cupom" id="vm50_sami_importa_cupom">';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" id="vm50_sami_importa_medico_area" style="display:none;">';
-    $saida .= '<label for="medico">Médico: </lable>';
+    $saida .= '<h5 for="medico">Médico: </h5>';
     if ( $medicos ) {
         $medicos = vm50_sami_lista_medicos();
 //        $saida .='passei';
@@ -1007,7 +1020,7 @@ function vm50_sami_tela_importacao( $erro='' ) {
     $saida .= $medicos;
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" >';
-    $saida .= '<label for="arquivo">Arquivo de importação (csv): </lable>';
+    $saida .= '<h3 for="arquivo">Arquivo de importação (csv): </h3>';
     $saida .= '<input type="file" name="vm50_sami_importa_arquivo" id="vm50_sami_importa_arquivo" />';
     $saida .= '</div>'; //.vm50-sami-importa-linha
     $saida .= '<div class="vm50-sami-importa-linha" >';
@@ -1096,9 +1109,11 @@ function vm50_sami_lista_medicos( $cliente = '', $formato = 'select' ) {
         if ( !empty($medicos) ) {
             $saida = '';
             foreach ( $medicos as $medico ) {
+                $saida .= '<div class="linha">';
                 $saida .= '<input type="checkbox" name="vm50_sami_importa_medico[]" id="vm50_sami_importa_medico_'.$medico->ID.'" value="'.$medico->ID.'"/>';
                 $saida .= $medico->display_name;
                 $saida .= '</p>';
+                $saida .= '</div>';
             }
         }
     }
@@ -1365,12 +1380,14 @@ function vm50_sami_importar_medico( $arquivo ) {
                 $enfermeiro['cidade']    = $linha[26];
                 $enfermeiro['estado']    = $linha[27];
                 //Enfermeiro
-                $e_existe = new WP_User_Query( array( 'user_login' => $enfermeiro['cpf'] ) );
+                $e_existe = new WP_User_Query( array( 'search' => $enfermeiro['cpf'], 'search_columns' => 'user_login' ) );
                 $e_id     = false;
-                if ( ! empty( $e_existe->get_results() ) ) {
-                    foreach ( $e_existe->get_results() as $enfermeiros ) {
-                        $e_id = $enfermeiros->ID;
-                    }
+                foreach ( $e_existe->get_results() as $enfermeiros ) {
+//                    var_dump( $enfermeiros);
+//                     echo '->ID = '.$enfermeiros->ID.'<br>';
+                    $e_id = $enfermeiros->ID;
+                }
+                if ( $e_id ) {
                     $e_dados = array('ID' => $e_id);
                     if ( $enfermeiro['nome'] != '' ) {
                         $e_dados['user_firstname'] = $enfermeiro['nome'];
@@ -1380,8 +1397,13 @@ function vm50_sami_importar_medico( $arquivo ) {
                     }
 //                    $wpdb->show_errors();
                     $e_id   = wp_update_user( $e_dados );
-                    $saida .= 'Alterado: '.$enfermeiro['nome'].'</br>';
+                    if ( ! is_wp_error( $e_id ) ) {
+                        $saida .= 'Alterado: '.$enfermeiro['nome'].' '.$e_id.'</br>';
+                    } else {
+                        $saida .= 'Erro '.$e_id->get_error_message().' ao alterar: '.$enfermeiro['nome'].'</br>';
+                    }
                 } else {
+                    unset($e_dados);
                     $e_dados = array (
                         'user_login'   => $enfermeiro['cpf'],
                         'user_email'   => $enfermeiro['email'],
@@ -1392,18 +1414,22 @@ function vm50_sami_importar_medico( $arquivo ) {
                     );
 //                    $wpdb->show_errors();
                     $e_id   = wp_insert_user($e_dados) ;
-                    $saida .= 'Incluído: '.$enfermeiro['nome'].'</br>';
+                    if ( ! is_wp_error( $e_id ) ) {
+                        $saida .= 'Incluído: '.$enfermeiro['nome'].' '.$e_id.'</br>';
+                    } else {
+                        $saida .= $e_id->get_error_message().' => '.$enfermeiro['nome'].'</br>';
+                    }
                 }
                 if ( $e_id ) {
                     vm50_sami_atualiza_dados_basicos_medico( $e_id, false, $enfermeiro );
                 }
                 //Medico
-                $m_existe = new WP_User_Query( array( 'user_login' => $medico['cpf'] ) );
+                $m_existe = new WP_User_Query( array( 'search' => $medico['cpf'], 'search_columns' => 'user_login' ) );
                 $m_id     = false;
-                if ( ! empty( $m_existe->get_results() ) ) {
-                    foreach ( $m_existe->get_results() as $medicos ) {
-                        $m_id = $medicos->ID;
-                    }
+                foreach ( $m_existe->get_results() as $medicos ) {
+                    $m_id = $medicos->ID;
+                }
+                if ( $m_id ) {
                     $m_dados = array('ID' => $m_id);
                     if ( $medico['nome'] != '' ) {
                         $m_dados['user_firstname'] = $medico['nome'];
@@ -1413,8 +1439,13 @@ function vm50_sami_importar_medico( $arquivo ) {
                     }
 //                    $wpdb->show_errors();
                     $m_id   = wp_update_user( $m_dados );
-                    $saida .= 'Alterado: '.$medico['nome'].'</br>';
+                    if ( ! is_wp_error( $m_id ) ) {
+                        $saida .= 'Alterado: '.$medico['nome'].' '.$m_id.'</br>';
+                    } else {
+                        $saida .= $m_id->get_error_message().' => '.$medico['nome'].'</br>';
+                    }
                 } else {
+                    unset($m_dados);
                     $m_dados = array (
                         'user_login'   => $medico['cpf'],
                         'user_email'   => $medico['email'],
@@ -1425,7 +1456,11 @@ function vm50_sami_importar_medico( $arquivo ) {
                     );
 //                    $wpdb->show_errors();
                     $m_id   = wp_insert_user($m_dados) ;
-                    $saida .= 'Incluído: '.$medico['nome'].'</br>';
+                    if ( ! is_wp_error( $m_id ) ) {
+                        $saida .= 'Incluído: '.$medico['nome'].' '.$m_id.'</br>';
+                    } else {
+                        $saida .= $m_id->get_error_message().' => '.$medico['nome'].'</br>';
+                    }
                 }
                 if ( $m_id ) {
                     vm50_sami_atualiza_dados_basicos_medico( $m_id, true, $medico );
@@ -1449,12 +1484,13 @@ function vm50_sami_importar_medico( $arquivo ) {
 
 
 
+
 /*==============================================
     Atualiza Dados Basicos da Profile Professional
 ===============================================*/
 function vm50_sami_atualiza_dados_basicos_medico( $usuario, $medicodefamilia=false, $dados=array() ) {
     $business_hours	= 'a:7:{s:6:"monday";a:2:{s:9:"starttime";a:3:{i:0;s:5:"09:00";i:1;s:5:"17:00";i:2;s:5:"00:00";}s:7:"endtime";a:3:{i:0;s:5:"17:00";i:1;s:5:"23:00";i:2;s:5:"09:00";}}s:7:"tuesday";a:2:{s:9:"starttime";a:2:{i:0;s:5:"09:00";i:1;s:5:"17:00";}s:7:"endtime";a:2:{i:0;s:5:"17:00";i:1;s:5:"23:00";}}s:9:"wednesday";a:2:{s:9:"starttime";a:1:{i:0;s:5:"09:00";}s:7:"endtime";a:1:{i:0;s:5:"17:00";}}s:8:"thursday";a:2:{s:9:"starttime";a:1:{i:0;s:5:"09:00";}s:7:"endtime";a:1:{i:0;s:5:"17:00";}}s:6:"friday";a:2:{s:9:"starttime";a:1:{i:0;s:5:"09:00";}s:7:"endtime";a:1:{i:0;s:5:"17:00";}}s:8:"saturday";a:3:{s:7:"off_day";s:2:"on";s:9:"starttime";a:1:{i:0;s:0:"";}s:7:"endtime";a:1:{i:0;s:0:"";}}s:6:"sunday";a:3:{s:7:"off_day";s:2:"on";s:9:"starttime";a:1:{i:0;s:0:"";}s:7:"endtime";a:1:{i:0;s:0:"";}}}';
-    $privacy_settings = 'a:20:{s:13:"profile_photo";s:2:"on";s:14:"profile_banner";s:2:"on";s:19:"profile_appointment";s:2:"on";s:15:"profile_contact";s:2:"on";s:13:"profile_hours";s:2:"on";s:15:"profile_service";s:2:"on";s:12:"profile_team";s:2:"on";s:15:"profile_gallery";s:2:"on";s:14:"profile_videos";s:2:"on";s:20:"privacy_introduction";s:2:"on";s:17:"privacy_languages";s:2:"on";s:18:"privacy_experience";s:2:"on";s:14:"privacy_awards";s:2:"on";s:21:"privacy_qualification";s:2:"on";s:15:"privacy_amenity";s:2:"on";s:17:"privacy_insurance";s:2:"on";s:17:"privacy_brochures";s:2:"on";s:20:"privacy_job_openings";s:2:"on";s:16:"privacy_articles";s:2:"on";s:13:"privacy_share";s:2:"on";}';
+    $privacy_settings = 'a:20:{s:1996:"profile_photo";s:2:"on";s:14:"profile_banner";s:2:"on";s:19:"profile_appointment";s:2:"on";s:15:"profile_contact";s:2:"on";s:1996:"profile_hours";s:2:"on";s:15:"profile_service";s:2:"on";s:12:"profile_team";s:2:"on";s:15:"profile_gallery";s:2:"on";s:14:"profile_videos";s:2:"on";s:20:"privacy_introduction";s:2:"on";s:17:"privacy_languages";s:2:"on";s:18:"privacy_experience";s:2:"on";s:14:"privacy_awards";s:2:"on";s:21:"privacy_qualification";s:2:"on";s:15:"privacy_amenity";s:2:"on";s:17:"privacy_insurance";s:2:"on";s:17:"privacy_brochures";s:2:"on";s:20:"privacy_job_openings";s:2:"on";s:16:"privacy_articles";s:2:"on";s:1996:"privacy_share";s:2:"on";}';
     $privacy_array	= unserialize( $privacy_settings );
     update_user_meta( $usuario, 'show_admin_bar_front',  'false' );
     update_user_meta( $usuario, 'business_hours',        unserialize( $business_hours ) );
@@ -1462,7 +1498,7 @@ function vm50_sami_atualiza_dados_basicos_medico( $usuario, $medicodefamilia=fal
     update_user_meta( $usuario, 'privacy',               unserialize( $privacy_settings ) );
     update_user_meta( $usuario, 'is_avatar_available',   1);
     update_user_meta( $usuario, 'set_profile_view',      0);
-    update_user_meta( $usuario, 'category',              13);
+    update_user_meta( $usuario, 'category',              1996);
     if ( $medicodefamilia ) {
         update_user_meta( $usuario, 'sub_category',         'a:1:{i:0;s:17:"medico-de-familia";}');
         update_user_meta( $usuario, 'spcategory_search',    'Consultas');
