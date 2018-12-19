@@ -64,38 +64,40 @@ if (( apply_filters('listingo_get_user_type', $author_profile->ID) === 'business
                     <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 pull-left">
                         <div id="tg-content" class="tg-content">
                             <div class="tg-companyfeatures">
-<?php
-    $medico = wp_get_current_user();
-//print_r( $medico->roles );
-//    if ( in_array('professional', (array) $medico->roles) ) {
-        $pesquisa = new WP_User_Query( array('meta_key' => 'vm50_meu_medico_familia', 'meta_value' => $medico->ID) );
-        $pacientes = $pesquisa->get_results();
-        echo 'Recomendar este profissional para:';
-        echo '<div class="vm50_recomendacoes">';
-        foreach ( $pacientes as $paciente ) {
-            $paciente_info = get_userdata( $paciente->ID );
-            echo '<input type="checkbox" name="vm50_recomendar_medico[]" id="vm50_recomendar_medico_'.$paciente->ID.'" value="'.$paciente->ID.'" onclick="vm50_recomenda_inclui(\''.$paciente->ID.'\')"/>'.$paciente->first_name.' '.$paciente->last_name.'<br />';
-        }
-        echo '<input type="button" name="vm50_recomendar_bt" id="vm50_recomendar_bt" value="Recomendar" onclick="vm50_recomendar(\''.$medico->ID.'\', recomenda)" />';
-        echo '</div>';
-        ?>
-        <script>
-            var recomenda = [];
-            function vm50_recomenda_inclui( paciente ) {
-                var teste = recomenda.indexOf( paciente );
-                if ( teste == -1 ) {
-                    recomenda.push( paciente );
-                } else {
-                    recomenda[teste] = '';
-                }
-            }
-        </script>
-        <?php
-//    }
-?>
+                                <?php
+                                    $medico = wp_get_current_user();
+                                //print_r( $medico->roles );
+                                //    if ( in_array('professional', (array) $medico->roles) ) {
+                                        $pesquisa = new WP_User_Query( array('meta_key' => 'vm50_meu_medico_familia', 'meta_value' => $medico->ID) );
+                                        $pacientes = $pesquisa->get_results();
+                                        echo 'Recomendar este profissional para:';
+                                        echo '<div class="vm50_recomendacoes">';
+                                        foreach ( $pacientes as $paciente ) {
+                                            $paciente_info = get_userdata( $paciente->ID );
+                                            echo '<input type="checkbox" name="vm50_recomendar_medico[]" id="vm50_recomendar_medico_'.$paciente->ID.'" value="'.$paciente->ID.'" onclick="vm50_recomenda_inclui(\''.$paciente->ID.'\')"/>'.$paciente->first_name.' '.$paciente->last_name.'<br />';
+                                        }
+                                        echo '<input type="button" name="vm50_recomendar_bt" id="vm50_recomendar_bt" value="Recomendar" onclick="vm50_recomendar(\''.$medico->ID.'\', recomenda)" />';
+                                        echo '</div>';
+                                        ?>
+                                        <script>
+                                            var recomenda = [];
+                                            function vm50_recomenda_inclui( paciente ) {
+                                                var teste = recomenda.indexOf( paciente );
+                                                if ( teste == -1 ) {
+                                                    recomenda.push( paciente );
+                                                } else {
+                                                    recomenda[teste] = '';
+                                                }
+                                            }
+                                        </script>
+                                        <?php
+                                //    }
+                                ?>
+                            </div>
 
+                             <div class="tg-companyfeatures">
                                 <?php get_template_part('directory/front-end/author-partials/provider/template-author', 'banner'); ?>
-                               <?php
+                                <?php
                                     foreach( $profile_section as $key => $value  ){
                                         get_template_part('directory/front-end/author-partials/provider/template-author', $key);
 

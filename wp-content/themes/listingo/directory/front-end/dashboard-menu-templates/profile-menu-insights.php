@@ -60,10 +60,18 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 		</a>
 	</li>
 
-  <li class="agendar">
+ 	<!-- <li class="agendar">
 		<a href="<?php echo $m_url; ?>">
 			<i class="lnr lnr-calendar-full"></i>
 			<span>Agendar Consulta</span>
+		</a>
+	</li> -->
+
+	<li class="voucher">
+		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/pedidos/">
+			<i class="lnr lnr-calendar-full"></i>
+			<span>Meus Agendamentos</span>
+			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 		</a>
 	</li>
 
@@ -104,11 +112,4 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 		</a>
 	</li>
 
-	<li class="voucher">
-		<a href="<?php echo get_site_url(); ?>/dashboard/minha-conta/pedidos/">
-			<i class="lnr lnr-tag"></i>
-			<span>Meus Agendamentos</span>
-			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
-		</a>
-	</li>
 <?php }

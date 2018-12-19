@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Listingo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 11:17+0000\n"
-"PO-Revision-Date: 2018-10-17 16:00+0000\n"
+"PO-Revision-Date: 2018-12-19 16:50+0000\n"
 "Last-Translator: Leonardo Falotico <leonardo.falotico@edev.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -11,16 +11,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
 
 #: directory/front-end/jobs/job-listing.php:93
 #: directory/front-end/author-partials/provider/template-author-reviews.php:140
 msgid " ago"
-msgstr ""
+msgstr "atrás"
 
 #: single-sp_articles.php:81
 msgid " Written by"
-msgstr ""
+msgstr "Escrito por"
 
 #: framework-customizations/theme/options/directory-settings.php:334
 msgid ""
@@ -31,10 +32,16 @@ msgid ""
 "end will be able to use site features for free  throughout their "
 "registration period."
 msgstr ""
+"\"Permitir o registro gratuito do back-end\" permitirá que o administrador "
+"registre os usuários na categoria gratuita do back-end e permitirá que os "
+"usuários registrados recebam assinatura gratuita durante todo o período de "
+"registro. Se a opção desativada for selecionada, somente os usuários que se "
+"registrarem no front-end poderão usar os recursos do site gratuitamente "
+"durante todo o período de registro."
 
 #: comments.php:19
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentários"
 
 #. 1: plugin name.
 #: theme-config/tgmp/class-tgm-plugin-activation.php:3647
@@ -50,18 +57,18 @@ msgstr ""
 
 #: directory/front-end/hooks.php:2093
 msgid "( Kilometers )"
-msgstr ""
+msgstr "(Kilometros)"
 
 #: directory/front-end/hooks.php:2091
 msgid "( Miles )"
-msgstr ""
+msgstr "(Milhas)"
 
 #: includes/constants.php:160 includes/scripts.php:359
 #: directory/back-end/author-partials/template-author-services.php:69
 #: directory/front-end/templates/dashboard-services.php:70
 #: directory/front-end/author-partials/provider/template-author-services.php:59
 msgid "(In Appointment)"
-msgstr ""
+msgstr "(Disponível no Agendamento)"
 
 #: directory/back-end/author-partials/template-author-awards.php:26
 #: directory/back-end/author-partials/template-author-experience.php:26
@@ -70,51 +77,51 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:34
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:31
 msgid "+ add new"
-msgstr ""
+msgstr "+ adicionar novo"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:194
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: comments.php:19
 msgid "0 Comments"
-msgstr ""
+msgstr "0 Comentários"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:195
 msgid "0.1"
-msgstr ""
+msgstr "0.1"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:196
 msgid "0.2"
-msgstr ""
+msgstr "0.2"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:197
 msgid "0.3"
-msgstr ""
+msgstr "0.3"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:198
 msgid "0.4"
-msgstr ""
+msgstr "0.4"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:199
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:200
 msgid "0.6"
-msgstr ""
+msgstr "0.6"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:201
 msgid "0.7"
-msgstr ""
+msgstr "0.7"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:202
 msgid "0.8"
-msgstr ""
+msgstr "0.8"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:203
 msgid "0.9"
-msgstr ""
+msgstr "0.9"
 
 #: framework-customizations/theme/options/headers-settings.php:268
 msgid "0800 - 1234 - 562 - 6"
@@ -217,7 +224,7 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-text-block/options.php:42
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-timeline/options.php:79
 msgid "_blank"
-msgstr ""
+msgstr "_blank"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-call-to-action/options.php:56
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-our-partners/options.php:57
@@ -228,7 +235,7 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-text-block/options.php:43
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-timeline/options.php:80
 msgid "_self"
-msgstr ""
+msgstr "_self"
 
 #: directory/front-end/hooks.php:985
 msgid "A link has been sent, please check your email."
@@ -269,7 +276,7 @@ msgstr ""
 #: directory/front-end/hooks.php:1971
 #: theme-config/tgmp/class-tgm-plugin-activation.php:2859
 msgid "Activate"
-msgstr ""
+msgstr "Ativar"
 
 #. %2$s: plugin name in screen reader markup
 #: theme-config/tgmp/class-tgm-plugin-activation.php:2745
@@ -1308,7 +1315,7 @@ msgstr "Todas Categorias"
 
 #: directory/front-end/bookings/appointment-wizard.php:48
 msgid "All Done"
-msgstr ""
+msgstr "Tudo Feito"
 
 #: theme-config/tgmp/class-tgm-plugin-activation.php:3648
 msgid "All installations and activations have been completed."
@@ -1525,7 +1532,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:162
 msgid "Appointment Information"
-msgstr ""
+msgstr "Informação de Agendamento"
 
 #: directory/front-end/woo-hooks.php:383
 msgid "Appointment Number"
@@ -1645,7 +1652,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3075
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: includes/class-titlebars.php:194 includes/class-titlebars.php:199
 msgid "Archive"
@@ -1741,7 +1748,7 @@ msgstr ""
 
 #: includes/constants.php:211 includes/scripts.php:410
 msgid "Are you sure, you want to process this order?"
-msgstr ""
+msgstr "Tem certeza de que deseja comprar este voucher?"
 
 #: includes/constants.php:235 includes/scripts.php:433
 msgid "Are you sure, you want to reject this appintment."
@@ -1860,14 +1867,14 @@ msgstr "Faça a pergunta aqui"
 
 #: directory/front-end/bookings/appointment-wizard.php:30
 msgid "At"
-msgstr ""
+msgstr "As"
 
 #: directory/back-end/author-partials/template-author-payments.php:52
 #: directory/back-end/author-partials/template-author-payments.php:55
 #: directory/back-end/author-partials/template-author-payments.php:93
 #: directory/back-end/author-partials/template-author-payments.php:96
 msgid "at"
-msgstr ""
+msgstr "as"
 
 #: directory/front-end/functions.php:2390
 #: directory/front-end/functions.php:2568
@@ -1892,7 +1899,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3079
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-authentication/config.php:11
 msgid "Authentication"
@@ -1900,7 +1907,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:390
 msgid "Authentication Code"
-msgstr ""
+msgstr "Código de Autenticação"
 
 #: includes/constants.php:228 includes/scripts.php:426
 msgid "Authentication field must not be empty."
@@ -2274,7 +2281,7 @@ msgstr ""
 #: directory/front-end/templates/dashboard-package.php:188
 #: framework-customizations/extensions/shortcodes/shortcodes/sp_packages/views/view.php:197
 msgid "Buy/Renew Now"
-msgstr ""
+msgstr "Comprar"
 
 #: directory/front-end/templates/dashboard-jobs.php:135
 #: framework-customizations/extensions/articles/views/listing.php:122
@@ -2439,7 +2446,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:194
 msgid "Choose Appointment Type*"
-msgstr ""
+msgstr "Escolha o tipo de Agendamento*"
 
 #: directory/front-end/templates/dashboard-add-job.php:108
 #: directory/front-end/templates/dashboard-edit-job.php:135
@@ -2666,7 +2673,7 @@ msgstr ""
 
 #: directory/front-end/bookings/appointment-wizard.php:47
 msgid "Code Authentication"
-msgstr ""
+msgstr "Autenticação de Código"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:235
 msgid "col-lg-1"
@@ -3269,7 +3276,7 @@ msgstr "Desativado"
 
 #: directory/front-end/hooks.php:3083
 msgid "December"
-msgstr ""
+msgstr "Dezembro"
 
 #: framework-customizations/theme/options/directory-settings.php:933
 #: framework-customizations/theme/options/general-settings.php:48
@@ -4669,7 +4676,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3073
 msgid "February"
-msgstr ""
+msgstr "Fevereiro"
 
 #: framework-customizations/theme/options/booking-settings.php:98
 msgid "Fees by?"
@@ -5271,7 +5278,7 @@ msgstr ""
 #: includes/constants.php:241 includes/scripts.php:439
 #: directory/front-end/bookings/appointment-wizard.php:60
 msgid "I Understand!"
-msgstr ""
+msgstr "Compreendo!"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-services/options.php:83
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-services-slider/options.php:69
@@ -5421,7 +5428,7 @@ msgstr ""
 
 #: includes/functions.php:878
 msgid "In this month"
-msgstr ""
+msgstr "Neste mês"
 
 #: directory/front-end/dashboard-menu-templates/profile-menu-chat.php:50
 msgid "Inbox"
@@ -5492,7 +5499,7 @@ msgstr ""
 #: directory/back-end/hooks.php:473
 #: directory/front-end/dashboard-menu-templates/profile-menu-insights.php:38
 msgid "Insights"
-msgstr "Meu Time"
+msgstr "Meu Médico de Familia"
 
 #: directory/front-end/hooks.php:3726
 msgid "Instagram Link"
@@ -5574,7 +5581,7 @@ msgstr ""
 
 #: directory/front-end/bookings/appointment-wizard.php:45
 msgid "Instructions"
-msgstr ""
+msgstr "Instruções"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:82
 msgid "Instructions Heading"
@@ -5716,7 +5723,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3072
 msgid "January"
-msgstr ""
+msgstr "Janeiro"
 
 #: framework-customizations/theme/options/email-settings.php:577
 msgid "Job apply - Admin"
@@ -5860,11 +5867,11 @@ msgstr "Entrar"
 
 #: directory/front-end/hooks.php:3078
 msgid "July"
-msgstr ""
+msgstr "Julho"
 
 #: directory/front-end/hooks.php:3077
 msgid "June"
-msgstr ""
+msgstr "Junho"
 
 #: directory/appointment-booking.php:30
 msgid "Key does not match or your key does not contains valid information."
@@ -6229,7 +6236,7 @@ msgstr ""
 #: directory/front-end/author-partials/provider/template-author-header_v2.php:83
 #: directory/front-end/author-partials/provider/template-author-header_v3.php:131
 msgid "Login to make an appointment"
-msgstr ""
+msgstr "Entre para marcar uma consulta"
 
 #: framework-customizations/theme/options/headers-settings.php:58
 msgid "Login/Register ?"
@@ -6303,7 +6310,7 @@ msgstr ""
 #: directory/front-end/author-partials/provider/template-author-header_v2.php:77
 #: directory/front-end/author-partials/provider/template-author-header_v3.php:125
 msgid "Make Appointment"
-msgstr ""
+msgstr "Agendar Consulta"
 
 #: directory/front-end/functions.php:257
 msgid "Make Banner Photo Public"
@@ -6436,7 +6443,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3074
 msgid "March"
-msgstr ""
+msgstr "Março"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:21
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:100
@@ -6492,7 +6499,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3076
 msgid "May"
-msgstr ""
+msgstr "Maio"
 
 #: framework-customizations/theme/options/posts/post.php:202
 msgid "Media Link"
@@ -6721,7 +6728,7 @@ msgstr ""
 
 #: includes/constants.php:240 includes/scripts.php:438
 msgid "Next"
-msgstr ""
+msgstr "Próximo"
 
 #: includes/hooks.php:449
 msgid "Next post"
@@ -6803,7 +6810,7 @@ msgstr "Nenhum Favorito."
 
 #: directory/front-end/bookings/appointment-wizard.php:61
 msgid "No I Don't Want"
-msgstr ""
+msgstr "Não, eu não quero"
 
 #: directory/front-end/templates/dashboard-jobs.php:155
 msgid "No jobs added."
@@ -7004,7 +7011,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3082
 msgid "November"
-msgstr ""
+msgstr "Novembro"
 
 #: directory/back-end/author-partials/template-author-payments.php:224
 #: directory/front-end/templates/dashboard-package.php:164
@@ -7074,7 +7081,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3081
 msgid "October"
-msgstr ""
+msgstr "Outubro"
 
 #: directory/front-end/hooks.php:3798
 msgid "Odnoklassniki Link"
@@ -8143,7 +8150,7 @@ msgstr ""
 
 #: directory/front-end/bookings/appointment-wizard.php:59
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: includes/hooks.php:426
 msgid "previous post"
@@ -8183,7 +8190,7 @@ msgstr ""
 
 #: includes/constants.php:210 includes/scripts.php:409
 msgid "Process order?"
-msgstr ""
+msgstr "Comprar Pedido?"
 
 #: includes/scripts.php:443
 msgid "Process this transaction"
@@ -8239,7 +8246,7 @@ msgstr ""
 #: directory/front-end/dashboard-menu-templates/profile-menu-profile_settings.php:38
 #: framework-customizations/theme/options/directory-settings.php:753
 msgid "Profile Settings"
-msgstr "Configurações de Perfil"
+msgstr "Meu Perfil"
 
 #: framework-customizations/theme/options/posts/sp_categories.php:332
 msgid "Promptness"
@@ -8397,20 +8404,20 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:904
 msgid "Reason For Visit : "
-msgstr ""
+msgstr "Razão do Agendamento:"
 
 #: directory/front-end/bookings/functions.php:212
 msgid "Reason For Visit*"
-msgstr ""
+msgstr "Razão do Agendamento*"
 
 #: directory/front-end/customer/dashboard-appointment.php:205
 #: directory/front-end/templates/dashboard-appointment.php:204
 msgid "Reason For Visit:"
-msgstr ""
+msgstr "Razão do Agendamento:"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:144
 msgid "Reasons For Visit"
-msgstr ""
+msgstr "Razão do Agendamento"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-recent-questions/config.php:8
 msgid "Recent Questions"
@@ -8606,7 +8613,7 @@ msgstr "Resultados Encontrados"
 
 #: directory/front-end/woo-hooks.php:595
 msgid "Return to dashboard"
-msgstr ""
+msgstr "Retornar ao Painel"
 
 #: theme-config/tgmp/class-tgm-plugin-activation.php:397
 #: theme-config/tgmp/init.php:131
@@ -8615,7 +8622,7 @@ msgstr ""
 
 #: theme-config/tgmp/class-tgm-plugin-activation.php:398
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Retorne para o Painel"
 
 #: directory/front-end/bookings/functions.php:400
 #: directory/front-end/templates/dashboard-security-settings.php:44
@@ -8892,7 +8899,7 @@ msgstr ""
 #: directory/back-end/hooks.php:506
 #: directory/front-end/dashboard-menu-templates/profile-menu-security.php:38
 msgid "Security Settings"
-msgstr "Configurações de Segurança"
+msgstr "Trocar Senha"
 
 #: framework-customizations/theme/options/general-settings.php:69
 msgid "Seelct site loader speed"
@@ -8915,11 +8922,11 @@ msgstr ""
 
 #: directory/front-end/author-partials/provider/template-author-appointment-model.php:13
 msgid "Select Appointment Date"
-msgstr ""
+msgstr "Escolha o Dia da Consulta"
 
 #: directory/front-end/author-partials/provider/template-author-appointment-model.php:20
 msgid "Select Appointment Time:"
-msgstr ""
+msgstr "Escolha o Horário:"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-articles/options.php:37
 msgid "Select articles by category or item"
@@ -9110,7 +9117,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:171
 msgid "Select Services*"
-msgstr ""
+msgstr "Selecione Serviços*"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:236
 #: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:247
@@ -9228,7 +9235,7 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3080
 msgid "September"
-msgstr ""
+msgstr "Setembro"
 
 #: directory/front-end/woo-hooks.php:378
 #: directory/front-end/customer/dashboard-appointment.php:162
@@ -9920,7 +9927,7 @@ msgstr ""
 
 #: directory/front-end/author-partials/provider/template-author-appointment-model.php:33
 msgid "Start Booking"
-msgstr ""
+msgstr "Confirmar Agendamento"
 
 #: directory/back-end/author-partials/template-author-business-hours.php:60
 #: directory/back-end/author-partials/template-author-business-hours.php:104
@@ -10701,7 +10708,7 @@ msgstr "para atualizar os últimos detalhes adicionados."
 
 #: includes/functions.php:872
 msgid "Today"
-msgstr ""
+msgstr "Hoje"
 
 #: includes/class-headers.php:197 includes/class-headers.php:289
 #: includes/class-headers.php:419 includes/class-headers.php:541
@@ -11447,11 +11454,11 @@ msgstr ""
 
 #: directory/front-end/hooks.php:3782
 msgid "Whatsapp Number"
-msgstr ""
+msgstr "Número do Whatsapp"
 
 #: directory/front-end/hooks.php:3781
 msgid "Whatsapp Number?"
-msgstr ""
+msgstr "Número do Whatsapp?"
 
 #: directory/front-end/templates/dashboard-security-settings.php:76
 msgid "Why Leave Us."
@@ -11535,22 +11542,22 @@ msgstr ""
 #: framework-customizations/extensions/articles/views/articles.php:40
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-articles/views/view.php:150
 msgid "Written by"
-msgstr ""
+msgstr "Escrito por"
 
 #: directory/front-end/hooks.php:931 directory/front-end/hooks.php:1171
 msgid "Wrong reCaptcha. Please verify first."
-msgstr ""
+msgstr "ReCaptcha errado. Por favor, verifique primeiro."
 
 #: directory/front-end/jobs/functions.php:60
 #: directory/front-end/templates/dashboard-add-job.php:122
 #: directory/front-end/templates/dashboard-edit-job.php:155
 msgid "Year"
-msgstr ""
+msgstr "Ano"
 
 #: includes/template-tags.php:149
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: includes/class-woocommerce.php:206 includes/class-woocommerce.php:218
 #: includes/class-woocommerce.php:230 includes/class-woocommerce.php:242
@@ -11585,7 +11592,7 @@ msgstr ""
 
 #: includes/functions.php:874
 msgid "Yesterday"
-msgstr ""
+msgstr "Ontem"
 
 #: directory/front-end/functions.php:1236
 msgid "You account has been deactivated."
@@ -11819,7 +11826,7 @@ msgstr ""
 
 #: framework-customizations/extensions/questionsanswers/hooks.php:263
 msgid "Your vote update."
-msgstr ""
+msgstr "Sua atualização de votos."
 
 #: directory/front-end/hooks.php:3774
 msgid "Youtube Link"
