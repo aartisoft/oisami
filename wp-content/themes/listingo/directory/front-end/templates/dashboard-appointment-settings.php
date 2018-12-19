@@ -111,7 +111,7 @@ $booking_approved 	= !empty($booking_approved) ? $booking_approved : $booking_ap
             </fieldset>
             <fieldset>
                <div class="row">
-					<!--div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
 						<div class="tg-dashboardbox tg-appointment-types">
 							<div class="tg-dashboardtitle">
 								<h2><?php esc_html_e('Appointment Types', 'listingo'); ?></h2>
@@ -168,7 +168,7 @@ $booking_approved 	= !empty($booking_approved) ? $booking_approved : $booking_ap
 								</div>
 							</div>
 						</div>
-					</div-->
+					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
 						<div class="tg-dashboardbox appointment-confirm appointment-email-wrap">
 							<div class="tg-dashboardtitle">

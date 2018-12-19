@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Listingo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 11:17+0000\n"
-"PO-Revision-Date: 2018-12-19 16:50+0000\n"
+"PO-Revision-Date: 2018-12-19 17:13+0000\n"
 "Last-Translator: Leonardo Falotico <leonardo.falotico@edev.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -1911,7 +1911,7 @@ msgstr "Código de Autenticação"
 
 #: includes/constants.php:228 includes/scripts.php:426
 msgid "Authentication field must not be empty."
-msgstr ""
+msgstr "O campo de autenticação não pode estar vazio."
 
 #: directory/front-end/bookings/functions.php:383
 msgid "Authentication Required"
@@ -10717,7 +10717,7 @@ msgstr ""
 
 #: includes/functions.php:876
 msgid "Tomorrow"
-msgstr ""
+msgstr "Amanhã"
 
 #: framework-customizations/theme/options/directory-settings.php:497
 msgid "Tooltip Settings."
@@ -10851,7 +10851,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:395
 msgid "Type Password"
-msgstr ""
+msgstr "Digite sua senha"
 
 #: comments.php:44
 msgid "Type Your Comment Here"

@@ -195,15 +195,15 @@ if (!function_exists('listingo_get_appointment_step_two')) {
                                 <select name="appointment_form[apt_types]" class="sp_appointment_types">
                                     <option value=""><?php esc_html_e('Choose Appointment Type*', 'listingo'); ?></option>
 
+                                    <!--
                                     <option value="primeiraconsulta">Primeira Consulta</option>
                                     <option value="retorno">Retorno</option>
                                     <option value="outros">Outros</option>
+                                    -->
                                     
-                                    <!--
                                     <?php if (!empty($apointment_types)) { foreach ($apointment_types as $key => $types) { ?>
                                       <option value="<?php echo esc_attr($key); ?>"><?php echo esc_attr($types); ?></option>
                                     <?php }} ?>
-                                    -->
 
                                 </select>
                             </span>
@@ -215,14 +215,14 @@ if (!function_exists('listingo_get_appointment_step_two')) {
                                 <select name="appointment_form[apt_reasons]" class="sp_appointment_reasons">
                                     <option value=""><?php esc_html_e('Reason For Visit*', 'listingo'); ?></option>
 
+                                    <!--
                                     <option value="checkup">Checkup de Rotina</option>
                                     <option value="outros">Outros</option>
-
-                                    <!--
+                                    -->
+                                    
                                     <?php if (!empty($appointment_reasons)) { foreach ($appointment_reasons as $key => $reasons) { ?>
                                       <option value="<?php echo esc_attr($key); ?>"><?php echo esc_attr($reasons); ?></option>
                                     <?php }} ?>
-                                    -->
 
                                 </select>
                             </span>
