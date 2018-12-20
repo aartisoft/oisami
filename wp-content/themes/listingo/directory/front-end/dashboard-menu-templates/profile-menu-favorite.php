@@ -32,9 +32,8 @@ $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
 if( apply_filters('listingo_is_favorite_allowed',$user_identity) === true ){?>
-
 	<?php if (apply_filters('listingo_is_setting_enabled', $user_identity, 'subscription_favorites') === true) { ?>
-		<li class="favoritos <?php echo ( $reference === 'favourite' ? 'tg-active' : ''); ?>">
+		<li class="favoritos  <?php echo ( $reference === 'favourite' ? 'tg-active' : ''); ?>">
 			<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'favourite', $user_identity); ?>">
 				<i class="lnr lnr-heart"></i>
 				<span><?php esc_html_e('Favourite Listing', 'listingo'); ?></span>
@@ -42,5 +41,4 @@ if( apply_filters('listingo_is_favorite_allowed',$user_identity) === true ){?>
 			</a>
 		</li>
 	<?php } ?>
-	
 <?php }

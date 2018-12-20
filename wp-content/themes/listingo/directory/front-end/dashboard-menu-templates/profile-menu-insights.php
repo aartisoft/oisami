@@ -60,7 +60,7 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 		</a>
 	</li>
 
- 	<!-- <li class="agendar">
+	<!-- <li class="agendar">
 		<a href="<?php echo $m_url; ?>">
 			<i class="lnr lnr-calendar-full"></i>
 			<span>Agendar Consulta</span>
@@ -111,5 +111,4 @@ if( isset( $insight_page ) && $insight_page === 'enable' ){?>
 			<!--?php do_action('listingo_get_tooltip','menu','menu_favorites');?-->
 		</a>
 	</li>
-
 <?php }

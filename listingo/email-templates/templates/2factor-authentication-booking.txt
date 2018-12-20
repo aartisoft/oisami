@@ -1,0 +1,14 @@
+Hello %user_name%
+
+To complete your appointment please enter the below authentication code in appointment form.
+
+<div style="width: 100%; float: left; padding: 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+  <div style="width: 100%; float: left; padding: 15px; background: #f7f7f7; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+    <div style="width: 100%; float: left; padding: 30px 15px; border: 2px solid #fff; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+      <h3 style="font-size: 26px; margin-bottom:15px; font-weight: 600; line-height: 26px; margin: 0; color: #333; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color: #333; font-weight: normal;font-family: 'Work Sans', Arial, Helvetica, sans-serif;">Your Authentication code is</h3>
+      <p>%code%<p>
+      </div>
+  </div>
+</div>
+
+%signature%

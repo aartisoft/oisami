@@ -39,7 +39,7 @@ if (function_exists('fw_get_db_settings_option')
 	&& apply_filters('listingo_is_feature_allowed', $provider_category, 'teams') === true
 ) {
 ?>
-	<li class="tg-privatemessages tg-hasdropdown <?php echo ( $reference === 'team' ? 'tg-active tg-openmenu' : ''); ?>">
+	<li class="time tg-privatemessages tg-hasdropdown <?php echo ( $reference === 'team' ? 'tg-active tg-openmenu' : ''); ?>">
 		<a id="tg-btntoggle" class="tg-btntoggle" href="javascript:">
 			<i class="lnr lnr-pencil"></i>
 			<span><?php esc_html_e('Manage Team Members', 'listingo'); ?></span>

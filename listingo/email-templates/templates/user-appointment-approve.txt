@@ -1,0 +1,6 @@
+Hi, %customer_name%!
+This is confirmation that your booking regarding "%service%" with %provider% has approved.
+We are waiting on %appointment_date% at %appointment_time%.
+
+
+%signature%

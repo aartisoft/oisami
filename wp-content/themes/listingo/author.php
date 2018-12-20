@@ -32,32 +32,32 @@ $end_wrapper	= '';
 
 $viewClass	= 'tg-serviceproviderdetailvone';
 if( isset( $style_settings ) && $style_settings === 'view_2' ){
-    $viewClass	= 'tg-serviceproviderdetailvtwo';
-    $start_wrapper	= '<div class="tg-listdetailcontent">';
-    $end_wrapper	= '</div>';
+	$viewClass	= 'tg-serviceproviderdetailvtwo';
+	$start_wrapper	= '<div class="tg-listdetailcontent">';
+	$end_wrapper	= '</div>';
 } else if( isset( $style_settings ) && $style_settings === 'view_3' ){
-    $viewClass	= 'tg-listinglistdetail sp-detail-bannerv3';
+	$viewClass	= 'tg-listinglistdetail sp-detail-bannerv3';
 }
 
 get_header();
 
-if (( apply_filters('listingo_get_user_type', $author_profile->ID) === 'business'
-     || apply_filters('listingo_get_user_type', $author_profile->ID) === 'professional'
-    ) && function_exists('fw_get_db_settings_option')
+if (( apply_filters('listingo_get_user_type', $author_profile->ID) === 'business' 
+	 || apply_filters('listingo_get_user_type', $author_profile->ID) === 'professional' 
+	) && function_exists('fw_get_db_settings_option')
 ) {
     ?>
     <div class="tg-serviceprovider tg-detailpage tg-serviceproviderdetail <?php echo esc_attr( $viewClass );?>">
         <?php echo (  $start_wrapper );?>
-        <?php
-            if( isset( $style_settings ) && $style_settings === 'view_2' ){
-                get_template_part('directory/front-end/author-partials/provider/template-author', 'header_v2');
-            }else if( isset( $style_settings ) && $style_settings === 'view_3' ){
-                get_template_part('directory/front-end/author-partials/provider/template-author', 'header_v3');
-            }else{
-                get_template_part('directory/front-end/author-partials/provider/template-author', 'header');
-                get_template_part('directory/front-end/author-partials/provider/template-author-views', 'bar');
-            }
-        ?>
+        <?php 
+			if( isset( $style_settings ) && $style_settings === 'view_2' ){
+				get_template_part('directory/front-end/author-partials/provider/template-author', 'header_v2');
+			}else if( isset( $style_settings ) && $style_settings === 'view_3' ){
+				get_template_part('directory/front-end/author-partials/provider/template-author', 'header_v3');
+			}else{
+				get_template_part('directory/front-end/author-partials/provider/template-author', 'header');
+				get_template_part('directory/front-end/author-partials/provider/template-author-views', 'bar');
+			}
+		?>
         <div id="tg-twocolumns" class="tg-twocolumns">
             <div class="container">
                 <div class="row">
@@ -95,7 +95,7 @@ if (( apply_filters('listingo_get_user_type', $author_profile->ID) === 'business
                                 ?>
                             </div>
 
-                             <div class="tg-companyfeatures">
+                            <div class="tg-companyfeatures">
                                 <?php get_template_part('directory/front-end/author-partials/provider/template-author', 'banner'); ?>
                                 <?php
                                     foreach( $profile_section as $key => $value  ){
@@ -110,54 +110,54 @@ if (( apply_filters('listingo_get_user_type', $author_profile->ID) === 'business
                 </div>
             </div>
         </div>
-        <?php echo (  $end_wrapper );?>
+		<?php echo (  $end_wrapper );?>
     </div>
     <?php
     if (isset($db_privacy['profile_appointment']) && $db_privacy['profile_appointment'] === 'on') {
         get_template_part('directory/front-end/author-partials/provider/template-author-appointment', 'model');
     }
 
-    //Including Schema template
-    get_template_part('directory/front-end/author-partials/provider/template-author-schema', 'data');
+    //Including Schema template    
+    get_template_part('directory/front-end/author-partials/provider/template-author-schema', 'data');    
 
 
 } else if ( apply_filters('listingo_get_user_type', $author_profile->ID) === 'customer' ){?>
-    <div class="tg-serviceprovider tg-detailpage tg-serviceproviderdetail tg-serviceproviderdetailvtwo customer-dashboard">
+	<div class="tg-serviceprovider tg-detailpage tg-serviceproviderdetail tg-serviceproviderdetailvtwo customer-dashboard">
         <div class="tg-listdetailcontent">
-            <?php get_template_part('directory/front-end/author-partials/customer/template-author', 'header_v2');?>
-            <div id="tg-twocolumns" class="tg-twocolumns">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 pull-left">
-                            <div id="tg-content" class="tg-content">
-                                <div class="tg-companyfeatures">
-                                      <?php if (is_active_sidebar('user-page-top')) {?>
-                                      <div class="tg-advertisement">
-                                        <?php dynamic_sidebar('user-page-top'); ?>
-                                      </div>
-                                   <?php }?>
-                                   <?php
-                                        foreach( $customer_sections['content'] as $key => $value ){
-                                            $template	= !empty( $value['key'] ) ? $value['key'] : 'default';
-                                            get_template_part('directory/front-end/author-partials/customer/template-author', $template);
-                                        }
-                                    ?>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 pull-right">
-                            <aside id="tg-sidebar" class="tg-sidebar">
-                                <?php
-                                    foreach( $customer_sections['sidebar'] as $key => $value ){
-                                        $template	= !empty( $value['key'] ) ? $value['key'] : 'default';
-                                        get_template_part('directory/front-end/author-partials/customer/template-author-sidebar',$template);
-                                    }
-                                ?>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<?php get_template_part('directory/front-end/author-partials/customer/template-author', 'header_v2');?>
+			<div id="tg-twocolumns" class="tg-twocolumns">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 pull-left">
+							<div id="tg-content" class="tg-content">
+								<div class="tg-companyfeatures">
+							   	   <?php if (is_active_sidebar('user-page-top')) {?>
+									  <div class="tg-advertisement">
+										<?php dynamic_sidebar('user-page-top'); ?>
+									  </div>
+								   <?php }?>
+								   <?php
+										foreach( $customer_sections['content'] as $key => $value ){
+											$template	= !empty( $value['key'] ) ? $value['key'] : 'default';
+											get_template_part('directory/front-end/author-partials/customer/template-author', $template);
+										}
+									?>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 pull-right">
+							<aside id="tg-sidebar" class="tg-sidebar">
+								<?php 
+									foreach( $customer_sections['sidebar'] as $key => $value ){
+										$template	= !empty( $value['key'] ) ? $value['key'] : 'default';
+										get_template_part('directory/front-end/author-partials/customer/template-author-sidebar',$template); 
+									}															  
+								?>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 <?php

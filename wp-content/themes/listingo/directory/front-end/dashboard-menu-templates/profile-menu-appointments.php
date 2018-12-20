@@ -11,12 +11,12 @@
 
 global $current_user, $wp_roles, $userdata, $post;
 
-$reference 		  = (isset($_GET['ref']) && $_GET['ref'] <> '') ? $_GET['ref'] : '';
-$mode 			    = (isset($_GET['mode']) && $_GET['mode'] <> '') ? $_GET['mode'] : '';
-$user_identity  = $current_user->ID;
-$bk_settings	  = listingo_get_booking_settings();
+$reference 		 = (isset($_GET['ref']) && $_GET['ref'] <> '') ? $_GET['ref'] : '';
+$mode 			 = (isset($_GET['mode']) && $_GET['mode'] <> '') ? $_GET['mode'] : '';
+$user_identity 	 = $current_user->ID;
+$bk_settings	 = listingo_get_booking_settings();
 
-$url_identity   = $user_identity;
+$url_identity = $user_identity;
 if (isset($_GET['identity']) && !empty($_GET['identity'])) {
 	$url_identity = $_GET['identity'];
 }
@@ -36,7 +36,7 @@ if (apply_filters('listingo_is_setting_enabled', $user_identity, 'subscription_a
 	&& apply_filters('listingo_is_feature_allowed', $provider_category, 'appointments') === true
 ) {
 	?>
-	<li class="tg-hasdropdown <?php echo ( $reference === 'appointment' ? 'tg-active tg-openmenu' : ''); ?>">
+	<li class="agenda tg-hasdropdown <?php echo ( $reference === 'appointment' ? 'tg-active tg-openmenu' : ''); ?>">
 		<a id="tg-btntoggle" class="tg-btntoggle" href="javascript:">
 			<i class="lnr lnr-calendar-full"></i>
 			<span><?php esc_html_e('Manage Appointments', 'listingo'); ?></span>

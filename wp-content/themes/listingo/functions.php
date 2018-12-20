@@ -8,7 +8,6 @@
  * @link      https://themeforest.net/user/themographics/portfolio
  * @since 1.0
  */
-
 require_once ( get_template_directory() . '/theme-config/theme-setup/class-theme-setup.php'); //Theme setup
 require_once ( get_template_directory() . '/includes/class-notifications.php'); //Theme notifications
 require_once ( get_template_directory() . '/includes/scripts.php'); //Theme styles and scripts

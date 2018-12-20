@@ -1,0 +1,10 @@
+Hey %name%!
+
+Thanks for registering at Service Providers. You can now login to manage your account using the following credentials:
+
+<ul style="margin: 0; width: 100%; float: left; list-style: none; font-size: 14px; line-height: 20px; padding: 0 0 15px; font-family: 'Work Sans', Arial, Helvetica, sans-serif;">
+  <li style="width: 100%; float: left; line-height: inherit; list-style-type: none; background: #f7f7f7;"> <strong style="width: 50%; float: left; padding: 10px; color: #333; font-weight: 400; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">Username:</strong> <span style="width: 50%; float: left; padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">%email%</span> </li>
+  <li style="width: 100%; float: left; line-height: inherit; list-style-type: none;"> <strong style="width: 50%; float: left; padding: 10px; color: #333; font-weight: 400; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">Password:</strong> <span style="width: 50%; float: left; padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">%password%</span> </li>
+</ul>
+
+%signature%

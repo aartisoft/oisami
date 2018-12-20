@@ -36,7 +36,7 @@ if( ( isset( $bk_settings['type'] ) && $bk_settings['type'] === 'woo' && $bk_set
 	&& apply_filters('listingo_do_check_user_type', $user_identity) === true
 	&& apply_filters('listingo_is_feature_allowed', $provider_category, 'appointments') === true
 ){?>
-	<li class="tg-privatemessages tg-hasdropdown <?php echo ( $reference === 'statement' ? 'tg-active tg-openmenu' : ''); ?>">
+	<li class="ganhos tg-privatemessages tg-hasdropdown <?php echo ( $reference === 'statement' ? 'tg-active tg-openmenu' : ''); ?>">
 		<a id="tg-btntoggle" class="tg-btntoggle" href="javascript:">
 			<i class="lnr lnr-sort-amount-asc"></i>
 			<span><?php esc_html_e('Earnings/Withdrawals', 'listingo'); ?></span>

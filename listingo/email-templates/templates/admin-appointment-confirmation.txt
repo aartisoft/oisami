@@ -1,0 +1,6 @@
+Hello,
+
+
+This is confirmation that you have received a new appointment from %user_from%.
+
+%signature%

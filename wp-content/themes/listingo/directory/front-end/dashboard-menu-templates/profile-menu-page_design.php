@@ -32,12 +32,12 @@ $profile_page = isset($dir_profile_page[0]) ? $dir_profile_page[0] : '';
 $provider_category = listingo_get_provider_category($user_identity);
 
 if (apply_filters('listingo_do_check_user_type', $user_identity) === true) { ?>
-	<!--li class="sp-page-design <?php echo ( $reference === 'sorting' ? 'tg-active' : ''); ?>">
+	<li class="design sp-page-design <?php echo ( $reference === 'sorting' ? 'tg-active' : ''); ?>">
 		<a href="<?php Listingo_Profile_Menu::listingo_profile_menu_link($profile_page, 'sorting', $user_identity); ?>">
 			<i class="lnr lnr-move"></i>
 			<span><?php esc_html_e('Profile Page Design', 'listingo'); ?></span>
 			<?php do_action('listingo_get_tooltip','menu','menu_design');?>
 			<em class="lnr lnr-rocket tg-taginfo"></em>
 		</a>
-	</li-->
+	</li>
 <?php }

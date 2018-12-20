@@ -1,0 +1,3 @@
+Hi, %customer_name%!
+This is confirmation that you have booked a "%service%" with %provider%.
+%signature%

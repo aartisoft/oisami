@@ -1,0 +1,11 @@
+How to Import Users
+
+-- Install Theme and listingo_core plugin and other required plugins
+-- Then go to Listingo > Import users
+-- Here you can import dummy or your own users.
+-- To import dummy users you just need to click on Import Dummy
+-- To import your own users you need to preapre csv file. For more infromation that how to prepare CSV file you can check documentation
+
+
+
+

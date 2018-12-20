@@ -1,0 +1,578 @@
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+body.rtl .tg-adminbox,
+body.rtl .tg-rightarea,
+body.rtl .tg-rightarea .tg-btn,
+body.rtl .tg-featuredprofilesbtns .tg-btnnext i,
+body.rtl .tg-heart,
+body.rtl .tg-footernav,
+body.rtl .blog_single .tg-postshare,
+body.rtl .tg-rightbox,
+body.rtl .tg-featuredprofile figcaption .tg-btn,
+body.rtl .tg-listing .tg-sortfilters,
+body.rtl .tg-panel .tg-accordionheading h4 span + span,
+body.rtl .tg-certicicatesawards .tg-textbox time,
+body.rtl .tg-btndownload .lnr,
+body.rtl .tg-btnaddservices,
+body.rtl .tg-btnaddnew,
+body.rtl .tg-btntimeedit,
+body.rtl .tg-daychckebox .tg-checkbox,
+body.rtl .tg-btntext,
+body.rtl .tg-dashboardbox .tg-dashboardtitle span,
+body.rtl .tg-iosstylcheckbox,
+body.rtl .tg-timecounter,
+body.rtl .tg-ceobottom .tg-logo,
+body.rtl .tg-overallratingbox,
+body.rtl .tg-formleavefeedback .tg-servicesrating li > em + div,
+body.rtl .tg-formleavefeedback .form-group .tg-select,
+body.rtl .tg-recommendedradio,
+body.rtl .tg-companyfeaturebox .tg-votesanswers,
+body.rtl .tg-countdown ul li h4,
+body.rtl .tg-pkgplansvtwo .tg-pkgplan ul li span + span,
+body.rtl .tg-btnreset,
+body.rtl .tg-btnreset span,
+body.rtl .tg-sortcontentitems .tg-timebox i{ float: left; }
+body.rtl .tg-addressinfo,
+body.rtl .tg-logo,
+body.rtl .tg-nav,
+body.rtl .tg-navigation > ul > li,
+body.rtl .tg-categoryicon,
+body.rtl .tg-subcategoryradio label .tg-categoryname,
+body.rtl .tg-btns .tg-btn,
+body.rtl .tg-featuredprofiles h1 span,
+body.rtl .tg-featuredprofilesbtns .tg-btnprev i,
+body.rtl .tg-categorytag,
+body.rtl .tg-companylogo,
+body.rtl .tg-tags li,
+body.rtl .tg-matadata li,
+body.rtl .tg-featureicon,
+body.rtl .tg-socialicons li,
+body.rtl .tg-videobox,
+body.rtl .menu-useful-links-container > .menu li a,
+body.rtl .tg-footerbar span,
+body.rtl .tg-footernav ul li,
+body.rtl .tg-posttags,
+body.rtl .tg-tagsshare span,
+body.rtl .tg-leftbox,
+body.rtl .tg-contentbox,
+body.rtl .tg-pagetitle,
+body.rtl .tg-contactusarea .tg-themeform .tg-btn,
+body.rtl .tg-widget .tg-videocontent span,
+body.rtl .tg-bordertitle h2,
+body.rtl .tg-jobmatadata li,
+body.rtl .tg-totallistingfound,
+body.rtl .tg-listview .tg-featuredimg,
+body.rtl .tg-listing .tg-infoBox .tg-featuredimg,
+body.rtl .tg-listview.tg-listingvtwo .tg-companycontent .tg-btn,
+body.rtl .tg-tag,
+body.rtl .tg-companyfeaturebox.tg-jobdetails ul li span,
+body.rtl .tg-jobmataicon,
+body.rtl .do-process-account-status,
+body.rtl .tg-languages .tg-themeliststyle li,
+body.rtl .tg-panel .tg-accordionheading h4 span,
+body.rtl .tg-listfeatures .tg-panel .tg-accordionheading h4 em,
+body.rtl .tg-companyfeatures .tg-panel .tg-accordionheading h4 em,
+body.rtl .tg-certicicatesawards ul li figure,
+body.rtl .tg-certicicatesawards .tg-textbox h4,
+body.rtl .tg-joblisting .tg-tablejoblidting .tg-companylogo,
+body.rtl .tg-dashboardtitle,
+body.rtl .tg-tagdashboardlist li,
+body.rtl .tg-dashboardbox .tg-dashboardtitle h2,
+body.rtl .tg-imgandtitle,
+body.rtl .tg-daychckebox h3,
+body.rtl .tg-teammember figure,
+body.rtl .tg-ourteam ul li,
+body.rtl .tg-col,
+body.rtl .tg-daybox span a,
+body.rtl .tg-dashboardbox .tg-dashboardtitle h2,
+body.rtl .tg-privacysetting span,
+body.rtl .tg-pkgexpirey,
+body.rtl .tg-countdown ul lim,
+body.rtl .tg-servicetitle,
+body.rtl .tg-servicetitle h2 a,
+body.rtl .tg-dashboardappointment .tg-servicetitle figure,
+body.rtl .tg-ceocontent,
+body.rtl .tg-ceocontent figure,
+body.rtl .tg-companyfeaturebox .tg-postmatadata,
+body.rtl .tg-postmatadata.tg-postmatadatalikeunlike li,
+body.rtl .tg-companyfeaturebox .tg-postmatadata li,
+body.rtl .tg-timebox i,
+body.rtl .tg-timebox time,
+body.rtl .tg-reviews .tg-reviewstabs li,
+body.rtl .tg-formleavefeedback .tg-servicesrating li em,
+body.rtl .tg-formleavefeedback .form-group label,
+body.rtl .tg-reviewtitle,
+body.rtl .tg-questionbottom .tg-btn,
+body.rtl .tg-tabnav li,
+body.rtl .tg-tabnav li a > span,
+body.rtl .tg-modalhead h2,
+body.rtl .tg-dateandcount time,
+body.rtl .tg-uploadhead span,
+body.rtl .tg-galleryimg,
+body.rtl .tg-sortfilter,
+body.rtl .tg-radiotimeslot,
+body.rtl .tg-countdown ul li,
+body.rtl .tg-pkgplansvtwo .tg-pkgplan ul li span,
+body.rtl .payment-withdrawal,
+body.rtl .tg-selectpagedesign .row > [class^="col-"],
+body.rtl .tg-selectpagedesign .row > [class*="col-"],
+body.rtl .tg-dragdropoption .tg-contentheading,
+body.rtl .tg-slots .form-group,
+body.rtl .form-group.tg-btnbox .tg-btn{ float: right; }
+body.rtl .form-group.tg-btnbox .tg-btn:first-child{margin:0;}
+body.rtl .tg-tabnav li a > span,
+body.rtl .tg-timebox i{margin:0 0 0 10px;}
+body.rtl .tg-rightarea .tg-btn{margin: 0 40px 0 0;}
+body.rtl .tg-navigation > ul > li{padding: 0;}
+body.rtl .tg-categoryicon{ margin: 0 0 0 10px; }
+body.rtl #location-address {padding: 10px 18px 10px 50px;}
+body.rtl .tg-usermenu,
+body.rtl .tg-tablejoblidting tr td .tg-companylogo,
+body.rtl .sp-searchQBox .submitquestion,
+body.rtl .tg-secureandreliable .tg-btn,
+body.rtl .tg-404errorcontent .tg-themeform fieldset .tg-btn,
+body.rtl .tg-inpuicon i{
+	left: 0;
+	right: auto;
+}
+body.rtl .tg-usermenu:before {
+	left: 36px;
+	right: auto;
+}
+body.rtl .tg-dashboardnav > ul > li > a:before,
+body.rtl .sub-menu,
+body.rtl .children,
+body.rtl .mega-menu,
+body.rtl .tg-navigation ul li a:after,
+body.rtl .tg-radio input[type=radio] + label:before,
+body.rtl .tg-checkbox input[type=checkbox] + label:before,
+body.rtl .tg-btn:before,
+body.rtl .tg-btn:after,
+body.rtl .tg-advantageicon .tg-badge,
+body.rtl .tg-widgettwitter .tg-widgetcontent ul li:before,
+body.rtl .tg-bordertitle:before,
+body.rtl .tg-formrefinesearch h4:before,
+body.rtl .tg-emailmenu li:before,
+body.rtl .tg-tablejoblidting tr:before,
+body.rtl .tg-sidebar .tg-widgettitle:before,
+body.rtl .tg-themeliststyle li:before,
+body.rtl .mega-menu .mega-menu-row > .mega-menu-col a:before,
+body.rtl .tg-docimg{
+	left: auto;
+	right: 0;
+}
+body.rtl .tg-dashboardnav ul li a i {margin: 0 0 0 10px;}
+body.rtl .tg-invoices,
+body.rtl .tg-totalmessages,
+body.rtl .tg-dropdownmenu .tg-dashboardnav ul li a em{
+	right: auto;
+	left: 20px;
+}
+body.rtl .locate-me-wrap .geolocate,
+body.rtl .locate-me-wrap .geodistance,
+body.rtl .sp-search-provider-banner-v2 .tg-formsearch .form-group .geolocate,
+body.rtl .tg-select:after {
+	left: 30px;
+	right: auto;
+}
+body.rtl .locate-me-wrap .geodistance,
+body.rtl .tg-select:after {left: 15px;}
+body.rtl .tg-formsearch .tg-checkbox label{padding: 0 20px 0 0;}
+body.rtl .tg-radio input[type=radio] + label:before,
+body.rtl .tg-checkbox input[type=checkbox] + label:before{top: 5px;}
+body.rtl .tg-featuredprofiles h1 {
+	left: auto;
+	right: 60px;
+}
+body.rtl .tg-listview .tg-companycontent .tg-btn,
+body.rtl .tg-detailpageheadcontent .tg-btn{
+	right: auto;
+	left: 0;
+}
+body.rtl .tg-companylogo{margin: 0 0 0 8px;}
+body.rtl .tg-tags li + li {padding: 0 10px 0 0;}
+body.rtl .tg-matadata li:first-child {padding: 0 0 0 10px;}
+body.rtl .tg-matadata li + li:before{
+	left: 0;
+	right: -2px;
+}
+body.rtl .tg-featurecontent {padding: 11px 10px 10px 0;}
+body.rtl .tg-footercolumn .tg-socialicons li:first-child {padding: 0 0 0 4px;}
+body.rtl .tg-widgettwitter .tg-widgetcontent ul li {padding: 0 25px 0 0;}
+body.rtl .tg-widget .tg-videocontent {padding: 0 15px 0 0;}
+body.rtl .tg-footernav ul li:last-child{padding: 0;}
+body.rtl .tg-tagsshare span{margin: 0 0 0 5px;}
+body.rtl .tg-authorcontent {padding: 0 90px 0 0;}
+body.rtl .form-control,
+body.rtl .form-group textarea,
+body.rtl .tg-testimonial blockquote q,
+body.rtl .tg-tablejoblidting tr .tg-contentbox .tg-title,
+body.rtl .tg-dashboardnav > ul > li,
+body.rtl .tg-bannerholder .tg-bannercaption,
+body.rtl .tg-bannerholder .tg-bannercontent .tg-btnbox,
+body.rtl .tg-tablejoblidting tr .tg-contentbox span{text-align: right;}
+body.rtl .tg-testimonialnavigationslider {padding: 30px 0 0 60%;}
+body.rtl .tg-sortfilter .tg-select select{padding: 0 15px 0 30px;}
+body.rtl .tg-formrefinesearch .tg-checkbox label,
+body.rtl .tg-formrefinesearch .tg-radio label{padding: 0 20px 0 0;}
+body.rtl .tg-mapinnerbanner .tg-infoBox .tg-featuredimg,
+body.rtl .tg-listing .tg-infoBox .tg-featuredimg {margin: 0 0 0 15px;}
+body.rtl .tg-listview .tg-featuredimg {margin: 0;}
+body.rtl .tg-listview .tg-serviceproviders .tg-companycontent {padding: 20px 30px 20px 185px;}
+body.rtl .tg-listview.tg-listingvtwo .tg-serviceproviders .tg-companycontent{padding: 10px 30px 10px 0;}
+body.rtl .tg-emailmenu{
+	text-align:right;
+	padding: 0 25px 0 0;
+}
+body.rtl .tg-emailmenu:before {
+	left: auto;
+	right: 25px;
+}
+body.rtl .tg-emailmenu li {padding: 3px 21px 3px 0;}
+body.rtl .tg-alertmessage i{margin: 0 0 0 10px; float:right;}
+body.rtl .tg-alertmessage span{padding:6px 0;}
+body.rtl .tg-alertmessage span,
+body.rtl .tg-alertmessage span strong{float:right;}
+body.rtl .tg-widgetrelatedjobs .tg-widgetcontent .tg-companylogo{margin: 4px 0 4px 8px;}
+body.rtl .tg-jobmataicon{margin: 0 0 0 15px;}
+body.rtl .tg-jobdetail .tg-detailpageheadcontent {padding: 0 0 0 185px;}
+body.rtl .tg-jobdetail .tg-detailpagehead .tg-companylogo {margin: 0 0 0 15px;}
+body.rtl .tg-languages .tg-themeliststyle li{padding: 0 15px 0 0;}
+body.rtl .tg-certicicatesawards ul li figure{margin: 0 0 0 30px;}
+body.rtl .tg-recommendedradio .tg-radio label i{padding: 0  0 0 10px;}
+body.rtl .tg-widgetrelatedposts .tg-matadata li{width: auto;}
+body.rtl .tg-btndownload,
+body.rtl .tg-navigation ul li,
+body.rtl .chosen-container-single .chosen-single span{text-align: right;}
+body.rtl .tg-btndownload{
+	border: 0;
+	border-right: 3px solid #f7f7f7;
+}
+body.rtl .tg-detailpageheadcontent{padding: 9px 0 9px 185px;}
+body.rtl .tg-themeliststylecircletick li{padding: 0 30px 0 0;}
+
+
+body.rtl .tg-joblisting.tg-dashboardmanagejobs tr td .tg-companylogo{
+	right: auto;
+	left: -60px;
+}
+body.rtl .tg-joblisting.tg-dashboardmanagejobs tr:hover td .tg-companylogo{left: 0;}
+body.rtl .tg-btntimeedit .tg-btndel,
+body.rtl .tg-btntimeedit .tg-btnedite,
+body.rtl .tg-dashboardappointment .tg-btntimeedit .tg-btndel,
+body.rtl .tg-certificatesaward .tg-btntimeedit .tg-btndel,
+body.rtl .tg-dashboardappointment .tg-btntimeedit .tg-btnedite,
+body.rtl .tg-certificatesaward .tg-btntimeedit .tg-btnedite,
+body.rtl .tg-dashboardappointment .tg-btntimeedit .tg-btnedite{
+	right: auto;
+	left: -100px;
+}
+body.rtl .tg-dashboardappointment:hover .tg-btntimeedit .tg-btndel,
+body.rtl .tg-certificatesaward:hover .tg-btntimeedit .tg-btndel{left: 0;}
+body.rtl .tg-dashboardappointment:hover .tg-btntimeedit .tg-btnedite,
+body.rtl .tg-certificatesaward:hover .tg-btntimeedit .tg-btnedite,
+body.rtl .tg-dashboardappointment:hover .tg-btntimeedit .tg-btnedite{left: 60px;}
+body.rtl .tg-daychckebox .tg-checkbox label{padding: 0 20px 0 0;}
+body.rtl .tg-teammember figure{margin: 0 0 0 10px;}
+body.rtl .tg-manageteam .form-group,
+body.rtl .tg-addallowance .form-group{padding: 0 0 0 190px;}
+body.rtl .tg-iconinput i{
+	right: auto;
+	left: 40px;
+}
+body.rtl .tg-languagesbox .form-group,
+body.rtl .tg-amenitiesfeaturesbox .form-group{padding: 0 0 0 172px;}
+body.rtl .tg-languagesbox .form-group .tg-btn,
+body.rtl .tg-amenitiesfeaturesbox .form-group .tg-btn,
+body.rtl .tg-addallowance .form-group .tg-btn{
+	right: auto;
+	left: 20px;
+}
+body.rtl .tg-addallowance .form-group .tg-btn{left: 0;}
+body.rtl .tg-daybox span a{margin: 0;}
+body.rtl .tg-btn.tg-btndeactivate{margin: 0 0 0 25px;}
+body.rtl .tg-iosstylcheckbox label:before {
+	right: auto;
+	left: 0;
+}
+body.rtl .tg-iosstylcheckbox label::after {text-align: right;}
+body.rtl .tg-admininfo .tg-matadata li + li:before {
+	right: 0;
+	left: auto;
+}
+body.rtl .tg-countdown ul li h4{
+	left: auto;
+	right: 20px;
+}
+body.rtl .tg-dashboardservice:hover {padding: 0 0 0 100px;}
+body.rtl .tg-btntimeedit span.sp-price-wrapper {margin: 0 0 0 20px;}
+body.rtl .tg-dashboardservice .tg-btntimeedit .tg-btndel,
+body.rtl .tg-dashboardservice .tg-btntimeedit .tg-btnedite {
+	right: auto;
+	left: -50px;
+}
+body.rtl .tg-dashboardservice:hover .tg-btntimeedit .tg-btndel {left: 0;}
+body.rtl .tg-dashboardservice:hover .tg-btntimeedit .tg-btnedite {left: 50px;}
+body.rtl .tg-dashboardappointment .tg-servicetitle figure{margin: 0 0 0 10px;}
+body.rtl .tg-serviceandservicetype{
+	text-align: right;
+	padding: 23px 0 23px 60px;
+}
+body.rtl .tg-dashboardappointment .tg-btntimeedit {
+	padding-right: 0;
+	padding-left: 20px;
+}
+body.rtl .tg-dashboardappointment:hover .tg-btntimeedit {padding-left: 180px;}
+body.rtl .tg-dashboardappointment:hover .tg-btntimeedit > a.tg-btnedite{left: 80px;}
+body.rtl .tg-countdown + .tg-note span{float: left;}
+body.rtl .tg-dropdowarrow{
+	right: auto;
+	left: 20px;
+}
+body.rtl .tg-ceocontent figure{margin: 0 0 0 10px;}
+body.rtl .tg-btnsearch{
+	right: auto;
+	left: 0;
+}
+body.rtl .chosen-container .chosen-drop,
+body.rtl .chosen-container.chosen-with-drop .chosen-drop{left: auto;}
+body.rtl .chosen-container .chosen-drop {right: -9999px;}
+body.rtl .chosen-container.chosen-with-drop .chosen-drop {right: 0;}
+body.rtl .do-login-form .tg-radio input[type=radio] + label:before,
+body.rtl .do-registration-form .tg-radio input[type=radio] + label,
+body.rtl .do-registration-form .tg-checkbox input[type=checkbox] + label{padding: 0 20px 0 0;}
+body.rtl .do-registration-form .tg-radio input[type=radio] + label:before,
+body.rtl .do-registration-form .tg-checkbox input[type=checkbox] + label:before,
+body.rtl .tg-quotes{
+	left: auto;
+	right: 0;
+}
+body.rtl .tg-registeras span{float: right;}
+body.rtl .tg-registeras span {margin: 2px 0 0 10px;}
+body.rtl .tg-themetabcontent .seeker-register.do-registration-form .form-group:nth-child(10),
+body.rtl .tg-themetabcontent .do-registration-form .form-group:nth-child(9){float: right;}
+
+body.rtl .do-login-form .tg-checkbox label{
+	width: auto;
+	float: right;
+	padding: 0 20px 0 0;
+}
+body.rtl .tg-formlogin-register .tg-btn,
+body.rtl .tg-startendtime .form-group{float: right;}
+body.rtl .tg-startendtime .form-group:nth-child(even),
+body.rtl .sp-services-edit-collapse .tg-radio label,
+body.rtl .sp-services-edit-collapse .tg-checkbox label {padding: 0 20px 0 0;}
+body.rtl .tg-clientlargedp{float: left;}
+body.rtl .tg-testimonials {padding: 0 0 0 100px;}
+body.rtl .tg-mapclustring{float: left;}
+body.rtl .tg-btnadvancefilters,
+body.rtl .tg-totalsviews{float: left;}
+body.rtl .tg-listingvtwo .tg-formsearch .form-group,
+body.rtl .tg-companynameandviews h2{float: right;}
+body.rtl .tg-advancedfilters {
+	left: auto;
+	right: 40%;
+}
+body.rtl .tg-mapinnerbanner .tg-formsearch .form-group{float:right;}
+body.rtl .tg-formsearch .tg-btn{ right:auto; left:0;border-radius: 5px 0 0 5px; }
+body.rtl .sp-search-provider-banner-v2 .tg-formsearch {padding: 0 0 0 190px;}
+body.rtl .sp-search-provider-banner-v2 .tg-formsearch .form-group:first-child{border-radius: 0 5px 5px 0; border-left: 1px solid #ddd;}
+body.rtl .sp-search-provider-banner-v2 .tg-formsearch .form-group:nth-child(3),
+body.rtl .sp-search-provider-banner-v2 .tg-formsearch .form-group:nth-child(4){border-left:0;}
+body.rtl .mega-menu .mega-menu-row > .mega-menu-col > a{padding:0 20px 0 0 !important;}
+body.rtl .mega-menu .mega-menu-row > .mega-menu-col + .mega-menu-col{
+	border:0;
+	border-right:1px solid #eaeaea !important;
+}
+body.rtl .tags-custom-styling .tg-tag{padding:0 0 0 10px;}
+body.rtl .tg-verifiedtag .sp-tags-icon,
+body.rtl .tg-featuredtag .sp-tags-icon{margin:-1px 0 0 3px;} 
+body.rtl .sub-menu > li.menu-item-has-children > a:before,
+body.rtl  .children > li.menu-item-has-children > a:before {content: '\f104';}
+body.rtl .tg-headervthree .tg-logo{float:none !important;}
+body.rtl .tg-headervthree .tg-navigation > ul > li.menu-item-has-children > a{padding:23px 15px 23px 25px;}
+body.rtl .tg-headervthree .tg-navigation > ul > li.menu-item-has-children > a:before{
+	left:10px;
+	right:auto;
+}
+body.rtl .tg-btnpostanewjob:before{
+	left:0;
+	right:auto;
+	content: '\f104';
+}
+body.rtl .tg-headervthree .tg-btnpostanewjob{padding:0 0 0 18px;}
+body.rtl .tg-matadata li i{
+	padding: 0;
+	float: right;
+	padding-left: 3px;	
+}
+body.rtl .sp-av-link{
+	left:auto;
+	right:20px;
+}
+body.rtl .sp-av-linkv2,
+body.rtl .tg-category figure figcaption .tg-themetag{
+	left:20px;
+	right:auto;	
+}
+body.rtl .tg-answerholder.spq-v2{padding:0 60px 0 0;}
+body.rtl .sp-searchQBox .field-control{
+	padding:10px 18px;
+	padding-left:170px;	
+}
+body.rtl .tg-companyfeaturebox .tg-postmatadata li:first-child{
+	padding:0 15px;
+	padding-right:0;
+}
+body.rtl .tg-companyfeaturebox .tg-postmatadata li:before{
+	right:-3px;
+	left:auto;	
+}
+body.rtl .tg-companyfeaturebox .tg-postmatadata li a i{margin:0 0 0 5px;}
+body.rtl .tg-postmatadata.tg-postmatadatalikeunlike{float:left;}
+body.rtl .tg-postmatadata.tg-postmatadatalikeunlike li:first-child{
+	padding:0 5px;
+	padding-right:0;
+}
+body.rtl .tg-secureandreliable .tg-textshortcode {padding: 0 0 0 170px;}
+body.rtl .tg-catagory{float:right;}
+body.rtl .tg-catagory:first-child {
+	border-radius: 0 10px 10px 0;
+	border-left: 1px solid #eee;
+}
+body.rtl .tg-catagory:last-child {
+	border:0;
+	border-radius: 10px 0 0 10px;
+}
+body.rtl .tg-commingsooncontent .tg-themeform fieldset,
+body.rtl .tg-404errorcontent .tg-themeform fieldset {padding: 0 0 0 190px;}
+body.rtl .tg-commingsooncontent .tg-themeform fieldset .tg-btn{
+	left:0;
+	right:auto;
+}
+body.rtl .tg-feedbackcontent {padding: 0 90px 0 0;}
+body.rtl .tg-reviews .tg-reviewstabs li + li {
+	border-right:0;
+	border-left: 1px solid #ddd;
+}
+body.rtl .tg-recommendedradio .tg-radio {padding: 0 10px 0 0;}
+body.rtl .tg-pagination ul li.next i:before{content: '\f104';}
+body.rtl .tg-pagination ul li.prev i:before{content: '\f105';}
+body.rtl .tg-tabnav li + li a {
+	border-left: 0;
+	border-radius: 5px 0 0;
+	border-right: 2px solid #fff;
+}
+body.rtl .tg-tabnav li a {border-radius: 0 5px 0 0;}
+body.rtl .sp-search-filter-list.sp-search-filterts .tg-mapinnerbanner .tg-formsearch {padding: 4px 4px 4px 54px;}
+body.rtl .sp-search-filter-list.sp-search-filterts  .tg-mapinnerbanner .tg-formsearch .tg-btn{
+	left:4px;
+	right:auto;
+}
+body.rtl .questions-widgets .tg-answerholder{padding:0 60px 0 0;}
+body.rtl .tg-answerholder {padding: 0 80px 0 0;}
+body.rtl .tg-modalhead h2{float:right;}
+body.rtl .tg-questionbottom .tg-btn i {margin: 0 0 0 10px;}
+body.rtl .questions-statics-widgets .tg-votesanswers li a{float:right;}
+body.rtl .questions-statics-widgets .tg-votesanswers li span{float:right;}
+body.rtl .tg-listingvtwo .tg-formsearch fieldset{padding:0 0 0 60px;}
+body.rtl .tg-listingvtwo .tg-formsearch .tg-btn{
+	left:0;
+	right:auto;
+}
+body.rtl .tg-listingvtwo .tg-formsearch .form-group{padding:0 0 0 20px;}
+body.rtl .tg-dashboardnotofication i,
+body.rtl .tg-themetabcontent .form-group,
+body.rtl .tg-dashboardnotificationholder{float:right;}
+body.rtl .tg-dashboardnotofication i{margin:0 0 0 8px;}
+body.rtl .tg-inpuicon .form-control{
+	padding-right:18px;
+	padding-left:40px;
+}
+body.rtl .tg-startendtime { padding: 0 0 0 60px;}
+body.rtl .tg-addtimeslot,
+body.rtl .tg-uploadhead > i{
+	left:0;
+	right:auto;
+}
+body.rtl .tg-uploadhead h3 {
+	float: right;
+	margin: 0 0 0 5px;
+}
+body.rtl .tg-galleryimg figure figcaption .fa-close{float:left;}
+body.rtl .tg-sortfilter + .tg-sortfilter{margin:0 20px 0 0;}
+body.rtl .tg-radiotimeslot .tg-btndelete{
+	left:10px;
+	right:auto;
+}
+body.rtl .tg-sortcontentitems .tg-timebox span {
+	float: right;
+	padding: 0 20px 0;
+}
+body.rtl .dashboard-menu-left li em{
+	left:20px;
+	right:auto;
+	position:absolute;
+}
+body.rtl .tg-tagdashboard i{
+	left:0;
+	right:auto;
+}
+body.rtl .autocomplete-suggestions .searched-item-wrap .searched-add-new{float:left;}
+body.rtl .autocomplete-suggestions .searched-item-wrap img,
+body.rtl .autocomplete-suggestions span{float:right;}
+body.rtl .autocomplete-suggestions  span{margin:0 10px 0 0;}
+body.rtl .tg-serviceproviderdetailvtwo .tg-detailpageheadcontent{padding:30px;}
+body.rtl .tg-listinglistdetail .tg-detailpageheadcontent {padding: 340px 0 0;}
+body.rtl .tg-listinglistdetail .tg-detailpageheadcontent .tg-tags li + li{padding:0 20px 0 0;}
+body.rtl .sp-detail-bannerv3.tg-listinglistdetail .tg-detailpageheadcontent .tg-tags .tg-tag i{margin:0 0 0 12px}
+body.rtl .tg-detailheadinfo {padding: 20px 20px 20px 0;}
+body.rtl .tg-listinglistdetail .tg-detailpageheadcontent .tg-tags{left:0; right:auto;}
+body.rtl .tg-detailheadinfo figure{float:right;}
+body.rtl .tg-compnayinfo{padding: 0 30px 0 0;}
+body.rtl .tg-compnayinfo .tg-leftarea{float:right;}
+body.rtl .mega-menu .mega-menu-row > .mega-menu-col a.fa {padding: 5px 20px 5px 0;}
+body.rtl .sp-header-v3 .tg-navigation > ul > li {padding: 0 0 0 30px;}
+body.rtl .sp-header-v3 .tg-btnpostanewjob{float:left;}
+body.rtl .sp-header-v3 .tg-navigation > ul > li.menu-item-has-children > a {padding: 5px 0 5px 15px;}
+body.rtl .mega-menu .mega-menu-row > .mega-menu-col a:before{
+	color:#484848;
+	font-family:'FontAwesome';
+}
+body.rtl .sp-header-v3 .mega-menu .mega-menu-row li .sub-menu li.menu-item-has-icon a:before {
+	top: 0;
+	right: 0;
+	left: auto;
+	color:#484848;
+	line-height:30px;
+	font-family:'FontAwesome';
+}
+body.rtl .sp-header-v3 .tg-contactbar .tg-contentbox{float:none;}
+body.rtl .tg-logoarea .tg-adminbox {
+	width: auto;
+	border-left: 0;
+	padding: 0 30px 0 0;
+	border-right: 1px dashed #dbdbdb;
+}
+body.rtl .tg-rightbox .tg-contactbar li i{float:right; margin:0 0 0 10px;}
+body.rtl .sp-header-v2 .tg-navigation > ul > li{padding: 0 0 0 30px;}
+body.rtl .sp-header-v2 .tg-rightarea .tg-btn {margin: 0 0 0 40px;}
+body.rtl .sp-header-v1 .tg-navigation > ul > li{padding: 0 0 0 30px;}
+body.rtl .sp-header-v1 .tg-rightarea .tg-btn {margin: 0 20px 0 0;}
+body.rtl .do-complete-form .form-group .tg-checkbox{text-align:center; float:none;}
+body.rtl .tg-formlogin-register .form-group.term-group {margin:0;}
+body.rtl .tg-formlogin-register .tg-btn{float:none;}
+body.rtl .tg-formlogin-facebook .tg-companyregister .form-group .tg-registeras {text-align: right;}
+body.rtl .tg-registeras .tg-radio input[type=radio] + label{padding:0 20px 0 0;}
+body.rtl .tg-registeras .tg-radio + .tg-radio{margin:0 10px 0 0;}
+body.rtl .sticky-close{
+	text-align: left;
+	left: 5px;
+	right: auto;
+	float: left;
+}
+
+
+

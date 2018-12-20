@@ -1,0 +1,10 @@
+Hi %customer_name%!
+This is confirmation that your booking regarding "%service%" with %provider% has cancelled.
+We are very sorry to process your booking right now.
+
+<ul style="margin: 0; width: 100%; float: left; list-style: none; font-size: 14px; line-height: 20px; padding: 0 0 15px; font-family: 'Work Sans', Arial, Helvetica, sans-serif;">
+  <li style="width: 100%; float: left; line-height: inherit; list-style-type: none; background: #f7f7f7;"> <strong style="width: 50%; float: left; padding: 10px; color: #333; font-weight: 400; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">Title:</strong> <span style="width: 50%; float: left; padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">%reason_title%</span> </li>
+  <li style="width: 100%; float: left; line-height: inherit; list-style-type: none;"> <strong style="width: 50%; float: left; padding: 10px; color: #333; font-weight: 400; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">Description:</strong> <span style="width: 50%; float: left; padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">%reason_description%</span> </li>
+</ul>
+
+%signature%
