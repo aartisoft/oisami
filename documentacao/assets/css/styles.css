@@ -297,9 +297,9 @@ select {
 }
 /* ====== Header ====== */
 .header {
-  background: #494d55;
+  background: #FFF;
   color: rgba(255, 255, 255, 0.85);
-  border-top: 5px solid #40babd;
+  border-top: 5px solid #1dcdff !important;
   padding: 30px 0;
 }
 .header a {
@@ -307,16 +307,27 @@ select {
 }
 .branding {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .branding .logo {
   font-size: 28px;
   margin-top: 0;
   margin-bottom: 0;
+  width: 30%;
+  float: left;
 }
 .branding .logo a {
   text-decoration: none;
 }
+
+.branding .meta {
+  width: 70%;
+  float: left;
+  text-align: right;
+  color: #666;
+  line-height: 58px;
+}
+
 .branding .text-highlight {
   color: #40babd;
 }
@@ -437,7 +448,7 @@ select {
   color: #a2a6af;
 }
 .doc-content {
-  margin-left: 230px;
+  margin-left: 300px;
 }
 .doc-section {
   padding-top: 15px;
@@ -918,7 +929,7 @@ select {
 .affix-top {
   position: absolute;
   top:15px;
-  margin-top: 265px;
+  margin-top: 170px;
 }
 .affix {
   top: 15px;
