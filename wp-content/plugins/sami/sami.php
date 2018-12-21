@@ -250,11 +250,13 @@ function vm50_lista_medicos_de_familia( $attr ) {
     $pesquisa = new WP_User_Query($query_args);
     $medicos  = $pesquisa->get_results();
     $saida    = '';
-    $saida   .= '<h3>Lista dos médicos</h3>';
+    $saida   .= '<div style="width: 100%; float: left;">';
+    $saida   .= '<h5>Lista dos médicos</h5>';
     foreach ( $pesquisa->get_results() as $medicof ) {
 //        print_r( $medicof );
 //        print_r(get_user_meta ( $medicof->ID ));
         $clientes = get_user_meta( $medicof->ID, VM50_SAMI_META_CLIENTES_ATENDIDOS, true );
+        $saida   .= '<div class="medicos" style="width: 100%; float: left; margin: 0px; padding:0px;">';
         $saida   .= '<p>';
         $saida   .= '<input type="checkbox" name="vm50_escolhe_medicos_do_cliente[]" id="vm50_escolhe_medicos_do_cliente_'.$medicof->ID.'" value="'.$medicof->ID.'"';
         if ( in_array($cliente,$clientes) ) {
@@ -265,6 +267,8 @@ function vm50_lista_medicos_de_familia( $attr ) {
         $saida   .= $medicof->display_name;
         $saida   .= '</a>';
         $saida   .= '</p>';
+        $saida   .= '</div>';
+        $saida   .= '</div>';
     }
     $saida   .= '<input type="button" id="vm50_admin_escolhe_medicos_do_cliente_bt" value="Salvar" onclick="vm50_admin_salvar_medicos_do_cliente(\''.$cliente.'\');" />';
     return $saida;

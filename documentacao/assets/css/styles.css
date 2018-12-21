@@ -559,7 +559,7 @@ select {
   color: rgba(0, 0, 0, 0.25);
 }
 .callout-block .content {
-  margin-left: 60px;
+  margin-left: 0px;
 }
 .callout-block .content p:last-child {
   margin-bottom: 0;
@@ -790,13 +790,17 @@ select {
 .doc-menu {
   list-style: none;
   padding-left: 0;
+  background: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px !important;
 }
 .doc-menu > li {
   margin-bottom: 5px;
 }
 .doc-menu > li > a {
   display: block;
-  padding: 5px 15px;
+  padding: 10px 0px 10px 5px !important;
   border-left: 4px solid transparent;
   color: #616670;
 }
@@ -865,7 +869,7 @@ select {
   padding-left: 0;
 }
 .doc-sub-menu > li {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   font-size: 12px;
 }
 .doc-sub-menu > li:first-child {
@@ -875,8 +879,11 @@ select {
   display: block;
   color: #616670;
   padding: 0;
-  padding-left: 34px;
+  padding-left: 10px;
   background: none;
+  display: list-item;
+  list-style-type: disc;       
+  list-style-position: inside;
 }
 .doc-sub-menu > li > a:hover {
   color: #40babd;
