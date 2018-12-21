@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Listingo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-17 09:14+0000\n"
-"PO-Revision-Date: 2018-12-20 17:44+0000\n"
-"Last-Translator: Leonardo Falotico <leonardo.falotico@edev.com.br>\n"
+"PO-Revision-Date: 2018-12-21 17:43+0000\n"
+"Last-Translator: Admin Sami <leofalotico@hotmail.com>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: single-sp_jobs.php:248
 msgid "Experience:"
-msgstr ""
+msgstr "Experiência:"
 
 #: single-sp_jobs.php:254
 msgid "Salary:"
@@ -214,7 +214,7 @@ msgstr ""
 
 #: single-sp_jobs.php:266
 msgid "Qualification:"
-msgstr ""
+msgstr "Qualificação:"
 
 #: single-sp_jobs.php:273
 msgid "Languages:"
@@ -735,11 +735,11 @@ msgstr ""
 
 #: includes/constants.php:152 includes/scripts.php:351
 msgid "Awards & Certifications Deleted Notification"
-msgstr ""
+msgstr "Notificação de Exclusão de Prêmios e Certificações"
 
 #: includes/constants.php:153 includes/scripts.php:352
 msgid "Are you sure, you want to delete this award or certification?"
-msgstr ""
+msgstr "Tem certeza de que deseja excluir este prêmio ou certificação?"
 
 #: includes/constants.php:154 includes/scripts.php:353
 msgid "Experience Deleted Notification"
@@ -759,11 +759,11 @@ msgstr ""
 
 #: includes/constants.php:158 includes/scripts.php:357
 msgid "Service Deleted Notification"
-msgstr ""
+msgstr "Notificação de exclusão de Serviço"
 
 #: includes/constants.php:159 includes/scripts.php:358
 msgid "Are you sure, you want to delete this deleve service?"
-msgstr ""
+msgstr "Tem certeza de que deseja excluir este serviço?"
 
 #: includes/constants.php:160 includes/scripts.php:359
 #: directory/back-end/author-partials/template-author-services.php:69
@@ -1522,7 +1522,7 @@ msgstr ""
 #: directory/front-end/templates/dashboard-services.php:185
 #: directory/front-end/author-partials/provider/template-author-services.php:77
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
 #: template-parts/template-comingsoon.php:96
 #: template-parts/template-comingsoon.php:109
@@ -1984,7 +1984,7 @@ msgstr ""
 
 #: directory/front-end/functions.php:1853
 msgid "Appointment Settings Updated."
-msgstr ""
+msgstr "Configurações de Agendamento Atualizada"
 
 #: directory/front-end/functions.php:1874
 msgid "Complete"
@@ -1993,7 +1993,7 @@ msgstr ""
 #: directory/front-end/functions.php:1875 directory/front-end/hooks.php:2429
 #: framework-customizations/theme/options/directory-settings.php:123
 msgid "Pending"
-msgstr ""
+msgstr "Pendente"
 
 #: directory/front-end/functions.php:1876
 msgid "Rejected"
@@ -2028,7 +2028,7 @@ msgstr "Idiomas"
 #: framework-customizations/theme/options/posts/sp_categories.php:58
 #: framework-customizations/theme/options/posts/sp_jobs.php:60
 msgid "Experience"
-msgstr ""
+msgstr "Experiência"
 
 #: directory/front-end/functions.php:2327
 #: framework-customizations/theme/options/posts/sp_categories.php:73
@@ -2039,7 +2039,7 @@ msgstr ""
 #: framework-customizations/theme/options/posts/sp_categories.php:88
 #: framework-customizations/theme/options/posts/sp_jobs.php:70
 msgid "Qualifications"
-msgstr ""
+msgstr "Qualificações"
 
 #: directory/front-end/functions.php:2345
 #: framework-customizations/theme/options/directory-settings.php:714
@@ -2138,7 +2138,7 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/sp_packages/views/view.php:133
 #: framework-customizations/extensions/shortcodes/shortcodes/sp_packages/views/view.php:136
 msgid "Appointments"
-msgstr ""
+msgstr "Meus Agendamentos"
 
 #: directory/front-end/functions.php:2583 directory/front-end/hooks.php:3240
 #: framework-customizations/theme/options/directory-settings.php:576
@@ -2570,17 +2570,17 @@ msgstr ""
 
 #: directory/front-end/hooks.php:2427
 msgid "Choose Status"
-msgstr ""
+msgstr "Escolha o status"
 
 #: directory/front-end/hooks.php:2428
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #: directory/front-end/hooks.php:2430
 #: directory/front-end/dashboard-menu-templates/profile-menu-chat.php:63
 #: framework-customizations/extensions/questionsanswers/class-fw-extension-questionsanswers.php:100
 msgid "Trash"
-msgstr ""
+msgstr "Lixo"
 
 #: directory/front-end/hooks.php:2534
 msgid "Filter By zip"
@@ -2617,14 +2617,14 @@ msgstr "Todos"
 #: directory/front-end/customer/dashboard-profile-settings.php:141
 #: directory/front-end/templates/profile-settings/profile-setting-basics.php:59
 msgid "Male"
-msgstr ""
+msgstr "Masculino"
 
 #: directory/front-end/hooks.php:2595
 #: directory/back-end/author-partials/template-author-basics.php:63
 #: directory/front-end/customer/dashboard-profile-settings.php:142
 #: directory/front-end/templates/profile-settings/profile-setting-basics.php:60
 msgid "Female"
-msgstr ""
+msgstr "Feminino"
 
 #: directory/front-end/hooks.php:2605 directory/front-end/jobs/hooks.php:350
 msgid "Filter By Language"
@@ -3742,7 +3742,7 @@ msgstr "Carregar foto de Perfil / Logotipo"
 #: directory/back-end/author-partials/template-author-awards.php:25
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:31
 msgid "Certificates and Awards"
-msgstr ""
+msgstr "Certificados e Prêmios"
 
 #: directory/back-end/author-partials/template-author-awards.php:26
 #: directory/back-end/author-partials/template-author-experience.php:26
@@ -3767,7 +3767,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:203
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:265
 msgid "Certificates / Awards Title"
-msgstr ""
+msgstr "Certificados / Prêmios"
 
 #: directory/back-end/author-partials/template-author-awards.php:115
 #: directory/back-end/author-partials/template-author-awards.php:185
@@ -3778,17 +3778,17 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:208
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:270
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: directory/back-end/author-partials/template-author-awards.php:140
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:227
 msgid "Certification and Awards Title"
-msgstr ""
+msgstr "Certificação e Título de Prêmios"
 
 #: directory/back-end/author-partials/template-author-awards.php:155
 #: directory/front-end/templates/profile-settings/profile-setting-awards.php:241
 msgid "Upload Awards and Certification Photo"
-msgstr ""
+msgstr "Carregar prêmios e foto de certificação"
 
 #: directory/back-end/author-partials/template-author-banner.php:26
 #: directory/front-end/templates/profile-settings/profile-setting-media.php:96
@@ -3866,7 +3866,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:67
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:119
 msgid "Current Job: "
-msgstr ""
+msgstr "Emprego Atual:"
 
 #: directory/back-end/author-partials/template-author-experience.php:65
 #: directory/back-end/author-partials/template-author-experience.php:121
@@ -3876,7 +3876,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:73
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:126
 msgid "Job Title"
-msgstr ""
+msgstr "Titulo do Trabalho"
 
 #: directory/back-end/author-partials/template-author-experience.php:70
 #: directory/back-end/author-partials/template-author-experience.php:126
@@ -3885,7 +3885,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:78
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:131
 msgid "Company Name"
-msgstr ""
+msgstr "Nome da Empresa"
 
 #: directory/back-end/author-partials/template-author-experience.php:75
 #: directory/back-end/author-partials/template-author-experience.php:131
@@ -3898,7 +3898,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:66
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:110
 msgid "Starting Date"
-msgstr ""
+msgstr "Data de Inicio"
 
 #: directory/back-end/author-partials/template-author-experience.php:80
 #: directory/back-end/author-partials/template-author-experience.php:136
@@ -3911,13 +3911,13 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:71
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:115
 msgid "Ending Date"
-msgstr ""
+msgstr "Data de Término"
 
 #: directory/back-end/author-partials/template-author-experience.php:101
 #: directory/front-end/customer/dashboard-profile-settings.php:402
 #: directory/front-end/templates/profile-settings/profile-setting-experience.php:106
 msgid "Enter Your Experience Name"
-msgstr ""
+msgstr "Digite o nome da experiência"
 
 #: directory/back-end/author-partials/template-author-gallery.php:31
 #: directory/front-end/templates/profile-settings/profile-setting-gallery.php:36
@@ -4302,7 +4302,7 @@ msgstr "Habilitar"
 #: directory/front-end/author-partials/provider/template-author-qualification.php:30
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:30
 msgid "Qualification"
-msgstr ""
+msgstr "Qualificação"
 
 #: directory/back-end/author-partials/template-author-qualification.php:51
 #: directory/back-end/author-partials/template-author-qualification.php:97
@@ -4310,7 +4310,7 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:56
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:100
 msgid "Degree Name"
-msgstr ""
+msgstr "Nome da Graduação"
 
 #: directory/back-end/author-partials/template-author-qualification.php:56
 #: directory/back-end/author-partials/template-author-qualification.php:102
@@ -4318,13 +4318,13 @@ msgstr ""
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:61
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:105
 msgid "Institute Name"
-msgstr ""
+msgstr "Nome da Instituição"
 
 #: directory/back-end/author-partials/template-author-qualification.php:87
 #: directory/front-end/customer/dashboard-profile-settings.php:443
 #: directory/front-end/templates/profile-settings/profile-setting-qualification.php:90
 msgid "Enter Your Degree Name"
-msgstr ""
+msgstr "Digite o Nome da Graduação"
 
 #: directory/back-end/author-partials/template-author-services.php:29
 #: directory/front-end/templates/dashboard-services.php:30
@@ -4345,7 +4345,7 @@ msgstr "Adicionar Novo Serviço"
 #: directory/front-end/author-partials/provider/template-author-services.php:74
 #: directory/front-end/author-partials/provider/template-author-services.php:79
 msgid "Visit"
-msgstr ""
+msgstr "Consulta"
 
 #: directory/back-end/author-partials/template-author-services.php:96
 #: directory/back-end/author-partials/template-author-services.php:168
@@ -4366,21 +4366,21 @@ msgstr ""
 #: directory/front-end/templates/dashboard-services.php:108
 #: directory/front-end/templates/dashboard-services.php:184
 msgid "Choose Price Type"
-msgstr ""
+msgstr "Escolha o Tipo de Preço"
 
 #: directory/back-end/author-partials/template-author-services.php:130
 #: directory/back-end/author-partials/template-author-services.php:201
 #: directory/front-end/templates/dashboard-services.php:129
 #: directory/front-end/templates/dashboard-services.php:205
 msgid "Add This Service in Appointment List"
-msgstr ""
+msgstr "Adicionar este serviço no agendamento"
 
 #: directory/back-end/author-partials/template-author-services.php:135
 #: directory/back-end/author-partials/template-author-services.php:208
 #: directory/front-end/templates/dashboard-services.php:134
 #: directory/front-end/templates/dashboard-services.php:212
 msgid "This is a Free Service"
-msgstr ""
+msgstr "Este é um serviço gratuito"
 
 #: directory/back-end/author-partials/template-author-services.php:154
 #: directory/front-end/templates/dashboard-services.php:158
@@ -4553,7 +4553,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:880
 msgid "Meeting Time : "
-msgstr ""
+msgstr "Duração da Consulta:"
 
 #: directory/front-end/bookings/functions.php:886
 msgid "Service : "
@@ -4565,7 +4565,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:898
 msgid "Appointment Type : "
-msgstr ""
+msgstr "Tipo de Agendamento:"
 
 #: directory/front-end/bookings/functions.php:904
 msgid "Reason For Visit : "
@@ -4577,7 +4577,7 @@ msgstr ""
 
 #: directory/front-end/bookings/functions.php:916
 msgid "Description : "
-msgstr ""
+msgstr "Descrição:"
 
 #: directory/front-end/bookings/hooks.php:78
 msgid "Slots added successfully."
@@ -4638,7 +4638,7 @@ msgstr ""
 #: directory/front-end/customer/dashboard-appointment.php:97
 #: directory/front-end/templates/dashboard-appointment.php:96
 msgid "Your Appointments"
-msgstr ""
+msgstr "Meus Agendamentos"
 
 #: directory/front-end/customer/dashboard-appointment.php:147
 #: directory/front-end/templates/dashboard-appointment.php:146
@@ -4648,37 +4648,37 @@ msgstr ""
 #: directory/front-end/customer/dashboard-appointment.php:169
 #: directory/front-end/templates/dashboard-appointment.php:168
 msgid "Appointment Type"
-msgstr ""
+msgstr "Tipo de Agendamento"
 
 #: directory/front-end/customer/dashboard-appointment.php:184
 #: directory/front-end/templates/dashboard-appointment.php:183
 msgid "Appointment Detail"
-msgstr ""
+msgstr "Detalhe do Agendamento"
 
 #: directory/front-end/customer/dashboard-appointment.php:190
 #: directory/front-end/templates/dashboard-appointment.php:189
 msgid "Customer Name:"
-msgstr ""
+msgstr "Nome do Cliente:"
 
 #: directory/front-end/customer/dashboard-appointment.php:193
 #: directory/front-end/templates/dashboard-appointment.php:192
 msgid "Appointment Date:"
-msgstr ""
+msgstr "Data do Agendamento:"
 
 #: directory/front-end/customer/dashboard-appointment.php:196
 #: directory/front-end/templates/dashboard-appointment.php:195
 msgid "Appointment Time:"
-msgstr ""
+msgstr "Horário do Agendamento:"
 
 #: directory/front-end/customer/dashboard-appointment.php:199
 #: directory/front-end/templates/dashboard-appointment.php:198
 msgid "Service:"
-msgstr ""
+msgstr "Serviço:"
 
 #: directory/front-end/customer/dashboard-appointment.php:202
 #: directory/front-end/templates/dashboard-appointment.php:201
 msgid "Appointment Type:"
-msgstr ""
+msgstr "Tipo de Agendamento:"
 
 #: directory/front-end/customer/dashboard-appointment.php:205
 #: directory/front-end/templates/dashboard-appointment.php:204
@@ -4688,7 +4688,7 @@ msgstr "Razão do Agendamento:"
 #: directory/front-end/customer/dashboard-appointment.php:208
 #: directory/front-end/templates/dashboard-appointment.php:207
 msgid "Description:"
-msgstr ""
+msgstr "Descrição:"
 
 #: directory/front-end/customer/dashboard-appointment.php:214
 #: directory/front-end/templates/dashboard-appointment.php:213
@@ -4750,12 +4750,12 @@ msgstr "Informações Básicas"
 #: directory/front-end/customer/dashboard-profile-settings.php:124
 #: directory/front-end/templates/profile-settings/profile-setting-basics.php:42
 msgid "First Name"
-msgstr ""
+msgstr "Nome"
 
 #: directory/front-end/customer/dashboard-profile-settings.php:131
 #: directory/front-end/templates/profile-settings/profile-setting-basics.php:49
 msgid "Last Name"
-msgstr ""
+msgstr "Sobrenome"
 
 #: directory/front-end/customer/dashboard-profile-settings.php:157
 #: directory/front-end/templates/dashboard-add-job.php:213
@@ -4796,12 +4796,12 @@ msgstr ""
 
 #: directory/front-end/dashboard-menu-templates/profile-menu-appointments.php:53
 msgid "Appointment Schedules"
-msgstr ""
+msgstr "Minha Agenda"
 
 #: directory/front-end/dashboard-menu-templates/profile-menu-appointments.php:58
 #: directory/front-end/templates/dashboard-appointment-schedules.php:21
 msgid "Appointment Settings"
-msgstr ""
+msgstr "Configurações de Agendamento"
 
 #: directory/front-end/dashboard-menu-templates/profile-menu-articles.php:48
 msgid "Article listing"
@@ -4990,7 +4990,7 @@ msgstr ""
 #: framework-customizations/extensions/articles/includes/functions.php:124
 #: framework-customizations/extensions/articles/includes/functions.php:143
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: directory/front-end/jobs/hooks.php:399
 #: framework-customizations/theme/options/headers-settings.php:286
@@ -5003,16 +5003,16 @@ msgstr ""
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-slider/options.php:118
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-sponser-slider/options.php:69
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: directory/front-end/jobs/hooks.php:401
 msgid "Modified"
-msgstr ""
+msgstr "Modificado"
 
 #: directory/front-end/jobs/hooks.php:402
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-sponser-slider/options.php:43
 msgid "Random"
-msgstr ""
+msgstr "Aleatória"
 
 #: directory/front-end/jobs/hooks.php:429
 msgid "No kiddies please."
@@ -5040,7 +5040,7 @@ msgstr ""
 
 #: directory/front-end/jobs/hooks.php:440
 msgid "Current job status is required."
-msgstr ""
+msgstr "O status atual do trabalho é obrigatório."
 
 #: directory/front-end/jobs/hooks.php:441
 msgid "Address is required"
@@ -5228,11 +5228,11 @@ msgstr ""
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:32
 msgid "Add Slots"
-msgstr ""
+msgstr "Adicionar Horários"
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:59
 msgid "Title (Optional)"
-msgstr ""
+msgstr "Título (Opcional)"
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:66
 #: directory/front-end/templates/dashboard-appointment-schedules.php:67
@@ -5295,7 +5295,7 @@ msgstr ""
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:129
 msgid "Meeting Time"
-msgstr ""
+msgstr "Duração da Consulta"
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:130
 #: directory/front-end/templates/dashboard-appointment-schedules.php:131
@@ -5330,7 +5330,7 @@ msgstr ""
 #: directory/front-end/templates/dashboard-appointment-schedules.php:137
 #: directory/front-end/templates/dashboard-appointment-schedules.php:159
 msgid "hour"
-msgstr ""
+msgstr "hora"
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:151
 msgid "Padding/Break Time"
@@ -5361,11 +5361,11 @@ msgstr ""
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:191
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: directory/front-end/templates/dashboard-appointment-schedules.php:192
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:50
 msgid "Your Appointment Confirmation"
@@ -5397,12 +5397,12 @@ msgstr ""
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:115
 msgid "Appointment Types"
-msgstr ""
+msgstr "Tipos de Agendamentos"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:127
 #: directory/front-end/templates/dashboard-appointment-settings.php:297
 msgid "Add Appointment Type"
-msgstr ""
+msgstr "Adicionar Tipo de Agendamento"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:144
 msgid "Reasons For Visit"
@@ -5439,12 +5439,12 @@ msgstr ""
 #: directory/front-end/templates/dashboard-appointment-settings.php:250
 #: directory/front-end/templates/dashboard-earnings.php:91
 msgid "Appointment Date"
-msgstr ""
+msgstr "Data do Agendamento"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:179
 #: directory/front-end/templates/dashboard-appointment-settings.php:251
 msgid "Appointment Time"
-msgstr ""
+msgstr "Horário do Agendamento"
 
 #: directory/front-end/templates/dashboard-appointment-settings.php:209
 msgid "Email Settings - Appointment Cancelled"
@@ -5468,7 +5468,7 @@ msgstr ""
 
 #: directory/front-end/templates/dashboard-earnings.php:129
 msgid "Appointment detail"
-msgstr ""
+msgstr "Detalhe do agendamento"
 
 #: directory/front-end/templates/dashboard-earnings.php:150
 #: directory/front-end/templates/dashboard-withdrawal_history.php:115
@@ -7025,7 +7025,7 @@ msgstr ""
 
 #: framework-customizations/theme/options/directory-settings.php:477
 msgid "Appointment Settings."
-msgstr ""
+msgstr "Configurações de Agendamento."
 
 #: framework-customizations/theme/options/directory-settings.php:481
 msgid "Appointment Form Page."
@@ -7169,7 +7169,7 @@ msgstr ""
 
 #: framework-customizations/theme/options/directory-settings.php:681
 msgid "Certificates and awards"
-msgstr ""
+msgstr "Certificados e prêmios"
 
 #: framework-customizations/theme/options/directory-settings.php:682
 msgid "Add tooltip for certificates and awards in profile settings."
@@ -8971,7 +8971,7 @@ msgstr "CEP / Código Postal"
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-articles/options.php:49
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-news-posts/options.php:58
 msgid "Select Categories"
-msgstr ""
+msgstr "Selecione Categorias"
 
 #: directory/front-end/templates/profile-settings/profile-setting-categories.php:37
 msgid "Select sub categories"
@@ -11724,7 +11724,7 @@ msgstr ""
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-articles/views/view.php:145
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-cities/views/view.php:64
 #: framework-customizations/extensions/shortcodes/shortcodes/sp-contries/views/view.php:55

@@ -29,13 +29,15 @@ if (!function_exists('listingo_get_default_slots')) {
                 ?>
                 <span class="tg-radiotimeslot">
                     <div class="slot-detail">
+                        <!--
                         <?php if (!empty($default_slots[$day . '-details'][$key]['slot_title'])) { ?>
                             <span class="tg-title"><?php echo esc_attr($default_slots[$day . '-details'][$key]['slot_title']); ?></span>
                         <?php } ?>
+                        -->
                         <span class="slot-time">
                             <em><?php echo date_i18n($time_format, strtotime('2016-01-01 ' . $time[0])); ?>-<?php echo date_i18n($time_format, strtotime('2016-01-01 ' . $time[1])); ?></em>
                         </span>
-                        <span class="spaces-available"><?php echo esc_html_e('Available Spaces', 'listingo'); ?>:&nbsp;<?php echo intval($value); ?></span>
+                        <!--span class="spaces-available"><?php echo esc_html_e('Available Spaces', 'listingo'); ?>:&nbsp;<?php echo intval($value); ?></span-->
                     </div>
                     <a href="javascript:;" data-time="<?php echo esc_attr($key); ?>" data-day="<?php echo esc_attr($day); ?>" class="fa fa-close tg-btndelete delete-current-slot"></a>
                 </span>
