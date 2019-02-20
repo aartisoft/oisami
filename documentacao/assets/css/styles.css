@@ -1,4 +1,4 @@
-body {
+.doc-menubody {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
   font-size: 14px;
@@ -790,13 +790,16 @@ select {
 .doc-menu {
   list-style: none;
   padding-left: 0;
-  background: #FFF;
-  padding: 20px;
+  /* background: #FFF; */
+  /* padding: 20px;*/
   border-radius: 5px;
   width: 250px !important;
 }
 .doc-menu > li {
   margin-bottom: 5px;
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 .doc-menu > li > a {
   display: block;
